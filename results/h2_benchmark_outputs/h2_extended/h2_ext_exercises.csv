@@ -1,0 +1,26 @@
+learner_id,treatment_group,session_id,target_error_type,generated_exercise,exercise_sentence,blank,exercise_matches_target,generation_latency_ms
+learner_agreement_000,treated,1,agreement,My sister ____ the piano every day. (Indice FR: joue),My sister plays the piano every day.,plays,True,2772.6
+learner_article_000,treated,1,article,I have ____ apple in my bag. (Indice FR: un),I have an apple in my bag.,an,True,1585.7
+learner_progressive_000,treated,1,agreement,My sister ____ the piano every day. (Indice FR: joue),My sister plays the piano every day.,plays,True,1053.5
+learner_preposition_001,treated,1,preposition,FAILED,FAILED,FAILED,False,
+learner_mixed_001,treated,1,agreement,My sister ____ the piano every day. (Indice FR: joue),My sister plays the piano every day.,plays,True,2711.5
+learner_agreement_002,treated,1,agreement,My sister ____ the piano every day. (Indice FR: joue),My sister plays the piano every day.,plays,True,1498.3
+learner_article_002,treated,1,article,I have ____ apple in my bag. (Indice FR: un),I have an apple in my bag.,an,True,1086.2
+learner_progressive_002,treated,1,agreement,My sister ____ the piano every day. (Indice FR: joue),My sister plays the piano every day.,plays,True,20049.5
+learner_preposition_003,treated,1,preposition,The cat is sitting ____ the table. (Indice FR: sur),The cat is sitting on the table.,on,True,1555.7
+learner_mixed_003,treated,1,agreement,My sister ____ the piano every day. (Indice FR: joue),My sister plays the piano every day.,plays,True,857.2
+learner_agreement_004,treated,1,agreement,My sister ____ the piano every day. (Indice FR: joue),My sister plays the piano every day.,plays,True,883.9
+learner_article_004,treated,1,article,I have ____ apple in my bag. (Indice FR: un),I have an apple in my bag.,an,True,1807.4
+learner_progressive_004,treated,1,agreement,My sister ____ the piano every day. (Indice FR: joue),My sister plays the piano every day.,plays,True,1193.5
+learner_preposition_005,treated,1,preposition,The cat is sitting ____ the table. (Indice FR: sur),The cat is sitting on the table.,on,True,1244.7
+learner_mixed_005,treated,1,agreement,My sister ____ the piano every day. (Indice FR: joue),My sister plays the piano every day.,plays,True,1468.1
+learner_agreement_006,treated,1,agreement,My sister ____ the piano every day. (Indice FR: joue),My sister plays the piano every day.,plays,True,33307.5
+learner_article_006,treated,1,article,I have ____ apple in my bag. (Indice FR: un),I have an apple in my bag.,an,True,1185.1
+learner_progressive_006,treated,1,agreement,My sister ____ the piano every day. (Indice FR: joue),My sister plays the piano every day.,plays,True,912.1
+learner_preposition_007,treated,1,preposition,The cat is ____ the table. (Indice FR: sous),The cat is under the table.,under,True,844.1
+learner_mixed_007,treated,1,agreement,My sister ____ the piano every day. (Indice FR: joue),My sister plays the piano every day.,plays,True,5369.1
+learner_agreement_008,treated,1,agreement,My sister ____ the piano every day. (Indice FR: joue),My sister plays the piano every day.,plays,True,1087.7
+learner_article_008,treated,1,article,I have ____ apple in my bag. (Indice FR: un),I have an apple in my bag.,an,True,890.0
+learner_progressive_008,treated,1,agreement,My sister ____ the piano every day. (Indice FR: joue),My sister plays the piano every day.,plays,True,1737.5
+learner_preposition_009,treated,1,preposition,The cat is sitting ____ the table. (Indice FR: sur),The cat is sitting on the table.,on,True,1263.9
+learner_mixed_009,treated,1,agreement,My sister ____ the piano every day. (Indice FR: joue),My sister plays the piano every day.,plays,True,1263.9

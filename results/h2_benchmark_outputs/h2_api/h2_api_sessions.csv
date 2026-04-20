@@ -1,0 +1,219 @@
+learner_id,session_id,sentence_idx,input_sentence,corrected_sentence,predicted_error_type,feedback_present,dominant_error_before,dominant_error_after,api_latency_ms
+learner_agreement_000,1,0,She go to school every day.,She goes to school every day.,agreement,True,agreement,,19634.4
+learner_agreement_000,1,1,He have a new car.,He has a new car.,agreement,True,agreement,,3769.4
+learner_agreement_000,1,2,They was very happy yesterday.,They were very happy yesterday.,agreement,True,agreement,,2587.6
+learner_agreement_000,1,3,The children plays outside.,The children play outside.,agreement,True,agreement,,7.8
+learner_agreement_000,1,4,My friend don't like coffee.,My friend doesn't like coffee.,agreement,True,agreement,,6.4
+learner_agreement_000,2,0,I depend of my parents.,I depend on my parents.,preposition,True,agreement,preposition,24600.7
+learner_agreement_000,2,1,She is interested by music.,She is interested in music.,preposition,True,agreement,preposition,27728.3
+learner_agreement_000,2,2,He is good in math.,He is good at math.,preposition,True,agreement,preposition,6257.6
+learner_agreement_000,2,3,I arrived to the airport.,I arrived at the airport.,preposition,True,agreement,preposition,3113.7
+learner_agreement_000,2,4,She is married with a doctor.,She is married to a doctor.,preposition,True,agreement,preposition,8496.2
+learner_preposition_000,1,0,I depend of my parents.,I depend on my parents.,preposition,True,preposition,,6.7
+learner_preposition_000,1,1,She is interested by music.,She is interested in music.,preposition,True,preposition,,5.8
+learner_preposition_000,1,2,He is good in math.,He is good at math.,preposition,True,preposition,,5.5
+learner_preposition_000,1,3,I arrived to the airport.,I arrived at the airport.,preposition,True,preposition,,5.8
+learner_preposition_000,1,4,She is married with a doctor.,She is married to a doctor.,preposition,True,preposition,,6.0
+learner_preposition_000,2,0,I bought car yesterday.,I bought a car yesterday.,article,True,preposition,article,3977.4
+learner_preposition_000,2,1,She is teacher.,She is a teacher.,article,True,preposition,article,3213.5
+learner_preposition_000,2,2,I saw big dog in the park.,I saw a big dog in the park.,article,True,preposition,article,2830.3
+learner_preposition_000,2,3,He wants to be doctor.,He wants to be a doctor.,article,True,preposition,article,3068.1
+learner_preposition_000,2,4,She went to cinema.,She went to the cinema.,article,True,preposition,article,2089.0
+learner_article_000,1,0,I bought car yesterday.,I bought a car yesterday.,article,True,article,,7.6
+learner_article_000,1,1,She is teacher.,She is a teacher.,article,True,article,,6.2
+learner_article_000,1,2,I saw big dog in the park.,I saw a big dog in the park.,article,True,article,,5.4
+learner_article_000,1,3,He wants to be doctor.,He wants to be a doctor.,article,True,article,,4.7
+learner_article_000,1,4,She went to cinema.,She went to the cinema.,article,True,article,,5.0
+learner_article_000,2,0,She go to school every day.,She goes to school every day.,agreement,True,article,agreement,31.8
+learner_article_000,2,1,He have a new car.,He has a new car.,agreement,True,article,agreement,14.2
+learner_article_000,2,2,They was very happy yesterday.,They were very happy yesterday.,agreement,True,article,agreement,13.8
+learner_article_000,2,3,The children plays outside.,The children play outside.,agreement,True,article,agreement,2728.4
+learner_article_000,2,4,My friend don't like coffee.,My friend doesn't like coffee.,agreement,True,article,agreement,37192.8
+learner_mixed_000,1,0,She go to school every day.,She goes to school every day.,agreement,True,agreement,,7.3
+learner_mixed_000,1,1,I depend of my parents.,I depend on my parents.,preposition,True,agreement,,5.7
+learner_mixed_000,1,2,I bought car yesterday.,I bought a car yesterday.,article,True,agreement,,5.8
+learner_mixed_000,1,3,They was very happy.,They were very happy.,agreement,True,agreement,,7996.8
+learner_mixed_000,1,4,He is good in math.,He is good at math.,preposition,True,agreement,,7.2
+learner_mixed_000,2,0,I listen the radio.,I listen to the radio.,preposition,True,agreement,preposition,4275.8
+learner_mixed_000,2,1,He wants to be doctor.,He wants to be a doctor.,article,True,agreement,preposition,7.2
+learner_mixed_000,2,2,My friend don't like coffee.,My friend doesn't like coffee.,agreement,True,agreement,preposition,6.7
+learner_mixed_000,2,3,She is interested by music.,She is interested in music.,preposition,True,agreement,preposition,6.5
+learner_mixed_000,2,4,I saw big dog.,I saw a big dog.,article,True,agreement,preposition,3486.3
+learner_progressive_000,1,0,She go to school every day.,She goes to school every day.,agreement,True,agreement,,7.1
+learner_progressive_000,1,1,He have a new car.,He has a new car.,agreement,True,agreement,,5.4
+learner_progressive_000,1,2,They was very happy yesterday.,They were very happy yesterday.,agreement,True,agreement,,5.2
+learner_progressive_000,1,3,The children plays outside.,The children play outside.,agreement,True,agreement,,5.1
+learner_progressive_000,1,4,My friend don't like coffee.,My friend doesn't like coffee.,agreement,True,agreement,,5.1
+learner_progressive_000,2,0,She goes to school every day.,She goes to school every day.,none,True,agreement,agreement,710.1
+learner_progressive_000,2,1,I depend of my parents.,I depend on my parents.,preposition,True,agreement,agreement,15.3
+learner_progressive_000,2,2,He has a new car.,He has a new car.,none,True,agreement,agreement,552.9
+learner_progressive_000,2,3,She is interested by music.,She is interested in music.,preposition,True,agreement,agreement,18.2
+learner_progressive_000,2,4,They were very happy yesterday.,They were very happy yesterday.,none,True,agreement,agreement,519.2
+learner_agreement_000,1,0,The cat jump over the fence.,The cat jumped over the fence.,tense,True,agreement,,8567.5
+learner_agreement_000,1,1,Those books is very expensive.,Those books are very expensive.,agreement,True,agreement,,25603.3
+learner_agreement_000,1,2,My brother have a red car.,My brother has a red car.,agreement,True,agreement,,3690.8
+learner_agreement_000,1,3,The students was reading quietly.,The students were reading quietly.,agreement,True,agreement,,3752.9
+learner_agreement_000,1,4,A small bird sing loudly.,A small bird sings loudly.,agreement,True,agreement,,3117.2
+learner_agreement_000,2,0,She is very good in mathematics.,She is very good at mathematics.,preposition,True,agreement,preposition,2925.5
+learner_agreement_000,2,1,I will depend of your help.,I will depend on your help.,preposition,True,agreement,preposition,28329.0
+learner_agreement_000,2,2,He is interested by the movie.,He is interested in the movie.,preposition,True,agreement,preposition,32621.2
+learner_agreement_000,2,3,They arrived to the station late.,They arrived at the station late.,preposition,True,agreement,preposition,2803.9
+learner_agreement_000,2,4,We are waiting of the rain.,We are waiting for the rain.,preposition,True,agreement,preposition,8519.0
+learner_article_000,1,0,I bought new car yesterday.,I bought a new car yesterday.,article,True,article,,11428.9
+learner_article_000,1,1,She is an teacher at school.,She is a teacher at school.,article,True,article,,2870.9
+learner_article_000,1,2,The apple is on a table.,The apple is on a table.,none,True,article,,484.6
+learner_article_000,1,3,He wants to be astronaut.,He wants to be an astronaut.,article,True,article,,9803.7
+learner_article_000,1,4,An dog barked all night.,A dog barked all night.,article,True,article,,2844.6
+learner_article_000,2,0,The cat sleep on the sofa.,The cat sleeps on the sofa.,agreement,True,article,agreement,106613.2
+learner_article_000,2,1,They was happy with the result.,They were happy with the result.,agreement,True,article,agreement,126687.0
+learner_article_000,2,2,She have a red car.,She has a red car.,agreement,True,article,agreement,12660.0
+learner_article_000,2,3,My friends likes to play soccer.,My friends like to play soccer.,agreement,True,article,agreement,9890.3
+learner_article_000,2,4,The water in the bottles are cold.,The water in the bottles is cold.,agreement,True,article,agreement,5343.5
+learner_mixed_000,1,0,The cat sit on the mat.,The cat sits on the mat.,agreement,True,agreement,,43890.1
+learner_mixed_000,1,1,He went to a store with a apple.,He went to a store with an apple.,article,True,agreement,,3464.0
+learner_mixed_000,1,2,She is interested on the new project.,She is interested in the new project.,preposition,True,agreement,,6416.7
+learner_mixed_000,1,3,Those books is very expensive today.,Those books are very expensive today.,agreement,True,agreement,,3661.9
+learner_mixed_000,1,4,A honest man always tells the truth.,An honest man always tells the truth.,article,True,agreement,,2922.1
+learner_mixed_000,2,0,The cat sleep on the sofa.,The cat sleeps on the sofa.,agreement,True,agreement,article,11.1
+learner_mixed_000,2,1,She is interested of art.,She is interested in art.,preposition,True,agreement,article,10415.9
+learner_mixed_000,2,2,I saw a apple yesterday.,I saw an apple yesterday.,article,True,agreement,article,49645.2
+learner_mixed_000,2,3,They has a big house.,They have a big house.,agreement,True,agreement,article,3505.7
+learner_mixed_000,2,4,He goes to an school.,He goes to a school.,article,True,agreement,article,20478.2
+learner_progressive_000,1,0,The cat drink milk quickly.,The cat drinks milk quickly.,agreement,True,agreement,,10485.3
+learner_progressive_000,1,1,They was happy with the news.,They were happy with the news.,agreement,True,agreement,,15999.3
+learner_progressive_000,1,2,She have a red car.,She has a red car.,agreement,True,agreement,,10.2
+learner_progressive_000,1,3,My brother play the piano well.,My brother plays the piano well.,agreement,True,agreement,,21343.3
+learner_progressive_000,1,4,Those birds flies south for winter.,Those birds fly south for winter.,agreement,True,agreement,,27363.7
+learner_progressive_000,2,0,She is very good in mathematics.,She is very good at mathematics.,preposition,True,agreement,agreement,24.8
+learner_progressive_000,2,1,The success depends of the weather.,The success depends on the weather.,preposition,True,agreement,agreement,103182.2
+learner_progressive_000,2,2,I am interested by this book.,I am interested in this book.,preposition,True,agreement,agreement,31052.5
+learner_progressive_000,2,3,He arrived to the station late.,He arrived at the station late.,preposition,True,agreement,agreement,4170.8
+learner_progressive_000,2,4,We agreed to the meeting on Monday.,We agreed to the meeting on Monday.,none,True,agreement,agreement,823.8
+learner_proficient_000,1,0,The red fox jumps over the fence.,The red fox jumps over the fence.,none,True,none,,54575.9
+learner_proficient_000,1,1,Rain falls softly on the old roof.,Rain falls softly on the old roof.,none,True,none,,4146.9
+learner_proficient_000,1,2,She reads a thick book every night.,She reads a thick book every night.,none,True,none,,1884.4
+learner_proficient_000,1,3,Why did the clock stop ticking suddenly?,Why did the clock stop ticking suddenly?,none,True,none,,5526.9
+learner_proficient_000,1,4,Fresh coffee smells wonderful in the morning.,Fresh coffee smells wonderful in the morning.,none,True,none,,5406.8
+learner_proficient_000,2,0,The red fox jumped quickly.,The red fox jumped quickly.,none,True,none,article,556.2
+learner_proficient_000,2,1,Rain fell on the silent roof.,Rain fell on the silent roof.,none,True,none,article,592.9
+learner_proficient_000,2,2,She reads a thick book daily.,She reads a thick book daily.,none,True,none,article,739.3
+learner_proficient_000,2,3,A cold wind blew from north.,A cold wind blew from the north.,article,True,none,article,3252.9
+learner_proficient_000,2,4,They have finally reached the summit.,They have finally reached the summit.,none,True,none,article,529.7
+learner_article_000,1,0,I bought new car yesterday.,I bought a new car yesterday.,article,True,article,,16171.5
+learner_article_000,1,1,She is an teacher at school.,She is a teacher at school.,article,True,article,,3817.2
+learner_article_000,1,2,The apple is a fruit of the tree.,The apple is a fruit of the tree.,none,True,article,,687.2
+learner_article_000,1,3,He wants an blue balloon.,He wants a blue balloon.,article,True,article,,100231.9
+learner_article_000,1,4,I saw elephant at the zoo.,I saw an elephant at the zoo.,article,True,article,,15842.7
+learner_article_000,1,5,The book is on a table.,The book is on a table.,none,True,article,,1028.5
+learner_article_000,1,6,She has an unique perspective.,She has a unique perspective.,article,True,article,,95399.0
+learner_article_000,1,7,We visited an museum in London.,We visited a museum in London.,article,True,article,,37301.2
+learner_article_000,1,8,A sun rises in the east.,The sun rises in the east.,article,True,article,,12125.1
+learner_article_000,1,9,He is a honest man.,He is an honest man.,article,True,article,,3774.2
+learner_article_000,1,10,I need an piece of paper.,I need a piece of paper.,article,True,article,,5873.8
+learner_article_000,1,11,They live in small house.,They live in a small house.,article,True,article,,3205.2
+learner_article_000,1,12,The dog chased a cat across street.,The dog chased a cat across the street.,article,True,article,,12795.6
+learner_article_000,1,13,She wore an red dress tonight.,She wore a red dress tonight.,article,True,article,,6760.9
+learner_article_000,1,14,I read a interesting book.,I read an interesting book.,article,True,article,,3947.0
+learner_article_000,1,15,The water is in a glass.,The water is in a glass.,none,True,article,,604.8
+learner_article_000,1,16,He is an doctor in city.,He is a doctor in the city.,article,True,article,,3454.7
+learner_article_000,1,17,A moon looks bright tonight.,The moon looks bright tonight.,article,True,article,,20967.5
+learner_article_000,1,18,I have an old car.,I have an old car.,none,True,article,,1041.9
+learner_article_000,1,19,She found the gold coin on floor.,She found the gold coin on the floor.,article,True,article,,8937.5
+learner_article_000,2,0,The cat sleep on the sofa.,The cat sleeps on the sofa.,agreement,True,article,agreement,4723.2
+learner_article_000,2,1,They was happy with the results.,They were happy with the results.,agreement,True,article,agreement,5164.4
+learner_article_000,2,2,My brother have a new car.,My brother has a new car.,agreement,True,article,agreement,14518.6
+learner_article_000,2,3,These books is very expensive.,These books are very expensive.,agreement,True,article,agreement,3178.6
+learner_article_000,2,4,She go to the gym daily.,She goes to the gym daily.,agreement,True,article,agreement,4476.9
+learner_article_000,2,5,The dogs barks at the mailman.,The dogs bark at the mailman.,agreement,True,article,agreement,9569.8
+learner_article_000,2,6,He don't like spicy food.,He doesn't like spicy food.,agreement,True,article,agreement,4059.4
+learner_article_000,2,7,The team play well today.,The team is playing well today.,tense,True,article,agreement,7685.6
+learner_article_000,2,8,Our teacher speak three languages.,Our teacher speaks three languages.,agreement,True,article,agreement,2895.6
+learner_article_000,2,9,Those apples tastes very sour.,Those apples taste very sour.,agreement,True,article,agreement,3824.0
+learner_article_000,2,10,A small bird fly high.,A small bird flies high.,agreement,True,article,agreement,4935.4
+learner_article_000,2,11,The water feel cold today.,The water feels cold today.,agreement,True,article,agreement,6658.2
+learner_article_000,2,12,Many people thinks it is true.,Many people think it is true.,agreement,True,article,agreement,98065.2
+learner_article_000,2,14,Your friends is coming over now.,Your friends are coming over now.,agreement,True,article,agreement,62545.3
+learner_article_000,2,15,The wind blow strongly tonight.,The wind will blow strongly tonight.,tense,True,article,agreement,5456.0
+learner_article_000,2,16,Each student have a unique goal.,Each student has a unique goal.,agreement,True,article,agreement,83141.5
+learner_article_000,2,17,The children plays in the park.,The children play in the park.,agreement,True,article,agreement,21049.5
+learner_article_000,2,18,This phone work perfectly fine.,This phone works perfectly fine.,agreement,True,article,agreement,86914.6
+learner_article_000,2,19,The news seem quite shocking.,The news seems quite shocking.,agreement,True,article,agreement,10165.5
+learner_agreement_000,1,0,The cat sleep on the sofa every afternoon.,The cat sleeps on the sofa every afternoon.,agreement,True,agreement,,3962.7
+learner_agreement_000,1,1,Those apples tastes very sour today.,Those apples taste very sour today.,agreement,True,agreement,,44955.8
+learner_agreement_000,1,2,My brother have a new red bicycle.,My brother has a new red bicycle.,agreement,True,agreement,,9426.6
+learner_agreement_000,1,3,The students was excited for the field trip.,The students were excited for the field trip.,agreement,True,agreement,,3740.9
+learner_agreement_000,1,4,She don't like eating spicy food.,She doesn't like eating spicy food.,agreement,True,agreement,,5623.5
+learner_agreement_000,1,5,The water in the pipes freeze in winter.,The water in the pipes freezes in winter.,agreement,True,agreement,,4455.5
+learner_agreement_000,1,6,Everyone in the room were laughing loudly.,Everyone in the room was laughing loudly.,agreement,True,agreement,,3655.0
+learner_agreement_000,1,7,A pack of wolves howl at the moon.,A pack of wolves howls at the moon.,agreement,True,agreement,,5033.4
+learner_agreement_000,1,8,This book provide a great summary of history.,This book provides a great summary of history.,agreement,True,agreement,,2725.4
+learner_agreement_000,1,9,The weather in July are usually very hot.,The weather in July is usually very hot.,agreement,True,agreement,,5291.8
+learner_agreement_000,1,10,Neither of the keys fit the lock.,Neither of the keys fits the lock.,agreement,True,agreement,,3498.4
+learner_agreement_000,1,11,The team play a match every Saturday.,The team play a match every Saturday.,none,True,agreement,,2018.9
+learner_agreement_000,1,12,His shoes is too small for him.,His shoes are too small for him.,agreement,True,agreement,,6005.2
+learner_agreement_000,1,13,A lot of noise come from the street.,A lot of noise comes from the street.,agreement,True,agreement,,3895.8
+learner_agreement_000,1,14,The clouds looks like fluffy white cotton.,The clouds look like fluffy white cotton.,agreement,True,agreement,,3834.6
+learner_agreement_000,1,15,My sister and I goes to the gym.,My sister and I go to the gym.,agreement,True,agreement,,10970.5
+learner_agreement_000,1,16,The news about the accident were shocking.,The news about the accident was shocking.,agreement,True,agreement,,5267.5
+learner_agreement_000,1,17,Ten dollars are too much for this pen.,Ten dollars are too much for this pen.,none,True,agreement,,9952.7
+learner_agreement_000,1,18,The dog chase the ball across the yard.,The dog chased the ball across the yard.,tense,True,agreement,,4270.5
+learner_agreement_000,1,19,That group of singers perform beautifully.,That group of singers perform beautifully.,none,True,agreement,,1539.8
+learner_agreement_000,2,0,She is very good in mathematics.,She is very good at mathematics.,preposition,True,agreement,preposition,4982.5
+learner_agreement_000,2,1,He depends of his parents for money.,He depends on his parents for money.,preposition,True,agreement,preposition,3233.9
+learner_agreement_000,2,2,I am interested by the new project.,I am interested in the new project.,preposition,True,agreement,preposition,3941.0
+learner_agreement_000,2,3,They arrived to the station late.,They arrived at the station late.,preposition,True,agreement,preposition,4083.2
+learner_agreement_000,2,4,We are waiting of the bus now.,We are waiting for the bus now.,preposition,True,agreement,preposition,5583.3
+learner_agreement_000,2,5,She is married with a famous doctor.,She is married to a famous doctor.,preposition,True,agreement,preposition,7522.4
+learner_agreement_000,2,6,I agree to your point of view.,I agree to your point of view.,none,True,agreement,preposition,1043.4
+learner_agreement_000,2,7,He is afraid from the dark room.,He is afraid of the dark room.,preposition,True,agreement,preposition,3827.7
+learner_agreement_000,2,8,The cat jumped on the water.,The cat jumped on the water.,none,True,agreement,preposition,45313.8
+learner_agreement_000,2,9,I am proud for my young son.,I am proud of my young son.,preposition,True,agreement,preposition,4403.0
+learner_agreement_000,2,10,She apologized for the mistake to me.,She apologized for the mistake to me.,none,True,agreement,preposition,900.1
+learner_agreement_000,2,11,He is capable to do the work.,He is capable of doing the work.,preposition,True,agreement,preposition,35187.7
+learner_agreement_000,2,12,I will meet you on noon tomorrow.,I will meet you at noon tomorrow.,preposition,True,agreement,preposition,85631.6
+learner_agreement_000,2,13,The book consists from five short chapters.,The book consists of five short chapters.,preposition,True,agreement,preposition,4740.3
+learner_agreement_000,2,14,She is similar with her older sister.,She is similar to her older sister.,preposition,True,agreement,preposition,3879.6
+learner_agreement_000,2,15,He graduated in the university last year.,He graduated from the university last year.,preposition,True,agreement,preposition,5249.5
+learner_agreement_000,2,16,I am bored with of this movie.,I am bored with this movie.,redundancy,True,agreement,preposition,3405.1
+learner_agreement_000,2,17,The cake is made by flour and eggs.,The cake is made with flour and eggs.,preposition,True,agreement,preposition,3626.7
+learner_agreement_000,2,18,She is listening at the loud music.,She is listening to the loud music.,preposition,True,agreement,preposition,3690.2
+learner_agreement_000,2,19,They are arguing about of the price.,They are arguing about the price.,preposition,True,agreement,preposition,29330.4
+learner_article_000,1,0,I saw elephant at the zoo yesterday.,I saw an elephant at the zoo yesterday.,article,True,article,,3695.3
+learner_article_000,1,1,She is an teacher at the local school.,She is a teacher at the local school.,article,True,article,,18696.6
+learner_article_000,1,2,The apple is a fruit from a tree.,The apple is a fruit from a tree.,none,True,article,,562.2
+learner_article_000,1,3,He wants to buy new car next month.,He wants to buy a new car next month.,article,True,article,,3583.2
+learner_article_000,1,4,An dog barked loudly throughout the entire night.,A dog barked loudly throughout the entire night.,article,True,article,,10459.2
+learner_article_000,1,5,Please pass me salt from the dining table.,Please pass me the salt from the dining table.,article,True,article,,5976.3
+learner_article_000,1,6,I need a umbrella because it is raining.,I need an umbrella because it is raining.,article,True,article,,3847.5
+learner_article_000,1,7,She read a interesting book about ancient Rome.,She read an interesting book about ancient Rome.,article,True,article,,3060.9
+learner_article_000,1,8,The cat sat on a old wooden chair.,The cat sat on an old wooden chair.,article,True,article,,76267.5
+learner_article_000,1,9,He is a honest man in this small town.,He is an honest man in this small town.,article,True,article,,44766.8
+learner_article_000,1,10,We visited museum during our trip to Paris.,We visited the museum during our trip to Paris.,article,True,article,,3608.6
+learner_article_000,1,11,A orange is full of vitamin C nutrients.,An orange is full of vitamin C nutrients.,article,True,article,,3995.5
+learner_article_000,1,12,They live in a apartment near the city center.,They live in an apartment near the city center.,article,True,article,,46040.9
+learner_article_000,1,13,I found the gold coin in a sand.,I found the gold coin in the sand.,article,True,article,,4513.0
+learner_article_000,1,14,She wore a elegant dress to the fancy party.,She wore an elegant dress to the fancy party.,article,True,article,,4772.1
+learner_article_000,1,15,The boy played with a ball in park.,The boy played with a ball in the park.,article,True,article,,3213.5
+learner_article_000,1,16,He is an university student from the United Kingdom.,He is a university student from the United Kingdom.,article,True,article,,11080.8
+learner_article_000,1,17,I saw a eagle flying high in the sky.,I saw an eagle flying high in the sky.,article,True,article,,4929.8
+learner_article_000,1,18,The moon shines brightly in a night sky.,The moon shines brightly in the night sky.,article,True,article,,3757.1
+learner_article_000,1,19,She wants a ice cream for her dessert.,She wants an ice cream for her dessert.,article,True,article,,4026.8
+learner_article_000,2,0,The dog bark loud at the mailman.,The dog barked loud at the mailman.,tense,True,article,article,4067.3
+learner_article_000,2,1,These apples tastes very sweet today.,These apples taste very sweet today.,agreement,True,article,article,4152.2
+learner_article_000,2,2,My sister play the piano every evening.,My sister plays the piano every evening.,agreement,True,article,article,3860.7
+learner_article_000,2,3,The children was playing in the garden.,The children were playing in the garden.,agreement,True,article,article,29146.8
+learner_article_000,2,4,A group of students study in the library.,A group of students study in the library.,none,True,article,article,6858.3
+learner_article_000,2,5,The weather seem cold this morning.,The weather seems cold this morning.,agreement,True,article,article,53873.5
+learner_article_000,2,6,Neither of the boys know the answer.,Neither of the boys knows the answer.,agreement,True,article,article,3422.1
+learner_article_000,2,7,The cats sleeps on the soft rug.,The cats sleep on the soft rug.,agreement,True,article,article,4146.0
+learner_article_000,2,8,Our team win every game this season.,Our team won every game this season.,tense,True,article,article,4292.3
+learner_article_000,2,9,That car drive very fast on the highway.,That car drives very fast on the highway.,agreement,True,article,article,3939.1
+learner_article_000,2,10,The water in the bottles are warm.,The water in the bottles is warm.,agreement,True,article,article,67985.6
+learner_article_000,2,11,Everyone have a different opinion on this.,Everyone has a different opinion on this.,agreement,True,article,article,128187.6
+learner_article_000,2,12,The news sound surprising to everyone here.,The news sounds surprising to everyone here.,agreement,True,article,article,3430.9
+learner_article_000,2,13,My parents lives in a small town.,My parents live in a small town.,agreement,True,article,article,6120.7
+learner_article_000,2,14,The cake smell delicious in the oven.,The cake smells delicious in the oven.,agreement,True,article,article,3046.0
+learner_article_000,2,15,The birds flies south for the winter.,The birds fly south for the winter.,agreement,True,article,article,3711.2
+learner_article_000,2,16,He don't like to eat spicy food.,He doesn't like to eat spicy food.,agreement,True,article,article,3358.4
+learner_article_000,2,17,The teacher speak three different languages fluently.,The teacher speaks three different languages fluently.,agreement,True,article,article,5468.2
+learner_article_000,2,18,Those books belongs to the local library.,Those books belong to the local library.,agreement,True,article,article,3560.6

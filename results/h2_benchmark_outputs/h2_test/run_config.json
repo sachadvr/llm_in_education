@@ -1,0 +1,12 @@
+{
+  "learners": 1,
+  "phrases_per_learner": 3,
+  "model": "gemma3:12b",
+  "ollama_host": "http://localhost:11434",
+  "timeout_s": 120.0,
+  "max_retries": 1,
+  "seed": 42,
+  "output_dir": "benchmark_outputs/h2_test",
+  "started_at": "2026-04-30T15:29:42.051545+00:00",
+  "note": "Functional validation only \u2014 NOT pedagogical proof"
+}

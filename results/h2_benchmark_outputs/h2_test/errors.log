@@ -1,0 +1,7 @@
+2026-04-30 17:29:42,054 INFO Model     : gemma3:12b
+2026-04-30 17:29:42,055 INFO Host      : http://localhost:11434
+2026-04-30 17:29:42,055 INFO Learners  : 1, phrases/learner: 3
+2026-04-30 17:29:42,055 INFO Timeout   : 120.0s, max_retries: 1
+2026-04-30 17:29:42,055 INFO Output    : benchmark_outputs/h2_test
+2026-04-30 17:29:42,055 INFO Seed      : 42
+2026-04-30 17:29:42,056 INFO [1/1] learner_agreement_000  family=agreement  expected_dominant=agreement

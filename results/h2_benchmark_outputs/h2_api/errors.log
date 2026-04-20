@@ -1,0 +1,446 @@
+2026-04-30 19:06:42,458 INFO API       : http://localhost:8000
+2026-04-30 19:06:42,458 INFO Learners  : 5, phrases/learner: 5
+2026-04-30 19:06:42,458 INFO Timeout   : 180.0s | Output: /tmp/h2_api_test_5l | Seed: 42
+2026-04-30 19:06:42,506 INFO [1/5] learner_agreement_000  family=agreement  expected=agreement
+2026-04-30 19:06:42,842 INFO HTTP Request: POST http://localhost:8000/register "HTTP/1.1 201 Created"
+2026-04-30 19:06:43,089 INFO HTTP Request: POST http://localhost:8000/login "HTTP/1.1 200 OK"
+2026-04-30 19:07:02,724 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:07:06,494 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:07:09,082 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:07:09,090 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:07:09,096 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:07:09,101 INFO HTTP Request: GET http://localhost:8000/learner/8/progress "HTTP/1.1 200 OK"
+2026-04-30 19:07:10,553 INFO HTTP Request: POST http://localhost:8000/exercise/adaptive "HTTP/1.1 200 OK"
+2026-04-30 19:07:11,870 INFO HTTP Request: POST http://localhost:8000/exercise/grade "HTTP/1.1 502 Bad Gateway"
+2026-04-30 19:07:36,471 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:08:04,200 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:08:10,458 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:08:13,571 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:08:22,069 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:08:22,074 INFO HTTP Request: GET http://localhost:8000/learner/8/progress "HTTP/1.1 200 OK"
+2026-04-30 19:08:22,076 INFO   → top_match=True  shift=True  s1_dominant=agreement  s2_dominant=preposition  (99.6s)
+2026-04-30 19:08:22,076 INFO [2/5] learner_preposition_000  family=preposition  expected=preposition
+2026-04-30 19:08:22,345 INFO HTTP Request: POST http://localhost:8000/register "HTTP/1.1 201 Created"
+2026-04-30 19:08:22,625 INFO HTTP Request: POST http://localhost:8000/login "HTTP/1.1 200 OK"
+2026-04-30 19:08:22,632 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:08:22,638 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:08:22,644 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:08:22,649 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:08:22,656 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:08:22,659 INFO HTTP Request: GET http://localhost:8000/learner/9/progress "HTTP/1.1 200 OK"
+2026-04-30 19:08:24,030 INFO HTTP Request: POST http://localhost:8000/exercise/adaptive "HTTP/1.1 200 OK"
+2026-04-30 19:08:25,568 INFO HTTP Request: POST http://localhost:8000/exercise/grade "HTTP/1.1 502 Bad Gateway"
+2026-04-30 19:08:29,546 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:08:32,760 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:08:35,589 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:08:38,658 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:08:40,747 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:08:40,756 INFO HTTP Request: GET http://localhost:8000/learner/9/progress "HTTP/1.1 200 OK"
+2026-04-30 19:08:40,758 INFO   → top_match=True  shift=True  s1_dominant=preposition  s2_dominant=article  (18.7s)
+2026-04-30 19:08:40,759 INFO [3/5] learner_article_000  family=article  expected=article
+2026-04-30 19:08:41,030 INFO HTTP Request: POST http://localhost:8000/register "HTTP/1.1 201 Created"
+2026-04-30 19:08:41,339 INFO HTTP Request: POST http://localhost:8000/login "HTTP/1.1 200 OK"
+2026-04-30 19:08:41,347 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:08:41,354 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:08:41,359 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:08:41,364 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:08:41,369 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:08:41,373 INFO HTTP Request: GET http://localhost:8000/learner/10/progress "HTTP/1.1 200 OK"
+2026-04-30 19:08:42,199 INFO HTTP Request: POST http://localhost:8000/exercise/adaptive "HTTP/1.1 200 OK"
+2026-04-30 19:09:03,785 INFO HTTP Request: POST http://localhost:8000/exercise/grade "HTTP/1.1 502 Bad Gateway"
+2026-04-30 19:09:03,818 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:09:03,832 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:09:03,846 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:09:06,574 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:09:43,768 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:09:43,773 INFO HTTP Request: GET http://localhost:8000/learner/10/progress "HTTP/1.1 200 OK"
+2026-04-30 19:09:43,776 INFO   → top_match=True  shift=True  s1_dominant=article  s2_dominant=agreement  (63.0s)
+2026-04-30 19:09:43,777 INFO [4/5] learner_mixed_000  family=mixed  expected=mixed
+2026-04-30 19:09:44,020 INFO HTTP Request: POST http://localhost:8000/register "HTTP/1.1 201 Created"
+2026-04-30 19:09:44,277 INFO HTTP Request: POST http://localhost:8000/login "HTTP/1.1 200 OK"
+2026-04-30 19:09:44,285 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:09:44,291 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:09:44,297 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:09:52,294 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:09:52,301 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:09:52,306 INFO HTTP Request: GET http://localhost:8000/learner/11/progress "HTTP/1.1 200 OK"
+2026-04-30 19:09:53,680 INFO HTTP Request: POST http://localhost:8000/exercise/adaptive "HTTP/1.1 200 OK"
+2026-04-30 19:09:56,039 INFO HTTP Request: POST http://localhost:8000/exercise/grade "HTTP/1.1 502 Bad Gateway"
+2026-04-30 19:10:00,315 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:10:00,322 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:10:00,329 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:10:00,335 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:10:03,821 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:10:03,831 INFO HTTP Request: GET http://localhost:8000/learner/11/progress "HTTP/1.1 200 OK"
+2026-04-30 19:10:03,834 INFO   → top_match=True  shift=True  s1_dominant=agreement  s2_dominant=preposition  (20.1s)
+2026-04-30 19:10:03,834 INFO [5/5] learner_progressive_000  family=progressive  expected=agreement
+2026-04-30 19:10:04,129 INFO HTTP Request: POST http://localhost:8000/register "HTTP/1.1 201 Created"
+2026-04-30 19:10:04,386 INFO HTTP Request: POST http://localhost:8000/login "HTTP/1.1 200 OK"
+2026-04-30 19:10:04,393 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:10:04,399 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:10:04,404 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:10:04,409 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:10:04,414 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:10:04,418 INFO HTTP Request: GET http://localhost:8000/learner/12/progress "HTTP/1.1 200 OK"
+2026-04-30 19:10:05,597 INFO HTTP Request: POST http://localhost:8000/exercise/adaptive "HTTP/1.1 200 OK"
+2026-04-30 19:10:12,779 INFO HTTP Request: POST http://localhost:8000/exercise/grade "HTTP/1.1 502 Bad Gateway"
+2026-04-30 19:10:13,490 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:10:13,505 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:10:14,058 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:10:14,076 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:10:14,595 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:10:14,611 INFO HTTP Request: GET http://localhost:8000/learner/12/progress "HTTP/1.1 200 OK"
+2026-04-30 19:10:14,614 INFO   → top_match=True  shift=False  s1_dominant=agreement  s2_dominant=agreement  (10.8s)
+2026-04-30 19:10:14,615 INFO 
+======================================================================
+2026-04-30 19:10:14,615 INFO H2 API SIMULATION — GLOBAL RESULTS
+2026-04-30 19:10:14,615 INFO   Functional validation only — NOT pedagogical proof
+2026-04-30 19:10:14,615 INFO ======================================================================
+2026-04-30 19:10:14,615 INFO   Total learners              : 5
+2026-04-30 19:10:14,615 INFO   top_priority_match_rate     : 100.0%
+2026-04-30 19:10:14,615 INFO   priority_shift_rate         : 80.0%
+2026-04-30 19:10:14,615 INFO   adaptive_loop_success_rate  : 100.0%
+2026-04-30 19:10:14,616 INFO   failed_correction_rate      : 0.0%
+2026-04-30 19:10:14,616 INFO   simulated_error_reduction   : 96.0%
+2026-04-30 19:10:14,616 INFO   avg API latency             : 3381 ms / call
+2026-04-30 19:10:14,616 INFO 
+  Family           n  top_match    shift   decay%  loop_ok
+2026-04-30 19:10:14,616 INFO   --------------------------------------------------------
+2026-04-30 19:10:14,616 INFO   agreement        1    100.0%  100.0%    0.0%  100.0%
+2026-04-30 19:10:14,616 INFO   preposition      1    100.0%  100.0%    0.0%  100.0%
+2026-04-30 19:10:14,616 INFO   article          1    100.0%  100.0%    0.0%  100.0%
+2026-04-30 19:10:14,616 INFO   mixed            1    100.0%  100.0%  -50.0%  100.0%
+2026-04-30 19:10:14,616 INFO   progressive      1    100.0%    0.0%    0.0%  100.0%
+2026-04-30 19:10:14,616 INFO ======================================================================
+2026-04-30 19:10:14,616 INFO   Report: /tmp/h2_api_test_5l/h2_api_global_summary.json
+2026-04-30 19:23:15,001 INFO Generating sentences via Ollama (--ollama-generate)...
+2026-04-30 19:23:16,500 INFO HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-30 19:23:18,340 INFO HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-30 19:23:20,054 INFO HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-30 19:25:20,077 WARNING Sentence generation failed (article, seed=42002):  — skipping learner
+2026-04-30 19:25:27,740 INFO HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-30 19:25:29,187 INFO HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-30 19:25:32,534 INFO HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-30 19:25:34,179 INFO HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-30 19:25:35,479 INFO HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-30 19:25:37,203 INFO HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-30 19:25:38,802 INFO HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-30 19:25:40,398 INFO HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-30 19:25:40,399 INFO API       : http://localhost:8000
+2026-04-30 19:25:40,399 INFO Learners  : 6, phrases/learner: 5
+2026-04-30 19:25:40,399 INFO Timeout   : 180.0s | Output: benchmark_outputs/h2_api | Seed: 42
+2026-04-30 19:25:40,409 INFO [1/5] learner_agreement_000  family=agreement  expected=agreement
+2026-04-30 19:25:40,700 INFO HTTP Request: POST http://localhost:8000/register "HTTP/1.1 201 Created"
+2026-04-30 19:25:40,947 INFO HTTP Request: POST http://localhost:8000/login "HTTP/1.1 200 OK"
+2026-04-30 19:25:49,515 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:26:15,120 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:26:18,810 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:26:22,563 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:26:25,681 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:26:25,690 INFO HTTP Request: GET http://localhost:8000/learner/22/progress "HTTP/1.1 200 OK"
+2026-04-30 19:26:26,729 INFO HTTP Request: POST http://localhost:8000/exercise/adaptive "HTTP/1.1 200 OK"
+2026-04-30 19:26:27,927 INFO HTTP Request: POST http://localhost:8000/exercise/grade "HTTP/1.1 502 Bad Gateway"
+2026-04-30 19:26:30,853 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:26:59,183 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:27:31,805 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:27:34,609 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:27:43,128 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:27:43,134 INFO HTTP Request: GET http://localhost:8000/learner/22/progress "HTTP/1.1 200 OK"
+2026-04-30 19:27:43,136 INFO   → top_match=True  shift=True  s1_dominant=agreement  s2_dominant=preposition  (122.7s)
+2026-04-30 19:27:43,137 INFO [2/5] learner_article_000  family=article  expected=article
+2026-04-30 19:27:43,428 INFO HTTP Request: POST http://localhost:8000/register "HTTP/1.1 201 Created"
+2026-04-30 19:27:43,682 INFO HTTP Request: POST http://localhost:8000/login "HTTP/1.1 200 OK"
+2026-04-30 19:27:55,112 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:27:57,983 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:27:58,468 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:28:08,272 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:28:11,117 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:28:11,122 INFO HTTP Request: GET http://localhost:8000/learner/23/progress "HTTP/1.1 200 OK"
+2026-04-30 19:28:15,606 INFO HTTP Request: POST http://localhost:8000/exercise/adaptive "HTTP/1.1 502 Bad Gateway"
+2026-04-30 19:30:02,221 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:32:08,911 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:32:21,572 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:32:31,463 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:32:36,807 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:32:36,815 INFO HTTP Request: GET http://localhost:8000/learner/23/progress "HTTP/1.1 200 OK"
+2026-04-30 19:32:36,817 INFO   → top_match=True  shift=True  s1_dominant=article  s2_dominant=agreement  (293.7s)
+2026-04-30 19:32:36,817 INFO [3/5] learner_mixed_000  family=mixed  expected=mixed
+2026-04-30 19:32:37,075 INFO HTTP Request: POST http://localhost:8000/register "HTTP/1.1 201 Created"
+2026-04-30 19:32:37,368 INFO HTTP Request: POST http://localhost:8000/login "HTTP/1.1 200 OK"
+2026-04-30 19:33:21,259 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:33:24,723 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:33:31,139 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:33:34,803 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:33:37,724 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:33:37,732 INFO HTTP Request: GET http://localhost:8000/learner/24/progress "HTTP/1.1 200 OK"
+2026-04-30 19:33:38,640 INFO HTTP Request: POST http://localhost:8000/exercise/adaptive "HTTP/1.1 200 OK"
+2026-04-30 19:33:39,632 INFO HTTP Request: POST http://localhost:8000/exercise/grade "HTTP/1.1 502 Bad Gateway"
+2026-04-30 19:33:39,643 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:33:50,059 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:34:39,705 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:34:43,211 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:35:03,690 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:35:03,698 INFO HTTP Request: GET http://localhost:8000/learner/24/progress "HTTP/1.1 200 OK"
+2026-04-30 19:35:03,702 INFO   → top_match=True  shift=True  s1_dominant=agreement  s2_dominant=article  (146.9s)
+2026-04-30 19:35:03,702 INFO [4/5] learner_progressive_000  family=progressive  expected=agreement
+2026-04-30 19:35:03,964 INFO HTTP Request: POST http://localhost:8000/register "HTTP/1.1 201 Created"
+2026-04-30 19:35:04,242 INFO HTTP Request: POST http://localhost:8000/login "HTTP/1.1 200 OK"
+2026-04-30 19:35:14,726 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:35:30,726 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:35:30,737 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:35:52,081 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:36:41,731 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:36:41,737 INFO HTTP Request: GET http://localhost:8000/learner/25/progress "HTTP/1.1 200 OK"
+2026-04-30 19:37:11,767 INFO HTTP Request: POST http://localhost:8000/exercise/adaptive "HTTP/1.1 200 OK"
+2026-04-30 19:37:14,838 INFO HTTP Request: POST http://localhost:8000/exercise/grade "HTTP/1.1 502 Bad Gateway"
+2026-04-30 19:37:14,863 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:38:58,049 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:39:29,101 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:39:33,272 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:39:34,096 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:39:34,117 INFO HTTP Request: GET http://localhost:8000/learner/25/progress "HTTP/1.1 200 OK"
+2026-04-30 19:39:34,121 INFO   → top_match=True  shift=False  s1_dominant=agreement  s2_dominant=agreement  (248.1s)
+2026-04-30 19:39:34,122 INFO [5/5] learner_proficient_000  family=proficient  expected=mixed
+2026-04-30 19:39:34,402 INFO HTTP Request: POST http://localhost:8000/register "HTTP/1.1 201 Created"
+2026-04-30 19:39:34,689 INFO HTTP Request: POST http://localhost:8000/login "HTTP/1.1 200 OK"
+2026-04-30 19:40:29,267 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:40:33,414 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:40:35,298 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:40:40,825 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:40:46,232 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:40:46,251 INFO HTTP Request: GET http://localhost:8000/learner/26/progress "HTTP/1.1 200 OK"
+2026-04-30 19:41:01,444 INFO HTTP Request: POST http://localhost:8000/exercise/adaptive "HTTP/1.1 200 OK"
+2026-04-30 19:41:02,888 INFO HTTP Request: POST http://localhost:8000/exercise/grade "HTTP/1.1 502 Bad Gateway"
+2026-04-30 19:41:03,445 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:41:04,038 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:41:04,778 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:41:08,030 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:41:08,561 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-04-30 19:41:08,571 INFO HTTP Request: GET http://localhost:8000/learner/26/progress "HTTP/1.1 200 OK"
+2026-04-30 19:41:08,574 INFO   → top_match=True  shift=True  s1_dominant=none  s2_dominant=article  (94.4s)
+2026-04-30 19:41:08,574 INFO 
+======================================================================
+2026-04-30 19:41:08,574 INFO H2 API SIMULATION — GLOBAL RESULTS
+2026-04-30 19:41:08,574 INFO   Functional validation only — NOT pedagogical proof
+2026-04-30 19:41:08,574 INFO ======================================================================
+2026-04-30 19:41:08,574 INFO   Total learners              : 5
+2026-04-30 19:41:08,574 INFO   top_priority_match_rate     : 100.0%
+2026-04-30 19:41:08,574 INFO   priority_shift_rate         : 80.0%
+2026-04-30 19:41:08,574 INFO   adaptive_loop_success_rate  : 100.0%
+2026-04-30 19:41:08,574 INFO   failed_correction_rate      : 0.0%
+2026-04-30 19:41:08,574 INFO   simulated_error_reduction   : 76.0%
+2026-04-30 19:41:08,574 INFO   avg API latency             : 16893 ms / call
+2026-04-30 19:41:08,574 INFO 
+  Family           n  top_match    shift   decay%  loop_ok
+2026-04-30 19:41:08,574 INFO   --------------------------------------------------------
+2026-04-30 19:41:08,574 INFO   agreement        1    100.0%  100.0%    0.0%  100.0%
+2026-04-30 19:41:08,575 INFO   article          1    100.0%  100.0%    0.0%  100.0%
+2026-04-30 19:41:08,575 INFO   mixed            1    100.0%  100.0%  -100.0%  100.0%
+2026-04-30 19:41:08,575 INFO   progressive      1    100.0%    0.0%    0.0%  100.0%
+2026-04-30 19:41:08,575 INFO   proficient       1    100.0%  100.0%     N/A  100.0%
+2026-04-30 19:41:08,575 INFO ======================================================================
+2026-04-30 19:41:08,575 INFO   Report: benchmark_outputs/h2_api/h2_api_global_summary.json
+2026-05-01 19:08:04,818 INFO Generating sentences via Ollama (--ollama-generate)...
+2026-05-01 19:08:10,595 INFO HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-05-01 19:10:10,633 WARNING Sentence generation failed (preposition, seed=42001):  — skipping learner
+2026-05-01 19:12:10,665 WARNING Sentence generation failed (preposition, seed=42001):  — skipping learner
+2026-05-01 19:13:28,980 INFO HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-05-01 19:13:28,985 WARNING Sentence generation failed (article, seed=42002): Extra data: line 23 column 1 (char 900) — skipping learner
+2026-05-01 19:13:56,965 INFO HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-05-01 19:14:40,553 INFO HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-05-01 19:14:40,556 INFO API       : http://localhost:8000
+2026-05-01 19:14:40,557 INFO Learners  : 3, phrases/learner: 20
+2026-05-01 19:14:40,557 INFO Timeout   : 180.0s | Output: benchmark_outputs/h2_api | Seed: 42
+2026-05-01 19:14:40,572 INFO [1/1] learner_article_000  family=article  expected=article
+2026-05-01 19:14:41,151 INFO HTTP Request: POST http://localhost:8000/register "HTTP/1.1 201 Created"
+2026-05-01 19:14:41,404 INFO HTTP Request: POST http://localhost:8000/login "HTTP/1.1 200 OK"
+2026-05-01 19:14:57,571 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 19:15:01,390 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 19:15:02,077 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 19:16:42,303 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 19:16:58,148 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 19:16:59,177 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 19:18:34,574 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 19:19:11,875 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 19:19:24,000 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 19:19:27,775 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 19:19:33,648 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 19:19:36,853 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 19:19:49,648 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 19:19:56,410 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 19:20:00,356 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 19:20:00,961 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 19:20:04,416 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 19:20:25,383 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 19:20:26,425 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 19:20:35,363 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 19:20:35,390 INFO HTTP Request: GET http://localhost:8000/learner/27/progress "HTTP/1.1 200 OK"
+2026-05-01 19:20:38,455 INFO HTTP Request: POST http://localhost:8000/exercise/adaptive "HTTP/1.1 200 OK"
+2026-05-01 19:20:39,728 INFO HTTP Request: POST http://localhost:8000/exercise/grade "HTTP/1.1 502 Bad Gateway"
+2026-05-01 19:20:44,451 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 19:20:49,616 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 19:21:04,135 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 19:21:07,313 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 19:21:11,790 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 19:21:21,359 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 19:21:25,419 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 19:21:33,105 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 19:21:36,001 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 19:21:39,825 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 19:21:44,760 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 19:21:51,417 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 19:23:29,481 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 19:26:27,954 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 502 Bad Gateway"
+2026-05-01 19:26:27,959 WARNING   Skipping [learner_article_000] s2 idx=13: /correct failed
+2026-05-01 19:27:30,502 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 19:27:35,958 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 19:28:59,097 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 19:29:20,147 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 19:30:47,060 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 19:30:57,225 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 19:30:57,234 INFO HTTP Request: GET http://localhost:8000/learner/27/progress "HTTP/1.1 200 OK"
+2026-05-01 19:30:57,240 INFO   → top_match=True  shift=True  s1_dominant=article  s2_dominant=agreement  (976.7s)
+2026-05-01 19:30:57,243 INFO 
+======================================================================
+2026-05-01 19:30:57,243 INFO H2 API SIMULATION — GLOBAL RESULTS
+2026-05-01 19:30:57,243 INFO   Functional validation only — NOT pedagogical proof
+2026-05-01 19:30:57,243 INFO ======================================================================
+2026-05-01 19:30:57,243 INFO   Total learners              : 1
+2026-05-01 19:30:57,243 INFO   top_priority_match_rate     : 100.0%
+2026-05-01 19:30:57,243 INFO   priority_shift_rate         : 100.0%
+2026-05-01 19:30:57,243 INFO   adaptive_loop_success_rate  : 100.0%
+2026-05-01 19:30:57,243 INFO   failed_correction_rate      : 5.0%
+2026-05-01 19:30:57,243 INFO   simulated_error_reduction   : 100.0%
+2026-05-01 19:30:57,243 INFO   avg API latency             : 20333 ms / call
+2026-05-01 19:30:57,243 INFO 
+  Family           n  top_match    shift   decay%  loop_ok
+2026-05-01 19:30:57,243 INFO   --------------------------------------------------------
+2026-05-01 19:30:57,244 INFO   article          1    100.0%  100.0%    0.0%  100.0%
+2026-05-01 19:30:57,244 INFO ======================================================================
+2026-05-01 19:30:57,244 INFO   Report: benchmark_outputs/h2_api/h2_api_global_summary.json
+2026-05-01 20:05:35,884 INFO Generating sentences via Ollama (--ollama-generate)...
+2026-05-01 20:05:41,282 INFO HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-05-01 20:05:50,709 INFO HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-05-01 20:06:26,492 INFO HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-05-01 20:06:26,495 WARNING Sentence generation failed (preposition, seed=42001): Extra data: line 23 column 1 (char 1046) — skipping learner
+2026-05-01 20:06:31,542 INFO HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-05-01 20:06:46,654 INFO HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-05-01 20:08:17,821 INFO HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-05-01 20:08:17,825 INFO API       : http://localhost:8000
+2026-05-01 20:08:17,825 INFO Learners  : 3, phrases/learner: 20
+2026-05-01 20:08:17,825 INFO Timeout   : 180.0s | Output: benchmark_outputs/h2_api | Seed: 42
+2026-05-01 20:08:17,833 INFO [1/2] learner_agreement_000  family=agreement  expected=agreement
+2026-05-01 20:08:18,218 INFO HTTP Request: POST http://localhost:8000/register "HTTP/1.1 201 Created"
+2026-05-01 20:08:18,492 INFO HTTP Request: POST http://localhost:8000/login "HTTP/1.1 200 OK"
+2026-05-01 20:08:22,456 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:09:07,410 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:09:16,838 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:09:20,578 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:09:26,202 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:09:30,657 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:09:34,312 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:09:39,346 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:09:42,071 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:09:47,363 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:09:50,862 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:09:52,880 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:09:58,886 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:10:02,780 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:10:06,615 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:10:17,586 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:10:22,854 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:10:32,807 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:10:37,076 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:10:38,617 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:10:38,641 INFO HTTP Request: GET http://localhost:8000/learner/28/progress "HTTP/1.1 200 OK"
+2026-05-01 20:10:39,759 INFO HTTP Request: POST http://localhost:8000/exercise/adaptive "HTTP/1.1 200 OK"
+2026-05-01 20:10:41,362 INFO HTTP Request: POST http://localhost:8000/exercise/grade "HTTP/1.1 502 Bad Gateway"
+2026-05-01 20:10:46,344 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:10:49,579 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:10:53,519 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:10:57,602 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:11:03,186 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:11:10,708 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:11:11,751 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:11:15,580 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:12:00,890 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:12:05,296 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:12:06,197 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:12:41,381 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:14:07,012 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:14:11,756 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:14:15,635 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:14:20,884 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:14:24,290 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:14:27,917 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:14:31,607 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:15:00,934 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:15:00,947 INFO HTTP Request: GET http://localhost:8000/learner/28/progress "HTTP/1.1 200 OK"
+2026-05-01 20:15:00,953 INFO   → top_match=True  shift=True  s1_dominant=agreement  s2_dominant=preposition  (403.1s)
+2026-05-01 20:15:00,955 INFO [2/2] learner_article_000  family=article  expected=article
+2026-05-01 20:15:01,234 INFO HTTP Request: POST http://localhost:8000/register "HTTP/1.1 201 Created"
+2026-05-01 20:15:01,484 INFO HTTP Request: POST http://localhost:8000/login "HTTP/1.1 200 OK"
+2026-05-01 20:15:05,180 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:15:23,877 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:15:24,439 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:15:28,022 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:15:38,481 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:15:44,458 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:15:48,305 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:15:51,366 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:17:07,632 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:17:52,399 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:17:56,009 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:18:00,004 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:18:46,045 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:18:50,557 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:18:55,330 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:18:58,543 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:19:09,624 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:19:14,554 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:19:18,312 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:19:22,338 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:19:22,346 INFO HTTP Request: GET http://localhost:8000/learner/29/progress "HTTP/1.1 200 OK"
+2026-05-01 20:19:26,245 INFO HTTP Request: POST http://localhost:8000/exercise/adaptive "HTTP/1.1 502 Bad Gateway"
+2026-05-01 20:19:30,313 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:19:34,468 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:19:38,331 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:20:07,484 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:20:14,343 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:21:08,216 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:21:11,641 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:21:15,786 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:21:20,079 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:21:24,018 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:22:32,000 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:24:40,192 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:24:43,625 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:24:49,745 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:24:52,792 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:24:56,502 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:24:59,862 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:25:05,331 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:25:08,891 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 200 OK"
+2026-05-01 20:27:24,656 INFO HTTP Request: POST http://localhost:8000/correct "HTTP/1.1 502 Bad Gateway"
+2026-05-01 20:27:24,664 WARNING   Skipping [learner_article_000] s2 idx=19: /correct failed
+2026-05-01 20:27:24,704 INFO HTTP Request: GET http://localhost:8000/learner/29/progress "HTTP/1.1 200 OK"
+2026-05-01 20:27:24,713 INFO   → top_match=True  shift=False  s1_dominant=article  s2_dominant=article  (743.7s)
+2026-05-01 20:27:24,717 INFO 
+======================================================================
+2026-05-01 20:27:24,717 INFO H2 API SIMULATION — GLOBAL RESULTS
+2026-05-01 20:27:24,717 INFO   Functional validation only — NOT pedagogical proof
+2026-05-01 20:27:24,717 INFO ======================================================================
+2026-05-01 20:27:24,717 INFO   Total learners              : 2
+2026-05-01 20:27:24,717 INFO   top_priority_match_rate     : 100.0%
+2026-05-01 20:27:24,721 INFO   priority_shift_rate         : 50.0%
+2026-05-01 20:27:24,721 INFO   adaptive_loop_success_rate  : 100.0%
+2026-05-01 20:27:24,721 INFO   failed_correction_rate      : 2.5%
+2026-05-01 20:27:24,721 INFO   simulated_error_reduction   : 100.0%
+2026-05-01 20:27:24,721 INFO   avg API latency             : 12733 ms / call
+2026-05-01 20:27:24,721 INFO 
+  Family           n  top_match    shift   decay%  loop_ok
+2026-05-01 20:27:24,721 INFO   --------------------------------------------------------
+2026-05-01 20:27:24,725 INFO   agreement        1    100.0%  100.0%    0.0%  100.0%
+2026-05-01 20:27:24,725 INFO   article          1    100.0%    0.0%    0.0%  100.0%
+2026-05-01 20:27:24,725 INFO ======================================================================
+2026-05-01 20:27:24,729 INFO   Report: benchmark_outputs/h2_api/h2_api_global_summary.json

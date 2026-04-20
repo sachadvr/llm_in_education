@@ -1,0 +1,360 @@
+learner_id,session_id,sentence_idx,input_sentence,corrected_sentence,predicted_error_type,feedback_present,dominant_error_before,dominant_error_after,api_latency_ms
+learner_agreement_000,1,0,She go to school every day.,She goes to school every day.,agreement,True,agreement,,15.8
+learner_agreement_000,1,1,He have a new car.,He has a new car.,agreement,True,agreement,,7.8
+learner_agreement_000,1,2,They was very happy yesterday.,They were very happy yesterday.,agreement,True,agreement,,8.0
+learner_agreement_000,1,3,The children plays outside.,The children play outside.,agreement,True,agreement,,6.0
+learner_agreement_000,1,4,My friend don't like coffee.,My friend doesn't like coffee.,agreement,True,agreement,,6.0
+learner_agreement_000,1,5,The teacher explain the lesson.,The teacher explained the lesson.,tense,True,agreement,,2814.9
+learner_agreement_000,1,6,She don't know the answer.,She doesn't know the answer.,agreement,True,agreement,,2750.7
+learner_agreement_000,1,7,He make mistakes often.,He makes mistakes often.,agreement,True,agreement,,17101.3
+learner_agreement_000,1,8,The dog run very fast.,The dog runs very fast.,agreement,True,agreement,,2832.9
+learner_agreement_000,1,9,My sister work at the hospital.,My sister works at the hospital.,agreement,True,agreement,,2655.8
+learner_agreement_000,2,0,I depend of my parents.,I depend on my parents.,preposition,True,agreement,preposition,24.0
+learner_agreement_000,2,1,She is interested by music.,She is interested in music.,preposition,True,agreement,preposition,14.9
+learner_agreement_000,2,2,He is good in math.,He is good at math.,preposition,True,agreement,preposition,13.2
+learner_agreement_000,2,3,I arrived to the airport.,I arrived at the airport.,preposition,True,agreement,preposition,12.5
+learner_agreement_000,2,4,She is married with a doctor.,She is married to a doctor.,preposition,True,agreement,preposition,11.0
+learner_agreement_000,2,5,He is afraid from spiders.,He is afraid of spiders.,preposition,True,agreement,preposition,2911.3
+learner_agreement_000,2,6,I listen the radio.,I listen to the radio.,preposition,True,agreement,preposition,8.0
+learner_agreement_000,2,7,She is waiting the bus.,She is waiting for the bus.,preposition,True,agreement,preposition,2947.2
+learner_agreement_000,2,8,He is proud from his son.,He is proud of his son.,preposition,True,agreement,preposition,2316.5
+learner_agreement_000,2,9,I am angry to her.,I am angry with her.,preposition,True,agreement,preposition,2873.0
+learner_preposition_000,1,0,I depend of my parents.,I depend on my parents.,preposition,True,preposition,,8.6
+learner_preposition_000,1,1,She is interested by music.,She is interested in music.,preposition,True,preposition,,5.7
+learner_preposition_000,1,2,He is good in math.,He is good at math.,preposition,True,preposition,,5.5
+learner_preposition_000,1,3,I arrived to the airport.,I arrived at the airport.,preposition,True,preposition,,5.9
+learner_preposition_000,1,4,She is married with a doctor.,She is married to a doctor.,preposition,True,preposition,,6.4
+learner_preposition_000,1,5,He is afraid from spiders.,He is afraid of spiders.,preposition,True,preposition,,5.9
+learner_preposition_000,1,6,I listen the radio.,I listen to the radio.,preposition,True,preposition,,5.3
+learner_preposition_000,1,7,She is waiting the bus.,She is waiting for the bus.,preposition,True,preposition,,5.1
+learner_preposition_000,1,8,He is proud from his son.,He is proud of his son.,preposition,True,preposition,,5.8
+learner_preposition_000,1,9,I am angry to her.,I am angry with her.,preposition,True,preposition,,5.1
+learner_preposition_000,2,0,I bought car yesterday.,I bought a car yesterday.,article,True,preposition,preposition,26.1
+learner_preposition_000,2,1,She is teacher.,She is a teacher.,article,True,preposition,preposition,12.6
+learner_preposition_000,2,2,I saw big dog in the park.,I saw a big dog in the park.,article,True,preposition,preposition,11.8
+learner_preposition_000,2,3,He wants to be doctor.,He wants to be a doctor.,article,True,preposition,preposition,11.1
+learner_preposition_000,2,4,She went to cinema.,She went to the cinema.,article,True,preposition,preposition,11.1
+learner_preposition_000,2,5,I need advice.,I need advice.,none,True,preposition,preposition,504.4
+learner_preposition_000,2,6,He is best student.,He is the best student.,article,True,preposition,preposition,2156.9
+learner_preposition_000,2,7,She gave me interesting book.,She gave me an interesting book.,article,True,preposition,preposition,2414.5
+learner_preposition_000,2,8,I have headache.,I have a headache.,article,True,preposition,preposition,2157.6
+learner_preposition_000,2,9,He plays piano.,He plays the piano.,article,True,preposition,preposition,2497.8
+learner_article_000,1,0,I bought car yesterday.,I bought a car yesterday.,article,True,article,,9.6
+learner_article_000,1,1,She is teacher.,She is a teacher.,article,True,article,,5.5
+learner_article_000,1,2,I saw big dog in the park.,I saw a big dog in the park.,article,True,article,,4.8
+learner_article_000,1,3,He wants to be doctor.,He wants to be a doctor.,article,True,article,,5.1
+learner_article_000,1,4,She went to cinema.,She went to the cinema.,article,True,article,,5.1
+learner_article_000,1,5,I need advice.,I need advice.,none,True,article,,2.7
+learner_article_000,1,6,He is best student.,He is the best student.,article,True,article,,5.0
+learner_article_000,1,7,She gave me interesting book.,She gave me an interesting book.,article,True,article,,4.6
+learner_article_000,1,8,I have headache.,I have a headache.,article,True,article,,4.2
+learner_article_000,1,9,He plays piano.,He plays the piano.,article,True,article,,4.9
+learner_article_000,2,0,She go to school every day.,She goes to school every day.,agreement,True,article,article,29.6
+learner_article_000,2,1,He have a new car.,He has a new car.,agreement,True,article,article,20.3
+learner_article_000,2,2,They was very happy yesterday.,They were very happy yesterday.,agreement,True,article,article,16.0
+learner_article_000,2,3,The children plays outside.,The children play outside.,agreement,True,article,article,16.5
+learner_article_000,2,4,My friend don't like coffee.,My friend doesn't like coffee.,agreement,True,article,article,14.0
+learner_article_000,2,5,The teacher explain the lesson.,The teacher explained the lesson.,tense,True,article,article,11.0
+learner_article_000,2,6,She don't know the answer.,She doesn't know the answer.,agreement,True,article,article,11.4
+learner_article_000,2,7,He make mistakes often.,He makes mistakes often.,agreement,True,article,article,13.1
+learner_article_000,2,8,The dog run very fast.,The dog runs very fast.,agreement,True,article,article,11.1
+learner_article_000,2,9,My sister work at the hospital.,My sister works at the hospital.,agreement,True,article,article,10.4
+learner_mixed_000,1,0,She go to school every day.,She goes to school every day.,agreement,True,agreement,,6.1
+learner_mixed_000,1,1,I depend of my parents.,I depend on my parents.,preposition,True,agreement,,4.8
+learner_mixed_000,1,2,I bought car yesterday.,I bought a car yesterday.,article,True,agreement,,4.3
+learner_mixed_000,1,3,They was very happy.,They were very happy.,agreement,True,agreement,,4.2
+learner_mixed_000,1,4,He is good in math.,He is good at math.,preposition,True,agreement,,4.6
+learner_mixed_000,1,5,She is teacher at university.,She is a teacher at a university.,article,True,agreement,,2743.2
+learner_mixed_000,1,6,The children plays outside.,The children play outside.,agreement,True,agreement,,6.7
+learner_mixed_000,1,7,I listen the radio.,I listen to the radio.,preposition,True,agreement,,6.8
+learner_mixed_000,1,8,He wants to be doctor.,He wants to be a doctor.,article,True,agreement,,5.7
+learner_mixed_000,1,9,My friend don't like coffee.,My friend doesn't like coffee.,agreement,True,agreement,,6.3
+learner_mixed_000,2,0,I listen the radio.,I listen to the radio.,preposition,True,agreement,agreement,19.7
+learner_mixed_000,2,1,He wants to be doctor.,He wants to be a doctor.,article,True,agreement,agreement,12.9
+learner_mixed_000,2,2,My friend don't like coffee.,My friend doesn't like coffee.,agreement,True,agreement,agreement,10.7
+learner_mixed_000,2,3,She is interested by music.,She is interested in music.,preposition,True,agreement,agreement,10.0
+learner_mixed_000,2,4,I saw big dog.,I saw a big dog.,article,True,agreement,agreement,13.4
+learner_mixed_000,2,5,He make mistakes often.,He makes mistakes often.,agreement,True,agreement,agreement,6.6
+learner_mixed_000,2,6,I arrived to the airport.,I arrived at the airport.,preposition,True,agreement,agreement,6.9
+learner_mixed_000,2,7,She have a big family.,She has a big family.,agreement,True,agreement,agreement,2849.5
+learner_mixed_000,2,8,She go to school every day.,She goes to school every day.,agreement,True,agreement,agreement,6.7
+learner_mixed_000,2,9,I depend of my parents.,I depend on my parents.,preposition,True,agreement,agreement,7.6
+learner_progressive_000,1,0,She go to school every day.,She goes to school every day.,agreement,True,agreement,,8.4
+learner_progressive_000,1,1,He have a new car.,He has a new car.,agreement,True,agreement,,5.4
+learner_progressive_000,1,2,They was very happy yesterday.,They were very happy yesterday.,agreement,True,agreement,,4.0
+learner_progressive_000,1,3,The children plays outside.,The children play outside.,agreement,True,agreement,,6.0
+learner_progressive_000,1,4,My friend don't like coffee.,My friend doesn't like coffee.,agreement,True,agreement,,5.8
+learner_progressive_000,1,5,The teacher explain the lesson.,The teacher explained the lesson.,tense,True,agreement,,5.8
+learner_progressive_000,1,6,She don't know the answer.,She doesn't know the answer.,agreement,True,agreement,,5.2
+learner_progressive_000,1,7,He make mistakes often.,He makes mistakes often.,agreement,True,agreement,,5.3
+learner_progressive_000,1,8,The dog run very fast.,The dog runs very fast.,agreement,True,agreement,,4.2
+learner_progressive_000,1,9,My sister work at the hospital.,My sister works at the hospital.,agreement,True,agreement,,5.8
+learner_progressive_000,2,0,She goes to school every day.,She goes to school every day.,none,True,agreement,agreement,4.6
+learner_progressive_000,2,1,I depend of my parents.,I depend on my parents.,preposition,True,agreement,agreement,20.3
+learner_progressive_000,2,2,He has a new car.,He has a new car.,none,True,agreement,agreement,5.0
+learner_progressive_000,2,3,She is interested by music.,She is interested in music.,preposition,True,agreement,agreement,12.7
+learner_progressive_000,2,4,They were very happy yesterday.,They were very happy yesterday.,none,True,agreement,agreement,5.7
+learner_progressive_000,2,5,He is good in math.,He is good at math.,preposition,True,agreement,agreement,11.0
+learner_progressive_000,2,6,The children play outside.,The children play outside.,none,True,agreement,agreement,5554.0
+learner_progressive_000,2,7,I arrived to the airport.,I arrived at the airport.,preposition,True,agreement,agreement,21.9
+learner_progressive_000,2,8,My friend doesn't like coffee.,My friend doesn't like coffee.,none,True,agreement,agreement,2189.3
+learner_progressive_000,2,9,She is married with a doctor.,She is married to a doctor.,preposition,True,agreement,agreement,14.7
+learner_agreement_001,1,0,The boys was tired after school.,The boys were tired after school.,agreement,True,agreement,,17735.1
+learner_agreement_001,1,1,She have a big family.,She has a big family.,agreement,True,agreement,,7.3
+learner_agreement_001,1,2,He don't understand the rules.,He doesn't understand the rules.,agreement,True,agreement,,2156.2
+learner_agreement_001,1,3,She always arrive late.,She always arrives late.,agreement,True,agreement,,2012.9
+learner_agreement_001,1,4,The team are winning the game.,The team are winning the game.,none,True,agreement,,407.0
+learner_agreement_001,1,5,She go to school every day.,She goes to school every day.,agreement,True,agreement,,7.9
+learner_agreement_001,1,6,He have a new car.,He has a new car.,agreement,True,agreement,,9.4
+learner_agreement_001,1,7,They was very happy yesterday.,They were very happy yesterday.,agreement,True,agreement,,8.0
+learner_agreement_001,1,8,The children plays outside.,The children play outside.,agreement,True,agreement,,8.3
+learner_agreement_001,1,9,My friend don't like coffee.,My friend doesn't like coffee.,agreement,True,agreement,,7.9
+learner_agreement_001,2,0,She arrived at Monday.,She arrived on Monday.,preposition,True,agreement,agreement,2275.4
+learner_agreement_001,2,1,He is responsible of the team.,He is responsible for the team.,preposition,True,agreement,agreement,2553.9
+learner_agreement_001,2,2,I am bored of this movie.,I am bored of this movie.,none,True,agreement,agreement,578.4
+learner_agreement_001,2,3,She is looking the window.,She is looking out the window.,preposition,True,agreement,agreement,2883.9
+learner_agreement_001,2,4,He talked about his problem to me.,He talked about his problem to me.,none,True,agreement,agreement,3640.5
+learner_agreement_001,2,5,I depend of my parents.,I depend on my parents.,preposition,True,agreement,agreement,11.9
+learner_agreement_001,2,6,She is interested by music.,She is interested in music.,preposition,True,agreement,agreement,9.2
+learner_agreement_001,2,7,He is good in math.,He is good at math.,preposition,True,agreement,agreement,8.4
+learner_agreement_001,2,8,I arrived to the airport.,I arrived at the airport.,preposition,True,agreement,agreement,11.1
+learner_agreement_001,2,9,She is married with a doctor.,She is married to a doctor.,preposition,True,agreement,agreement,10.0
+learner_preposition_001,1,0,She arrived at Monday.,She arrived on Monday.,preposition,True,preposition,,6.6
+learner_preposition_001,1,1,He is responsible of the team.,He is responsible for the team.,preposition,True,preposition,,7.1
+learner_preposition_001,1,2,I am bored of this movie.,I am bored of this movie.,none,True,preposition,,4.3
+learner_preposition_001,1,3,She is looking the window.,She is looking out the window.,preposition,True,preposition,,6.0
+learner_preposition_001,1,4,He talked about his problem to me.,He talked about his problem to me.,none,True,preposition,,3.3
+learner_preposition_001,1,5,I depend of my parents.,I depend on my parents.,preposition,True,preposition,,5.7
+learner_preposition_001,1,6,She is interested by music.,She is interested in music.,preposition,True,preposition,,5.4
+learner_preposition_001,1,7,He is good in math.,He is good at math.,preposition,True,preposition,,5.2
+learner_preposition_001,1,8,I arrived to the airport.,I arrived at the airport.,preposition,True,preposition,,5.1
+learner_preposition_001,1,9,She is married with a doctor.,She is married to a doctor.,preposition,True,preposition,,5.7
+learner_preposition_001,2,0,She is eating apple.,She is eating an apple.,article,True,preposition,article,10500.3
+learner_preposition_001,2,1,I need to call police.,I need to call the police.,article,True,preposition,article,55647.9
+learner_preposition_001,2,2,He opened door.,He opened the door.,article,True,preposition,article,3089.0
+learner_preposition_001,2,3,She is studying at university.,She is studying at university.,none,True,preposition,article,519.1
+learner_preposition_001,2,4,I met nice person today.,I met a nice person today.,article,True,preposition,article,2635.1
+learner_preposition_001,2,5,I bought car yesterday.,I bought a car yesterday.,article,True,preposition,article,9.0
+learner_preposition_001,2,6,She is teacher.,She is a teacher.,article,True,preposition,article,9.7
+learner_preposition_001,2,7,I saw big dog in the park.,I saw a big dog in the park.,article,True,preposition,article,10.8
+learner_preposition_001,2,8,He wants to be doctor.,He wants to be a doctor.,article,True,preposition,article,9.0
+learner_preposition_001,2,9,She went to cinema.,She went to the cinema.,article,True,preposition,article,8.4
+learner_agreement_000,1,0,She go to school every day.,She goes to school every day.,agreement,True,agreement,,25555.8
+learner_agreement_000,1,1,He have a new car.,He has a new car.,agreement,True,agreement,,13233.0
+learner_agreement_000,1,2,They was very happy yesterday.,They were very happy yesterday.,agreement,True,agreement,,12547.5
+learner_agreement_000,1,3,The children plays outside.,The children play outside.,agreement,True,agreement,,31759.9
+learner_agreement_000,1,4,My friend don't like coffee.,My friend doesn't like coffee.,agreement,True,agreement,,7079.5
+learner_agreement_000,1,5,The teacher explain the lesson.,The teacher explains the lesson.,agreement,True,agreement,,3954.2
+learner_agreement_000,1,6,She don't know the answer.,She doesn't know the answer.,agreement,True,agreement,,20672.6
+learner_agreement_000,1,7,He make mistakes often.,He makes mistakes often.,agreement,True,agreement,,18927.4
+learner_agreement_000,1,8,The dog run very fast.,The dog runs very fast.,agreement,True,agreement,,15123.3
+learner_agreement_000,1,9,My sister work at the hospital.,My sister works at the hospital.,agreement,True,agreement,,6643.8
+learner_agreement_000,2,0,I depend of my parents.,I depend on my parents.,preposition,True,agreement,none,7445.1
+learner_agreement_000,2,1,She is interested by music.,She is interested in music.,preposition,True,agreement,none,3406.8
+learner_agreement_000,2,2,He is good in math.,He is good at math.,preposition,True,agreement,none,4930.9
+learner_agreement_000,2,3,I arrived to the airport.,I arrived at the airport.,preposition,True,agreement,none,4208.8
+learner_agreement_000,2,4,She is married with a doctor.,She is married to a doctor.,preposition,True,agreement,none,3516.3
+learner_agreement_000,2,5,He is afraid from spiders.,He is afraid of spiders.,preposition,True,agreement,none,3816.1
+learner_agreement_000,2,6,I listen the radio.,I listen to the radio.,preposition,True,agreement,none,2508.6
+learner_agreement_000,2,7,She is waiting the bus.,She is waiting for the bus.,preposition,True,agreement,none,2720.1
+learner_agreement_000,2,8,He is proud from his son.,He is proud of his son.,preposition,True,agreement,none,8144.2
+learner_agreement_000,1,0,She go to school every day.,She goes to school every day.,agreement,True,agreement,,117085.2
+learner_agreement_000,1,1,He have a new car.,He has a new car.,agreement,True,agreement,,4497.3
+learner_agreement_000,1,2,They was very happy yesterday.,They were very happy yesterday.,agreement,True,agreement,,4087.4
+learner_agreement_000,1,3,The children plays outside.,The children play outside.,agreement,True,agreement,,3861.0
+learner_agreement_000,1,4,My friend don't like coffee.,My friend doesn't like coffee.,agreement,True,agreement,,149561.1
+learner_agreement_000,1,5,The teacher explain the lesson.,The teacher explained the lesson.,tense,True,agreement,,115549.3
+learner_agreement_000,1,6,She don't know the answer.,She doesn't know the answer.,agreement,True,agreement,,12661.8
+learner_agreement_000,1,7,He make mistakes often.,He makes mistakes often.,agreement,True,agreement,,4519.1
+learner_agreement_000,1,8,The dog run very fast.,The dog runs very fast.,agreement,True,agreement,,4250.7
+learner_agreement_000,1,9,My sister work at the hospital.,My sister works at the hospital.,agreement,True,agreement,,5436.9
+learner_agreement_000,2,0,I depend of my parents.,I depend on my parents.,preposition,True,agreement,preposition,25871.7
+learner_agreement_000,2,1,She is interested by music.,She is interested in music.,preposition,True,agreement,preposition,13770.7
+learner_agreement_000,2,2,He is good in math.,He is good at math.,preposition,True,agreement,preposition,3662.4
+learner_agreement_000,2,3,I arrived to the airport.,I arrived at the airport.,preposition,True,agreement,preposition,7274.9
+learner_agreement_000,2,4,She is married with a doctor.,She is married to a doctor.,preposition,True,agreement,preposition,49632.0
+learner_agreement_000,2,5,He is afraid from spiders.,He is afraid of spiders.,preposition,True,agreement,preposition,11426.1
+learner_agreement_000,2,6,I listen the radio.,I listen to the radio.,preposition,True,agreement,preposition,3584.2
+learner_agreement_000,2,7,She is waiting the bus.,She is waiting for the bus.,preposition,True,agreement,preposition,3635.5
+learner_agreement_000,2,8,He is proud from his son.,He is proud of his son.,preposition,True,agreement,preposition,3379.5
+learner_agreement_000,2,9,I am angry to her.,I am angry with her.,preposition,True,agreement,preposition,4597.4
+learner_preposition_000,1,0,I depend of my parents.,I depend on my parents.,preposition,True,preposition,,8.1
+learner_preposition_000,1,1,She is interested by music.,She is interested in music.,preposition,True,preposition,,6.5
+learner_preposition_000,1,2,He is good in math.,He is good at math.,preposition,True,preposition,,5.9
+learner_preposition_000,1,3,I arrived to the airport.,I arrived at the airport.,preposition,True,preposition,,8.8
+learner_preposition_000,1,4,She is married with a doctor.,She is married to a doctor.,preposition,True,preposition,,5.9
+learner_preposition_000,1,5,He is afraid from spiders.,He is afraid of spiders.,preposition,True,preposition,,5.1
+learner_preposition_000,1,6,I listen the radio.,I listen to the radio.,preposition,True,preposition,,11.2
+learner_preposition_000,1,7,She is waiting the bus.,She is waiting for the bus.,preposition,True,preposition,,6.6
+learner_preposition_000,1,8,He is proud from his son.,He is proud of his son.,preposition,True,preposition,,7.4
+learner_preposition_000,1,9,I am angry to her.,I am angry with her.,preposition,True,preposition,,6.7
+learner_preposition_000,2,0,I bought car yesterday.,I bought a car yesterday.,article,True,preposition,preposition,29522.5
+learner_preposition_000,2,1,She is teacher.,She is a teacher.,article,True,preposition,preposition,57368.4
+learner_preposition_000,2,2,I saw big dog in the park.,I saw a big dog in the park.,article,True,preposition,preposition,25582.7
+learner_preposition_000,2,3,He wants to be doctor.,He wants to be a doctor.,article,True,preposition,preposition,45801.2
+learner_preposition_000,2,4,She went to cinema.,She went to the cinema.,article,True,preposition,preposition,41536.2
+learner_preposition_000,2,5,I need advice.,I need advice.,none,True,preposition,preposition,19491.1
+learner_preposition_000,2,6,He is best student.,He is the best student.,article,True,preposition,preposition,3418.8
+learner_preposition_000,2,7,She gave me interesting book.,She gave me an interesting book.,article,True,preposition,preposition,3395.1
+learner_preposition_000,2,8,I have headache.,I have a headache.,article,True,preposition,preposition,3162.4
+learner_preposition_000,2,9,He plays piano.,He plays the piano.,article,True,preposition,preposition,5357.7
+learner_article_000,1,0,I bought car yesterday.,I bought a car yesterday.,article,True,article,,14.2
+learner_article_000,1,1,She is teacher.,She is a teacher.,article,True,article,,8.0
+learner_article_000,1,2,I saw big dog in the park.,I saw a big dog in the park.,article,True,article,,7.4
+learner_article_000,1,3,He wants to be doctor.,He wants to be a doctor.,article,True,article,,6.8
+learner_article_000,1,4,She went to cinema.,She went to the cinema.,article,True,article,,8.1
+learner_article_000,1,5,I need advice.,I need advice.,none,True,article,,5.1
+learner_article_000,1,6,He is best student.,He is the best student.,article,True,article,,7.1
+learner_article_000,1,7,She gave me interesting book.,She gave me an interesting book.,article,True,article,,5.9
+learner_article_000,1,8,I have headache.,I have a headache.,article,True,article,,7.3
+learner_article_000,1,9,He plays piano.,He plays the piano.,article,True,article,,5.5
+learner_article_000,2,0,She go to school every day.,She goes to school every day.,agreement,True,article,agreement,53.6
+learner_article_000,2,1,He have a new car.,He has a new car.,agreement,True,article,agreement,30.0
+learner_article_000,2,2,They was very happy yesterday.,They were very happy yesterday.,agreement,True,article,agreement,11.8
+learner_article_000,2,3,The children plays outside.,The children play outside.,agreement,True,article,agreement,8.0
+learner_article_000,2,4,My friend don't like coffee.,My friend doesn't like coffee.,agreement,True,article,agreement,6.6
+learner_article_000,2,5,The teacher explain the lesson.,The teacher explained the lesson.,tense,True,article,agreement,8.7
+learner_article_000,2,6,She don't know the answer.,She doesn't know the answer.,agreement,True,article,agreement,6.9
+learner_article_000,2,7,He make mistakes often.,He makes mistakes often.,agreement,True,article,agreement,5.9
+learner_article_000,2,8,The dog run very fast.,The dog runs very fast.,agreement,True,article,agreement,7.7
+learner_article_000,2,9,My sister work at the hospital.,My sister works at the hospital.,agreement,True,article,agreement,6.9
+learner_mixed_000,1,0,She go to school every day.,She goes to school every day.,agreement,True,agreement,,7.3
+learner_mixed_000,1,1,I depend of my parents.,I depend on my parents.,preposition,True,agreement,,6.1
+learner_mixed_000,1,2,I bought car yesterday.,I bought a car yesterday.,article,True,agreement,,5.9
+learner_mixed_000,1,3,They was very happy.,They were very happy.,agreement,True,agreement,,7553.6
+learner_mixed_000,1,4,He is good in math.,He is good at math.,preposition,True,agreement,,7.6
+learner_mixed_000,1,5,She is teacher at university.,She is a teacher at a university.,article,True,agreement,,4093.3
+learner_mixed_000,1,6,The children plays outside.,The children play outside.,agreement,True,agreement,,6.9
+learner_mixed_000,1,7,I listen the radio.,I listen to the radio.,preposition,True,agreement,,6.0
+learner_mixed_000,1,8,He wants to be doctor.,He wants to be a doctor.,article,True,agreement,,6.8
+learner_mixed_000,1,9,My friend don't like coffee.,My friend doesn't like coffee.,agreement,True,agreement,,17.6
+learner_mixed_000,2,0,I listen the radio.,I listen to the radio.,preposition,True,agreement,agreement,29.4
+learner_mixed_000,2,1,He wants to be doctor.,He wants to be a doctor.,article,True,agreement,agreement,11.3
+learner_mixed_000,2,2,My friend don't like coffee.,My friend doesn't like coffee.,agreement,True,agreement,agreement,6.8
+learner_mixed_000,2,3,She is interested by music.,She is interested in music.,preposition,True,agreement,agreement,6.7
+learner_mixed_000,2,4,I saw big dog.,I saw a big dog.,article,True,agreement,agreement,7920.6
+learner_mixed_000,2,5,He make mistakes often.,He makes mistakes often.,agreement,True,agreement,agreement,5.9
+learner_mixed_000,2,6,I arrived to the airport.,I arrived at the airport.,preposition,True,agreement,agreement,5.7
+learner_mixed_000,2,7,She have a big family.,She has a big family.,agreement,True,agreement,agreement,3423.3
+learner_mixed_000,2,8,She go to school every day.,She goes to school every day.,agreement,True,agreement,agreement,11.1
+learner_mixed_000,2,9,I depend of my parents.,I depend on my parents.,preposition,True,agreement,agreement,9.1
+learner_progressive_000,1,0,She go to school every day.,She goes to school every day.,agreement,True,agreement,,6.9
+learner_progressive_000,1,1,He have a new car.,He has a new car.,agreement,True,agreement,,6.5
+learner_progressive_000,1,2,They was very happy yesterday.,They were very happy yesterday.,agreement,True,agreement,,6.1
+learner_progressive_000,1,3,The children plays outside.,The children play outside.,agreement,True,agreement,,6.0
+learner_progressive_000,1,4,My friend don't like coffee.,My friend doesn't like coffee.,agreement,True,agreement,,6.0
+learner_progressive_000,1,5,The teacher explain the lesson.,The teacher explained the lesson.,tense,True,agreement,,8.5
+learner_progressive_000,1,6,She don't know the answer.,She doesn't know the answer.,agreement,True,agreement,,6.3
+learner_progressive_000,1,7,He make mistakes often.,He makes mistakes often.,agreement,True,agreement,,6.6
+learner_progressive_000,1,8,The dog run very fast.,The dog runs very fast.,agreement,True,agreement,,6.3
+learner_progressive_000,1,9,My sister work at the hospital.,My sister works at the hospital.,agreement,True,agreement,,5.5
+learner_progressive_000,2,0,She goes to school every day.,She goes to school every day.,none,True,agreement,agreement,1121.9
+learner_progressive_000,2,1,I depend of my parents.,I depend on my parents.,preposition,True,agreement,agreement,8.3
+learner_progressive_000,2,2,He has a new car.,He has a new car.,none,True,agreement,agreement,1163.5
+learner_progressive_000,2,3,She is interested by music.,She is interested in music.,preposition,True,agreement,agreement,12.2
+learner_progressive_000,2,4,They were very happy yesterday.,They were very happy yesterday.,none,True,agreement,agreement,1147.2
+learner_progressive_000,2,5,He is good in math.,He is good at math.,preposition,True,agreement,agreement,13.4
+learner_progressive_000,2,6,The children play outside.,The children play outside.,none,True,agreement,agreement,39603.2
+learner_progressive_000,2,7,I arrived to the airport.,I arrived at the airport.,preposition,True,agreement,agreement,13.9
+learner_progressive_000,2,8,My friend doesn't like coffee.,My friend doesn't like coffee.,none,True,agreement,agreement,1082.9
+learner_progressive_000,2,9,She is married with a doctor.,She is married to a doctor.,preposition,True,agreement,agreement,10.3
+learner_proficient_000,1,0,She goes to school every day.,She goes to school every day.,none,True,none,,3.1
+learner_proficient_000,1,1,He has a new car.,He has a new car.,none,True,none,,3.0
+learner_proficient_000,1,2,They were very happy yesterday.,They were very happy yesterday.,none,True,none,,2.8
+learner_proficient_000,1,3,The children play outside.,The children play outside.,none,True,none,,2.6
+learner_proficient_000,1,4,My friend doesn't like coffee.,My friend doesn't like coffee.,none,True,none,,3.0
+learner_proficient_000,1,5,The teacher explains the lesson.,The teacher explains the lesson.,none,True,none,,852.7
+learner_proficient_000,1,6,She doesn't know the answer.,She doesn't know the answer.,none,True,none,,1177.5
+learner_proficient_000,1,7,He makes mistakes sometimes.,He makes mistakes sometimes.,none,True,none,,1054.3
+learner_proficient_000,1,8,The dog runs very fast.,The dog runs very fast.,none,True,none,,3118.8
+learner_proficient_000,1,9,My sister works at the hospital.,My sister works at the hospital.,none,True,none,,853.8
+learner_proficient_000,2,0,She goes to school every day.,She goes to school every day.,none,True,none,none,16.6
+learner_proficient_000,2,1,He has a new car.,He has a new car.,none,True,none,none,10.5
+learner_proficient_000,2,2,They were very happy yesterday.,They were very happy yesterday.,none,True,none,none,7.7
+learner_proficient_000,2,3,The children play outside.,The children play outside.,none,True,none,none,6.6
+learner_proficient_000,2,4,My friend doesn't like coffee.,My friend doesn't like coffee.,none,True,none,none,5.8
+learner_proficient_000,2,5,The teacher explains the lesson.,The teacher explains the lesson.,none,True,none,none,3.6
+learner_proficient_000,2,6,She doesn't know the answer.,She doesn't know the answer.,none,True,none,none,3.2
+learner_proficient_000,2,7,He makes mistakes sometimes.,He makes mistakes sometimes.,none,True,none,none,3.8
+learner_proficient_000,2,8,The dog runs very fast.,The dog runs very fast.,none,True,none,none,4.9
+learner_proficient_000,2,9,My sister works at the hospital.,My sister works at the hospital.,none,True,none,none,4.9
+learner_agreement_001,1,0,The boys was tired after school.,The boys were tired after school.,agreement,True,agreement,,4329.4
+learner_agreement_001,1,1,She have a big family.,She has a big family.,agreement,True,agreement,,7.3
+learner_agreement_001,1,2,He don't understand the rules.,He doesn't understand the rules.,agreement,True,agreement,,9581.9
+learner_agreement_001,1,3,She always arrive late.,She always arrives late.,agreement,True,agreement,,9565.5
+learner_agreement_001,1,4,The team are winning the game.,The team are winning the game.,none,True,agreement,,984.5
+learner_agreement_001,1,5,She go to school every day.,She goes to school every day.,agreement,True,agreement,,17.3
+learner_agreement_001,1,6,He have a new car.,He has a new car.,agreement,True,agreement,,12.3
+learner_agreement_001,1,7,They was very happy yesterday.,They were very happy yesterday.,agreement,True,agreement,,14.6
+learner_agreement_001,1,8,The children plays outside.,The children play outside.,agreement,True,agreement,,12.4
+learner_agreement_001,1,9,My friend don't like coffee.,My friend doesn't like coffee.,agreement,True,agreement,,14.0
+learner_agreement_001,2,0,She arrived at Monday.,She arrived on Monday.,preposition,True,agreement,agreement,3232.6
+learner_agreement_001,2,1,He is responsible of the team.,He is responsible for the team.,preposition,True,agreement,agreement,2912.6
+learner_agreement_001,2,2,I am bored of this movie.,I am bored of this movie.,none,True,agreement,agreement,699.7
+learner_agreement_001,2,3,She is looking the window.,She is looking out the window.,preposition,True,agreement,agreement,6375.2
+learner_agreement_001,2,4,He talked about his problem to me.,He talked about his problem to me.,none,True,agreement,agreement,648.5
+learner_agreement_001,2,5,I depend of my parents.,I depend on my parents.,preposition,True,agreement,agreement,18.3
+learner_agreement_001,2,6,She is interested by music.,She is interested in music.,preposition,True,agreement,agreement,13.9
+learner_agreement_001,2,7,He is good in math.,He is good at math.,preposition,True,agreement,agreement,14.0
+learner_agreement_001,2,8,I arrived to the airport.,I arrived at the airport.,preposition,True,agreement,agreement,14.1
+learner_agreement_001,2,9,She is married with a doctor.,She is married to a doctor.,preposition,True,agreement,agreement,12.9
+learner_preposition_001,1,0,She arrived at Monday.,She arrived on Monday.,preposition,True,preposition,,74.6
+learner_preposition_001,1,1,He is responsible of the team.,He is responsible for the team.,preposition,True,preposition,,89.6
+learner_preposition_001,1,2,I am bored of this movie.,I am bored of this movie.,none,True,preposition,,15.9
+learner_preposition_001,1,3,She is looking the window.,She is looking out the window.,preposition,True,preposition,,24.4
+learner_preposition_001,1,4,He talked about his problem to me.,He talked about his problem to me.,none,True,preposition,,6.8
+learner_preposition_001,1,5,I depend of my parents.,I depend on my parents.,preposition,True,preposition,,6.3
+learner_preposition_001,1,6,She is interested by music.,She is interested in music.,preposition,True,preposition,,6.1
+learner_preposition_001,1,7,He is good in math.,He is good at math.,preposition,True,preposition,,7.2
+learner_preposition_001,1,8,I arrived to the airport.,I arrived at the airport.,preposition,True,preposition,,5.5
+learner_preposition_001,1,9,She is married with a doctor.,She is married to a doctor.,preposition,True,preposition,,7.1
+learner_preposition_001,2,0,She is eating apple.,She is eating an apple.,article,True,preposition,article,3107.3
+learner_preposition_001,2,1,I need to call police.,I need to call the police.,article,True,preposition,article,64392.6
+learner_preposition_001,2,2,He opened door.,He opened the door.,article,True,preposition,article,61926.4
+learner_preposition_001,2,3,She is studying at university.,She is studying at university.,none,True,preposition,article,977.4
+learner_preposition_001,2,4,I met nice person today.,I met a nice person today.,article,True,preposition,article,39679.5
+learner_preposition_001,2,5,I bought car yesterday.,I bought a car yesterday.,article,True,preposition,article,18.4
+learner_preposition_001,2,6,She is teacher.,She is a teacher.,article,True,preposition,article,8.3
+learner_preposition_001,2,7,I saw big dog in the park.,I saw a big dog in the park.,article,True,preposition,article,8.9
+learner_preposition_001,2,8,He wants to be doctor.,He wants to be a doctor.,article,True,preposition,article,6.8
+learner_preposition_001,2,9,She went to cinema.,She went to the cinema.,article,True,preposition,article,8.0
+learner_article_001,1,0,She is eating apple.,She is eating an apple.,article,True,article,,8.3
+learner_article_001,1,1,I need to call police.,I need to call the police.,article,True,article,,6.7
+learner_article_001,1,2,He opened door.,He opened the door.,article,True,article,,6.4
+learner_article_001,1,3,She is studying at university.,She is studying at university.,none,True,article,,3.5
+learner_article_001,1,4,I met nice person today.,I met a nice person today.,article,True,article,,5.5
+learner_article_001,1,5,I bought car yesterday.,I bought a car yesterday.,article,True,article,,5.7
+learner_article_001,1,6,She is teacher.,She is a teacher.,article,True,article,,6.2
+learner_article_001,1,7,I saw big dog in the park.,I saw a big dog in the park.,article,True,article,,5.4
+learner_article_001,1,8,He wants to be doctor.,He wants to be a doctor.,article,True,article,,5.8
+learner_article_001,1,9,She went to cinema.,She went to the cinema.,article,True,article,,6.6
+learner_article_001,2,0,The boys was tired after school.,The boys were tired after school.,agreement,True,article,agreement,76.5
+learner_article_001,2,1,She have a big family.,She has a big family.,agreement,True,article,agreement,22.8
+learner_article_001,2,2,He don't understand the rules.,He doesn't understand the rules.,agreement,True,article,agreement,11.3
+learner_article_001,2,3,She always arrive late.,She always arrives late.,agreement,True,article,agreement,9.9
+learner_article_001,2,4,The team are winning the game.,The team are winning the game.,none,True,article,agreement,5.1
+learner_article_001,2,5,She go to school every day.,She goes to school every day.,agreement,True,article,agreement,10.2
+learner_article_001,2,6,He have a new car.,He has a new car.,agreement,True,article,agreement,10.0
+learner_article_001,2,7,They was very happy yesterday.,They were very happy yesterday.,agreement,True,article,agreement,10.0
+learner_article_001,2,8,The children plays outside.,The children play outside.,agreement,True,article,agreement,19.8
+learner_article_001,2,9,My friend don't like coffee.,My friend doesn't like coffee.,agreement,True,article,agreement,14.5
+learner_mixed_001,1,0,She is interested by music.,She is interested in music.,preposition,True,preposition,,6.3
+learner_mixed_001,1,1,I saw big dog.,I saw a big dog.,article,True,preposition,,5.9
+learner_mixed_001,1,2,He make mistakes often.,He makes mistakes often.,agreement,True,preposition,,5.5
+learner_mixed_001,1,3,I arrived to the airport.,I arrived at the airport.,preposition,True,preposition,,5.1
+learner_mixed_001,1,4,She have a big family.,She has a big family.,agreement,True,preposition,,5.0
+learner_mixed_001,1,5,She go to school every day.,She goes to school every day.,agreement,True,preposition,,6.4
+learner_mixed_001,1,6,I depend of my parents.,I depend on my parents.,preposition,True,preposition,,5.3
+learner_mixed_001,1,7,I bought car yesterday.,I bought a car yesterday.,article,True,preposition,,5.5
+learner_mixed_001,1,8,They was very happy.,They were very happy.,agreement,True,preposition,,5.2
+learner_mixed_001,1,9,He is good in math.,He is good at math.,preposition,True,preposition,,5.0
+learner_mixed_001,2,0,I bought car yesterday.,I bought a car yesterday.,article,True,preposition,preposition,229.1
+learner_mixed_001,2,1,They was very happy.,They were very happy.,agreement,True,preposition,preposition,93.5
+learner_mixed_001,2,2,He is good in math.,He is good at math.,preposition,True,preposition,preposition,46.3
+learner_mixed_001,2,3,She is teacher at university.,She is a teacher at a university.,article,True,preposition,preposition,32.7
+learner_mixed_001,2,4,The children plays outside.,The children play outside.,agreement,True,preposition,preposition,30.2
+learner_mixed_001,2,5,I listen the radio.,I listen to the radio.,preposition,True,preposition,preposition,24.9
+learner_mixed_001,2,6,He wants to be doctor.,He wants to be a doctor.,article,True,preposition,preposition,30.4
+learner_mixed_001,2,7,My friend don't like coffee.,My friend doesn't like coffee.,agreement,True,preposition,preposition,35.6
+learner_mixed_001,2,8,She is interested by music.,She is interested in music.,preposition,True,preposition,preposition,43.7
+learner_mixed_001,2,9,I saw big dog.,I saw a big dog.,article,True,preposition,preposition,24.9

@@ -1,0 +1,17 @@
+{
+  "completed_learners": [
+    "learner_agreement_000",
+    "learner_agreement_001",
+    "learner_article_000",
+    "learner_article_001",
+    "learner_mixed_000",
+    "learner_mixed_001",
+    "learner_preposition_000",
+    "learner_preposition_001",
+    "learner_proficient_000",
+    "learner_progressive_000"
+  ],
+  "total": 10,
+  "completed": 10,
+  "last_updated": "2026-05-02T16:17:07.318089+00:00"
+}

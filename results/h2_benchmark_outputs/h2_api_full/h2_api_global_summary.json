@@ -1,0 +1,55 @@
+{
+  "global": {
+    "total_learners": 10,
+    "top_priority_match_rate": 1.0,
+    "priority_shift_rate": 0.5,
+    "adaptive_loop_success_rate": 1.0,
+    "failed_correction_rate": 0.0,
+    "simulated_error_reduction_rate": 0.83,
+    "average_api_latency_ms": 5337.75
+  },
+  "by_family": {
+    "agreement": {
+      "n": 2,
+      "top_priority_match_rate": 1.0,
+      "priority_shift_rate": 0.5,
+      "adaptive_loop_success_rate": 1.0,
+      "avg_weight_decay_pct": 0.0
+    },
+    "preposition": {
+      "n": 2,
+      "top_priority_match_rate": 1.0,
+      "priority_shift_rate": 0.5,
+      "adaptive_loop_success_rate": 1.0,
+      "avg_weight_decay_pct": 0.0
+    },
+    "article": {
+      "n": 2,
+      "top_priority_match_rate": 1.0,
+      "priority_shift_rate": 1.0,
+      "adaptive_loop_success_rate": 1.0,
+      "avg_weight_decay_pct": 0.0
+    },
+    "mixed": {
+      "n": 2,
+      "top_priority_match_rate": 1.0,
+      "priority_shift_rate": 0.0,
+      "adaptive_loop_success_rate": 1.0,
+      "avg_weight_decay_pct": -0.88
+    },
+    "progressive": {
+      "n": 1,
+      "top_priority_match_rate": 1.0,
+      "priority_shift_rate": 0.0,
+      "adaptive_loop_success_rate": 1.0,
+      "avg_weight_decay_pct": 0.0
+    },
+    "proficient": {
+      "n": 1,
+      "top_priority_match_rate": 1.0,
+      "priority_shift_rate": 1.0,
+      "adaptive_loop_success_rate": 1.0,
+      "avg_weight_decay_pct": null
+    }
+  }
+}

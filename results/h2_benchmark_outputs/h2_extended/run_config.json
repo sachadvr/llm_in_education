@@ -1,0 +1,28 @@
+{
+  "learners": 50,
+  "phrases_per_learner": 5,
+  "sessions": 5,
+  "intervals_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+  ],
+  "decay_curve": [
+    0.8,
+    0.65,
+    0.5,
+    0.35,
+    0.2
+  ],
+  "control_p": 0.8,
+  "secondary_rate": 0.5,
+  "treatment_fraction": 0.5,
+  "model": "bjoernb/gemma4-31b-think:latest",
+  "ollama_host": "http://localhost:11434",
+  "timeout_s": 60.0,
+  "seed": 42,
+  "started_at": "2026-05-02T16:19:43.274606+00:00",
+  "note": "Functional validation \u2014 synthetic learners, NOT pedagogical proof"
+}

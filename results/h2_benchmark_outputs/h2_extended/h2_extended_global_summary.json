@@ -1,0 +1,142 @@
+{
+  "global": {
+    "total_learners": 50,
+    "treated": {
+      "n": 25,
+      "top_priority_match_rate": 1.0,
+      "exercise_match_rate": 0.96,
+      "weight_reduction_avg": -0.802,
+      "count_reduction_avg": -1.948,
+      "extinct_top3_rate": 0.0,
+      "extinct_top1_rate": 0.44,
+      "avg_extinct_top3_session": null
+    },
+    "control": {
+      "n": 25,
+      "top_priority_match_rate": 1.0,
+      "exercise_match_rate": 0.0,
+      "weight_reduction_avg": -3.495,
+      "count_reduction_avg": -3.495,
+      "extinct_top3_rate": 0.0,
+      "extinct_top1_rate": 0.0,
+      "avg_extinct_top3_session": null
+    }
+  },
+  "by_family": {
+    "agreement": {
+      "n": 10,
+      "treated": {
+        "n": 5,
+        "top_priority_match_rate": 1.0,
+        "exercise_match_rate": 1.0,
+        "weight_reduction_avg": -0.631,
+        "count_reduction_avg": -1.94,
+        "extinct_top3_rate": 0.0,
+        "extinct_top1_rate": 0.4,
+        "avg_extinct_top3_session": null
+      },
+      "control": {
+        "n": 5,
+        "top_priority_match_rate": 1.0,
+        "exercise_match_rate": 0.0,
+        "weight_reduction_avg": -2.95,
+        "count_reduction_avg": -2.95,
+        "extinct_top3_rate": 0.0,
+        "extinct_top1_rate": 0.0,
+        "avg_extinct_top3_session": null
+      }
+    },
+    "preposition": {
+      "n": 10,
+      "treated": {
+        "n": 5,
+        "top_priority_match_rate": 1.0,
+        "exercise_match_rate": 0.8,
+        "weight_reduction_avg": -1.286,
+        "count_reduction_avg": -2.217,
+        "extinct_top3_rate": 0.0,
+        "extinct_top1_rate": 0.4,
+        "avg_extinct_top3_session": null
+      },
+      "control": {
+        "n": 5,
+        "top_priority_match_rate": 1.0,
+        "exercise_match_rate": 0.0,
+        "weight_reduction_avg": -3.84,
+        "count_reduction_avg": -3.84,
+        "extinct_top3_rate": 0.0,
+        "extinct_top1_rate": 0.0,
+        "avg_extinct_top3_session": null
+      }
+    },
+    "article": {
+      "n": 10,
+      "treated": {
+        "n": 5,
+        "top_priority_match_rate": 1.0,
+        "exercise_match_rate": 1.0,
+        "weight_reduction_avg": -0.824,
+        "count_reduction_avg": -2.107,
+        "extinct_top3_rate": 0.0,
+        "extinct_top1_rate": 0.4,
+        "avg_extinct_top3_session": null
+      },
+      "control": {
+        "n": 5,
+        "top_priority_match_rate": 1.0,
+        "exercise_match_rate": 0.0,
+        "weight_reduction_avg": -3.667,
+        "count_reduction_avg": -3.667,
+        "extinct_top3_rate": 0.0,
+        "extinct_top1_rate": 0.0,
+        "avg_extinct_top3_session": null
+      }
+    },
+    "mixed": {
+      "n": 10,
+      "treated": {
+        "n": 5,
+        "top_priority_match_rate": 1.0,
+        "exercise_match_rate": 1.0,
+        "weight_reduction_avg": -0.67,
+        "count_reduction_avg": -1.367,
+        "extinct_top3_rate": 0.0,
+        "extinct_top1_rate": 0.4,
+        "avg_extinct_top3_session": null
+      },
+      "control": {
+        "n": 5,
+        "top_priority_match_rate": 1.0,
+        "exercise_match_rate": 0.0,
+        "weight_reduction_avg": -2.69,
+        "count_reduction_avg": -2.69,
+        "extinct_top3_rate": 0.0,
+        "extinct_top1_rate": 0.0,
+        "avg_extinct_top3_session": null
+      }
+    },
+    "progressive": {
+      "n": 10,
+      "treated": {
+        "n": 5,
+        "top_priority_match_rate": 1.0,
+        "exercise_match_rate": 1.0,
+        "weight_reduction_avg": -0.599,
+        "count_reduction_avg": -2.11,
+        "extinct_top3_rate": 0.0,
+        "extinct_top1_rate": 0.6,
+        "avg_extinct_top3_session": null
+      },
+      "control": {
+        "n": 5,
+        "top_priority_match_rate": 1.0,
+        "exercise_match_rate": 0.0,
+        "weight_reduction_avg": -4.327,
+        "count_reduction_avg": -4.327,
+        "extinct_top3_rate": 0.0,
+        "extinct_top1_rate": 0.0,
+        "avg_extinct_top3_session": null
+      }
+    }
+  }
+}

@@ -1,0 +1,109 @@
+# ALAO — Production (****)
+# 
+services:
+  api:
+    image: sachadvr/memoire-mvp-api:latest
+    restart: unless-stopped
+    networks:
+      - default
+      - traefik
+    environment:
+      OLLAMA_HOST: http://ollama:11434
+      OLLAMA_MODEL: ${OLLAMA_MODEL:-bjoernb/gemma4-31b-think:latest}
+      DATABASE_URL: postgresql+asyncpg://app:${DB_PASSWORD:-changeme}@db:5432/app
+      REDIS_URL: redis://redis:6379/0
+      USE_CACHE: "true"
+      CACHE_TTL_SECONDS: "3600"
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_started
+      ollama:
+        condition: service_started
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health', timeout=5)"]
+      interval: 10s
+      timeout: 10s
+      retries: 5
+      start_period: 60s
+    labels:
+      - traefik.enable=true
+      - traefik.docker.network=ergonis_default
+      - traefik.http.routers.mvp-api.rule=Host(`mvp-api.****`)
+      - traefik.http.routers.mvp-api.entrypoints=websecure
+      - traefik.http.routers.mvp-api.tls.certresolver=letsencrypt
+      - traefik.http.services.mvp-api.loadbalancer.server.port=8000
+
+  frontend:
+    image: sachadvr/memoire-mvp-frontend:latest
+    restart: unless-stopped
+    networks:
+      - default
+      - traefik
+    depends_on:
+      api:
+        condition: service_healthy
+    labels:
+      - traefik.enable=true
+      - traefik.docker.network=ergonis_default
+      - traefik.http.routers.mvp-frontend.rule=Host(`mvp.****`)
+      - traefik.http.routers.mvp-frontend.entrypoints=websecure
+      - traefik.http.routers.mvp-frontend.tls.certresolver=letsencrypt
+      - traefik.http.services.mvp-frontend.loadbalancer.server.port=80
+
+  db:
+    image: pgvector/pgvector:pg16
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: app
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-changeme}
+      POSTGRES_DB: app
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U app"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+      start_period: 20s
+
+  redis:
+    image: redis:7-alpine
+    restart: unless-stopped
+    volumes:
+      - redis_data:/data
+
+  ollama:
+    image: ollama/ollama:latest
+    restart: unless-stopped
+    volumes:
+      - ollama_data:/root/.ollama
+
+  logs:
+    image: amir20/dozzle:latest
+    restart: unless-stopped
+    networks:
+      - default
+      - traefik
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    environment:
+      DOZZLE_NO_ANALYTICS: "true"
+    labels:
+      - traefik.enable=true
+      - traefik.docker.network=ergonis_default
+      - traefik.http.routers.mvp-logs.rule=Host(`mvp-logs.****`)
+      - traefik.http.routers.mvp-logs.entrypoints=websecure
+      - traefik.http.routers.mvp-logs.tls.certresolver=letsencrypt
+      - traefik.http.services.mvp-logs.loadbalancer.server.port=8080
+
+networks:
+  traefik:
+    name: ergonis_default
+    external: true
+
+volumes:
+  pgdata:
+  redis_data:
+  ollama_data:

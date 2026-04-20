@@ -1,0 +1,14 @@
+learner_id,family,expected_dominant_error,detected_dominant_error_s1,detected_dominant_error_s2,top_priority_match,priority_shift_observed,dominant_weight_decay_pct,simulated_error_reduction,adaptive_loop_success_rate,failed_correction_count,total_sentences_s1,average_api_latency_ms
+learner_agreement_000,agreement,agreement,agreement,preposition,True,True,0.0,1.0,True,0,5,9620.2
+learner_preposition_000,preposition,preposition,preposition,article,True,True,0.0,1.0,True,0,5,1520.8
+learner_article_000,article,article,article,agreement,True,True,0.0,1.0,True,0,5,4001.0
+learner_mixed_000,mixed,mixed,agreement,preposition,True,True,-0.5,0.8,True,0,5,1580.5
+learner_progressive_000,progressive,agreement,agreement,agreement,True,False,0.0,1.0,True,0,5,184.4
+learner_agreement_000,agreement,agreement,agreement,preposition,True,True,0.0,1.0,True,0,5,11993.0
+learner_article_000,article,article,article,agreement,True,True,0.0,1.0,True,0,5,28862.7
+learner_mixed_000,mixed,mixed,agreement,article,True,True,-1.0,0.6,True,0,5,14441.1
+learner_progressive_000,progressive,agreement,agreement,agreement,True,False,0.0,1.0,True,0,5,21445.6
+learner_proficient_000,proficient,mixed,none,article,True,True,,0.2,True,0,5,7721.2
+learner_article_000,article,article,article,agreement,True,True,0.001,1.0,True,1,20,20333.2
+learner_agreement_000,agreement,agreement,agreement,preposition,True,True,0.0,1.0,True,0,20,9992.5
+learner_article_000,article,article,article,article,True,False,0.001,1.0,True,1,20,15473.9

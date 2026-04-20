@@ -1,0 +1,9 @@
+{
+  "learners": 10,
+  "phrases_per_learner": 10,
+  "api_url": "http://localhost:8000",
+  "timeout_s": 180.0,
+  "seed": 42,
+  "started_at": "2026-05-02T15:57:57.847038+00:00",
+  "note": "Functional validation only \u2014 NOT pedagogical proof"
+}

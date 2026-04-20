@@ -1,0 +1,14 @@
+learner_id,session_id,target_error_type,exercise_prompt,exercise_blank,grade_result,api_latency_ms
+learner_agreement_000,1,agreement,The children ____ in the park every afternoon. (Indice FR: jouent),play,False,1452.8
+learner_preposition_000,1,preposition,The keys are ____ the table. (Indice FR: sur),on,False,1371.1
+learner_article_000,1,article,____ apple is on the table. (Indice FR: le),The,False,826.7
+learner_mixed_000,1,agreement,The children ____ in the garden every afternoon. (Indice FR: jouent),play,False,1374.0
+learner_progressive_000,1,agreement,The team of experts ____ tomorrow. (Indice FR: arrive),arrives,False,1178.5
+learner_agreement_000,1,agreement,The children ____ in the park every day. (Indice FR: jouent),play,False,1040.9
+learner_article_000,1,article,FAILED,FAILED,False,
+learner_mixed_000,1,agreement,The children ____ in the garden every afternoon. (Indice FR: jouent),play,False,908.6
+learner_progressive_000,1,agreement,The team of experts ____ together on the project. (Indice FR: travaille),works,False,30029.3
+learner_proficient_000,1,none,The cat sleeps on the ____. (Indice FR: canape),sofa,False,15192.3
+learner_article_000,1,article,The cat is sleeping on ____ old sofa. (Indice FR: un),an,False,3064.4
+learner_agreement_000,1,agreement,The team of players ____ the game. (Indice FR: gagne),wins,False,1118.0
+learner_article_000,1,article,FAILED,FAILED,False,

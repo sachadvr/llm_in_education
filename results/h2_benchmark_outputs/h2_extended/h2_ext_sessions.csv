@@ -1,0 +1,1237 @@
+learner_id,treatment_group,session_id,session_day,sentence_idx,input_sentence,intended_error_type,corrected_sentence,predicted_error_type,feedback_present,ollama_latency_ms,postprocessing_latency_ms
+learner_agreement_000,treated,1,1,0,She go to school every day.,dominant,She goes to school every day.,agreement,True,2801.7,4.0
+learner_agreement_000,treated,1,1,1,He have a new car.,dominant,He has a new car.,agreement,True,26855.9,1.1
+learner_agreement_000,treated,1,1,2,They was very happy yesterday.,dominant,They were very happy yesterday.,agreement,True,55923.6,4.3
+learner_agreement_000,treated,1,1,3,The children plays outside.,dominant,The children play outside.,agreement,True,49258.4,0.9
+learner_agreement_000,treated,1,1,4,My friend don't like coffee.,dominant,My friend doesn't like coffee.,agreement,True,7175.0,0.5
+learner_agreement_000,treated,2,3,0,He is afraid from spiders.,secondary,He is afraid of spiders.,preposition,True,3627.1,0.7
+learner_agreement_000,treated,2,3,1,She doesn't know the answer.,none,She doesn't know the answer.,none,True,636.7,0.4
+learner_agreement_000,treated,2,3,2,He make mistakes often.,dominant,He makes mistakes often.,agreement,True,3673.8,3.4
+learner_agreement_000,treated,2,3,3,The team are winning the game.,dominant,The team are winning the game.,none,True,1345.0,0.2
+learner_agreement_000,treated,2,3,4,She always arrive late.,dominant,She always arrives late.,agreement,True,3664.8,0.6
+learner_agreement_000,treated,3,7,0,He don't understand the rules.,dominant,He doesn't understand the rules.,agreement,True,3759.2,0.5
+learner_agreement_000,treated,3,7,1,She arrived at Monday.,secondary,She arrived on Monday.,preposition,True,14976.2,0.7
+learner_agreement_000,treated,3,7,2,My sister work at the hospital.,dominant,My sister works at the hospital.,agreement,True,7020.3,0.4
+learner_agreement_000,treated,3,7,3,The boys was tired after school.,dominant,The boys were tired after school.,agreement,True,23275.8,1.1
+learner_agreement_000,treated,3,7,4,She apologized for me.,secondary,She apologized to me.,preposition,True,35690.8,0.8
+learner_agreement_000,treated,4,14,0,I depend of my parents.,secondary,I depend on my parents.,preposition,True,3600.1,0.3
+learner_agreement_000,treated,4,14,1,He have a new car.,dominant,He has a new car.,agreement,True,55906.6,0.7
+learner_agreement_000,treated,4,14,2,He is good in math.,secondary,He is good at math.,preposition,True,5336.6,0.2
+learner_agreement_000,treated,4,14,3,He plays the piano.,none,He plays the piano.,none,True,1267.6,0.2
+learner_agreement_000,treated,4,14,4,My friend don't like coffee.,dominant,My friend doesn't like coffee.,agreement,True,3477.4,1.0
+learner_agreement_000,treated,5,30,0,She goes to school every day.,none,She goes to school every day.,none,True,584.2,0.3
+learner_agreement_000,treated,5,30,1,He has a new car.,none,He has a new car.,none,True,591.0,0.3
+learner_agreement_000,treated,5,30,3,The team are winning the game.,dominant,The team are winning the game.,none,True,53510.7,0.8
+learner_agreement_000,treated,5,30,4,My friend doesn't like coffee.,none,My friend doesn't like coffee.,none,True,1151.1,0.2
+learner_preposition_000,control,1,1,0,I depend of my parents.,dominant,I depend on my parents.,preposition,True,12957.6,1.7
+learner_preposition_000,control,1,1,1,She is interested by music.,dominant,She is interested in music.,preposition,True,12679.4,0.5
+learner_preposition_000,control,1,1,2,They were very happy yesterday.,none,They were very happy yesterday.,none,True,664.7,0.2
+learner_preposition_000,control,1,1,3,He wants to be doctor.,secondary,He wants to be a doctor.,article,True,42015.9,0.8
+learner_preposition_000,control,1,1,4,She is married with a doctor.,dominant,She is married to a doctor.,preposition,True,18566.0,0.7
+learner_preposition_000,control,2,3,0,The teacher explains the lesson.,none,The teacher explains the lesson.,none,True,1005.3,0.2
+learner_preposition_000,control,2,3,1,I listen the radio.,dominant,I listen to the radio.,preposition,True,20106.7,0.5
+learner_preposition_000,control,2,3,3,He is proud from his son.,dominant,He is proud of his son.,preposition,True,7109.8,0.8
+learner_preposition_000,control,3,7,0,She is looking the window.,dominant,She is looking out the window.,preposition,True,8736.5,0.9
+learner_preposition_000,control,3,7,1,I need to call police.,secondary,I need to call the police.,article,True,6287.8,1.2
+learner_preposition_000,control,3,7,2,He is responsible of the team.,dominant,He is responsible for the team.,preposition,True,4192.6,0.6
+learner_preposition_000,control,3,7,3,She is studying at university.,secondary,She is studying at university.,none,True,1049.1,0.6
+learner_preposition_000,control,3,7,4,She apologized for me.,dominant,She apologized to me.,preposition,True,10522.9,1.2
+learner_preposition_000,control,4,14,0,I depend of my parents.,dominant,I depend on my parents.,preposition,True,24452.3,0.7
+learner_preposition_000,control,4,14,2,He is good in math.,dominant,He is good at math.,preposition,True,21088.0,0.9
+learner_preposition_000,control,4,14,3,He plays the piano.,none,He plays the piano.,none,True,759.9,0.2
+learner_preposition_000,control,4,14,4,She is married with a doctor.,dominant,She is married to a doctor.,preposition,True,39275.8,0.4
+learner_preposition_000,control,5,30,0,He is afraid from spiders.,dominant,He is afraid of spiders.,preposition,True,4819.8,0.5
+learner_preposition_000,control,5,30,1,I listen the radio.,dominant,I listen to the radio.,preposition,True,8681.4,0.5
+learner_preposition_000,control,5,30,2,She is waiting the bus.,dominant,She is waiting for the bus.,preposition,True,55158.2,0.7
+learner_preposition_000,control,5,30,3,He is proud from his son.,dominant,He is proud of his son.,preposition,True,59341.2,1.0
+learner_preposition_000,control,5,30,4,My friend doesn't like coffee.,none,My friend doesn't like coffee.,none,True,1557.7,1.8
+learner_article_000,treated,1,1,2,I saw big dog in the park.,dominant,I saw a big dog in the park.,article,True,38061.9,1.1
+learner_article_000,treated,1,1,3,He wants to be doctor.,dominant,He wants to be a doctor.,article,True,13093.8,0.7
+learner_article_000,treated,1,1,4,She went to cinema.,dominant,She went to the cinema.,article,True,15570.8,1.0
+learner_article_000,treated,2,3,0,The teacher explains the lesson.,none,The teacher explains the lesson.,none,True,1016.5,0.2
+learner_article_000,treated,2,3,1,He is best student.,dominant,He is the best student.,article,True,4543.2,0.3
+learner_article_000,treated,2,3,2,He makes mistakes often.,none,He makes mistakes often.,none,True,703.0,0.3
+learner_article_000,treated,2,3,3,The team are winning the game.,secondary,The team are winning the game.,none,True,692.5,0.2
+learner_article_000,treated,2,3,4,He plays piano.,dominant,He plays the piano.,article,True,8918.4,0.2
+learner_article_000,treated,3,7,0,She is eating apple.,dominant,She is eating an apple.,article,True,6287.6,0.4
+learner_article_000,treated,3,7,1,I need to call police.,dominant,I need to call the police.,article,True,6187.9,0.4
+learner_article_000,treated,3,7,2,My sister work at the hospital.,secondary,My sister works at the hospital.,agreement,True,20721.2,0.7
+learner_article_000,treated,3,7,3,The boys was tired after school.,secondary,The boys were tired after school.,agreement,True,4545.9,0.6
+learner_article_000,treated,3,7,4,I met nice person today.,dominant,I met a nice person today.,article,True,3143.3,0.4
+learner_article_000,treated,4,14,0,She go to school every day.,secondary,She goes to school every day.,agreement,True,35152.4,0.6
+learner_article_000,treated,4,14,1,She is teacher.,dominant,She is a teacher.,article,True,49270.2,0.6
+learner_article_000,treated,4,14,2,They was very happy yesterday.,secondary,They were very happy yesterday.,agreement,True,28842.8,2.1
+learner_article_000,treated,4,14,3,He wants to be doctor.,dominant,He wants to be a doctor.,article,True,8760.8,0.3
+learner_article_000,treated,4,14,4,He opened the door.,none,He opened the door.,none,True,625.2,0.2
+learner_article_000,treated,5,30,0,I need advice.,dominant,I need advice.,none,True,26982.9,0.5
+learner_article_000,treated,5,30,1,He has a new car.,none,He has a new car.,none,True,1210.4,0.2
+learner_article_000,treated,5,30,2,They were very happy yesterday.,none,They were very happy yesterday.,none,True,7208.1,0.4
+learner_article_000,treated,5,30,3,The children play outside.,none,The children play outside.,none,True,1535.1,0.2
+learner_article_000,treated,5,30,4,She always arrive late.,secondary,She always arrives late.,agreement,True,6278.9,0.3
+learner_mixed_000,control,1,1,0,She go to school every day.,dominant,She goes to school every day.,agreement,True,50763.6,0.5
+learner_mixed_000,control,1,1,1,He have a new car.,dominant,He has a new car.,agreement,True,4046.8,0.3
+learner_mixed_000,control,1,1,2,They was very happy yesterday.,dominant,They were very happy yesterday.,agreement,True,3627.4,0.8
+learner_mixed_000,control,1,1,3,The children plays outside.,dominant,The children play outside.,agreement,True,40207.3,0.6
+learner_mixed_000,control,1,1,4,My friend don't like coffee.,dominant,My friend doesn't like coffee.,agreement,True,4698.0,0.3
+learner_mixed_000,control,2,3,0,The teacher explain the lesson.,dominant,The teacher explains the lesson.,agreement,True,4832.7,0.5
+learner_mixed_000,control,2,3,1,She don't know the answer.,dominant,She doesn't know the answer.,agreement,True,3941.5,0.3
+learner_mixed_000,control,2,3,2,He make mistakes often.,dominant,He makes mistakes often.,agreement,True,15422.3,0.6
+learner_mixed_000,control,2,3,3,The team are winning the game.,dominant,The team are winning the game.,none,True,14090.0,0.8
+learner_mixed_000,control,2,3,4,She always arrive late.,dominant,She always arrives late.,agreement,True,3811.5,0.4
+learner_mixed_000,control,3,7,0,He is good at math.,none,He is good at math.,none,True,910.1,0.3
+learner_mixed_000,control,3,7,1,The dog run very fast.,dominant,The dog runs very fast.,agreement,True,15727.1,0.7
+learner_mixed_000,control,3,7,2,He is responsible of the team.,secondary,He is responsible for the team.,preposition,True,20459.0,1.3
+learner_mixed_000,control,3,7,3,The boys was tired after school.,dominant,The boys were tired after school.,agreement,True,3120.6,0.4
+learner_mixed_000,control,3,7,4,She apologized for me.,secondary,She apologized to me.,preposition,True,5384.2,0.2
+learner_mixed_000,control,4,14,0,She go to school every day.,dominant,She goes to school every day.,agreement,True,32443.9,1.0
+learner_mixed_000,control,4,14,1,He have a new car.,dominant,He has a new car.,agreement,True,7262.4,0.3
+learner_mixed_000,control,4,14,2,They was very happy yesterday.,dominant,They were very happy yesterday.,agreement,True,3427.9,0.6
+learner_mixed_000,control,4,14,3,The children plays outside.,dominant,The children play outside.,agreement,True,3556.5,0.6
+learner_mixed_000,control,4,14,4,She is married with a doctor.,secondary,She is married to a doctor.,preposition,True,3022.0,44.3
+learner_mixed_000,control,5,30,0,The teacher explain the lesson.,dominant,The teacher explained the lesson.,tense,True,32098.6,1.1
+learner_mixed_000,control,5,30,1,She don't know the answer.,dominant,She doesn't know the answer.,agreement,True,40028.6,0.5
+learner_mixed_000,control,5,30,2,He make mistakes often.,dominant,He makes mistakes often.,agreement,True,2991.1,0.4
+learner_mixed_000,control,5,30,3,The team are winning the game.,dominant,The team are winning the game.,none,True,674.5,0.3
+learner_mixed_000,control,5,30,4,She always arrive late.,dominant,She always arrives late.,agreement,True,47003.2,0.6
+learner_progressive_000,treated,1,1,0,She go to school every day.,dominant,She goes to school every day.,agreement,True,42245.0,0.8
+learner_progressive_000,treated,1,1,1,He have a new car.,dominant,He has a new car.,agreement,True,3185.9,0.2
+learner_progressive_000,treated,1,1,2,I saw big dog in the park.,secondary,I saw a big dog in the park.,article,True,29017.1,1.1
+learner_progressive_000,treated,1,1,3,The children play outside.,none,The children play outside.,none,True,922.4,0.2
+learner_progressive_000,treated,1,1,4,My friend don't like coffee.,dominant,My friend doesn't like coffee.,agreement,True,3792.1,0.3
+learner_progressive_000,treated,2,3,0,The teacher explain the lesson.,dominant,The teacher explains the lesson.,agreement,True,3527.5,1.5
+learner_progressive_000,treated,2,3,1,She don't know the answer.,dominant,She doesn't know the answer.,agreement,True,17311.7,0.7
+learner_progressive_000,treated,2,3,2,He make mistakes often.,dominant,He makes mistakes often.,agreement,True,55766.1,0.7
+learner_progressive_000,treated,2,3,3,The team are winning the game.,dominant,The team are winning the game.,none,True,48943.8,0.7
+learner_progressive_000,treated,2,3,4,He plays piano.,secondary,He plays the piano.,article,True,21261.0,0.8
+learner_progressive_000,treated,3,7,0,He don't understand the rules.,dominant,He doesn't understand the rules.,agreement,True,15074.0,0.6
+learner_progressive_000,treated,3,7,1,I need to call police.,secondary,I need to call the police.,article,True,26918.5,0.9
+learner_progressive_000,treated,3,7,2,I bought a car yesterday.,none,I bought a car yesterday.,none,True,1168.3,0.2
+learner_progressive_000,treated,3,7,3,The boys was tired after school.,dominant,The boys were tired after school.,agreement,True,3108.5,0.7
+learner_progressive_000,treated,3,7,4,He wants to be a doctor.,none,He wants to be a doctor.,none,True,644.8,0.4
+learner_progressive_000,treated,4,14,0,She go to school every day.,dominant,She goes to school every day.,agreement,True,35141.1,0.6
+learner_progressive_000,treated,4,14,1,He have a new car.,dominant,He has a new car.,agreement,True,3253.1,0.3
+learner_progressive_000,treated,4,14,2,They was very happy yesterday.,dominant,They were very happy yesterday.,agreement,True,4229.2,0.5
+learner_progressive_000,treated,4,14,3,He wants to be doctor.,secondary,He wants to be a doctor.,article,True,4556.6,0.3
+learner_progressive_000,treated,4,14,4,He opened the door.,none,He opened the door.,none,True,822.6,0.2
+learner_progressive_000,treated,5,30,0,She goes to school every day.,none,She goes to school every day.,none,True,3947.6,0.6
+learner_progressive_000,treated,5,30,1,He has a new car.,none,He has a new car.,none,True,641.2,0.3
+learner_progressive_000,treated,5,30,2,They were very happy yesterday.,none,They were very happy yesterday.,none,True,1124.4,0.4
+learner_progressive_000,treated,5,30,3,I have headache.,secondary,I have a headache.,article,True,4993.2,0.3
+learner_progressive_000,treated,5,30,4,He plays piano.,secondary,He plays the piano.,article,True,3377.8,0.5
+learner_agreement_001,control,1,1,0,She go to school every day.,dominant,She goes to school every day.,agreement,True,3540.7,0.3
+learner_agreement_001,control,1,1,1,He has a new car.,none,He has a new car.,none,True,39758.4,1.1
+learner_agreement_001,control,1,1,2,They was very happy yesterday.,dominant,They were very happy yesterday.,agreement,True,26634.8,0.9
+learner_agreement_001,control,1,1,3,The children plays outside.,dominant,The children play outside.,agreement,True,3474.1,0.3
+learner_agreement_001,control,1,1,4,My friend don't like coffee.,dominant,My friend doesn't like coffee.,agreement,True,4121.9,0.9
+learner_agreement_001,control,2,3,0,He is afraid from spiders.,secondary,He is afraid of spiders.,preposition,True,8453.9,1.1
+learner_agreement_001,control,2,3,1,She don't know the answer.,dominant,She doesn't know the answer.,agreement,True,17921.1,1.7
+learner_agreement_001,control,2,3,2,He make mistakes often.,dominant,He makes mistakes often.,agreement,True,9640.2,0.6
+learner_agreement_001,control,2,3,3,The team are winning the game.,dominant,The team are winning the game.,none,True,522.9,0.2
+learner_agreement_001,control,2,3,4,I am angry to her.,secondary,I am angry with her.,preposition,True,18470.1,0.9
+learner_agreement_001,control,3,7,0,He is good at math.,none,He is good at math.,none,True,1193.9,0.4
+learner_agreement_001,control,3,7,1,The dog run very fast.,dominant,The dog runs very fast.,agreement,True,10790.3,0.5
+learner_agreement_001,control,3,7,2,My sister work at the hospital.,dominant,My sister works at the hospital.,agreement,True,16502.9,0.3
+learner_agreement_001,control,3,7,3,The boys was tired after school.,dominant,The boys were tired after school.,agreement,True,3527.3,1.0
+learner_agreement_001,control,3,7,4,She have a big family.,dominant,She has a big family.,agreement,True,3513.1,0.3
+learner_agreement_001,control,4,14,0,She went to the cinema.,none,She went to the cinema.,none,True,571.6,0.2
+learner_agreement_001,control,4,14,1,He have a new car.,dominant,He has a new car.,agreement,True,7435.0,0.6
+learner_agreement_001,control,4,14,2,They was very happy yesterday.,dominant,They were very happy yesterday.,agreement,True,3911.0,0.8
+learner_agreement_001,control,4,14,3,He plays the piano.,none,He plays the piano.,none,True,767.2,0.2
+learner_agreement_001,control,4,14,4,My friend don't like coffee.,dominant,My friend doesn't like coffee.,agreement,True,3608.2,0.5
+learner_agreement_001,control,5,30,0,The teacher explain the lesson.,dominant,The teacher explained the lesson.,tense,True,33409.3,1.1
+learner_agreement_001,control,5,30,1,She don't know the answer.,dominant,She doesn't know the answer.,agreement,True,7015.0,0.5
+learner_agreement_001,control,5,30,2,He make mistakes often.,dominant,He makes mistakes often.,agreement,True,5034.5,0.8
+learner_agreement_001,control,5,30,3,The team are winning the game.,dominant,The team are winning the game.,none,True,5853.8,0.4
+learner_agreement_001,control,5,30,4,She always arrive late.,dominant,She always arrives late.,agreement,True,13346.9,2.8
+learner_preposition_001,treated,1,1,0,I depend of my parents.,dominant,I depend on my parents.,preposition,True,4098.5,0.5
+learner_preposition_001,treated,1,1,1,She is interested by music.,dominant,She is interested in music.,preposition,True,3715.8,0.3
+learner_preposition_001,treated,1,1,2,He is good in math.,dominant,He is good in math.,none,True,1719.8,0.3
+learner_preposition_001,treated,1,1,3,I arrived to the airport.,dominant,I arrived at the airport.,preposition,True,7344.4,0.4
+learner_preposition_001,treated,2,3,0,The teacher explains the lesson.,none,The teacher explains the lesson.,none,True,35411.6,0.7
+learner_preposition_001,treated,2,3,1,He is best student.,secondary,He is the best student.,article,True,8570.5,0.3
+learner_preposition_001,treated,2,3,2,She gave me interesting book.,secondary,She gave me an interesting book.,article,True,3830.9,0.3
+learner_preposition_001,treated,2,3,3,He is proud from his son.,dominant,He is proud of his son.,preposition,True,19064.6,0.9
+learner_preposition_001,treated,2,3,4,I am angry to her.,dominant,I am angry with her.,preposition,True,16299.4,2.0
+learner_preposition_001,treated,3,7,0,She is looking the window.,dominant,She is looking out the window.,preposition,True,13410.4,1.0
+learner_preposition_001,treated,3,7,1,I need to call police.,secondary,I need to call the police.,article,True,45121.6,1.5
+learner_preposition_001,treated,3,7,2,He opened door.,secondary,He opened the door.,article,True,7509.0,1.0
+learner_preposition_001,treated,3,7,3,I am bored of this movie.,dominant,I am bored of this movie.,none,True,848.3,0.2
+learner_preposition_001,treated,3,7,4,He wants to be a doctor.,none,He wants to be a doctor.,none,True,612.4,0.4
+learner_preposition_001,treated,4,14,0,She went to the cinema.,none,She went to the cinema.,none,True,1056.6,0.3
+learner_preposition_001,treated,4,14,1,I have a headache.,none,I have a headache.,none,True,606.9,0.2
+learner_preposition_001,treated,4,14,2,She is eating an apple.,none,She is eating an apple.,none,True,571.6,0.3
+learner_preposition_001,treated,4,14,3,He wants to be doctor.,secondary,He wants to be a doctor.,article,True,23363.2,0.5
+learner_preposition_001,treated,4,14,4,She is married with a doctor.,dominant,She is married to a doctor.,preposition,True,7305.0,4.1
+learner_preposition_001,treated,5,30,0,She goes to school every day.,none,She goes to school every day.,none,True,4596.9,0.6
+learner_preposition_001,treated,5,30,1,He is best student.,secondary,He is the best student.,article,True,2686.6,0.4
+learner_preposition_001,treated,5,30,2,She gave me interesting book.,secondary,She gave me an interesting book.,article,True,26762.8,0.7
+learner_preposition_001,treated,5,30,3,I have headache.,secondary,I have a headache.,article,True,8513.0,0.8
+learner_preposition_001,treated,5,30,4,I am angry to her.,dominant,I am angry with her.,preposition,True,8382.0,0.6
+learner_article_001,control,1,1,0,I bought car yesterday.,dominant,I bought a car yesterday.,article,True,5719.8,0.2
+learner_article_001,control,1,1,1,She is teacher.,dominant,She is a teacher.,article,True,3960.8,0.5
+learner_article_001,control,1,1,2,I saw big dog in the park.,dominant,I saw a big dog in the park.,article,True,4090.6,0.4
+learner_article_001,control,1,1,3,The children play outside.,none,The children play outside.,none,True,666.5,0.6
+learner_article_001,control,1,1,4,She went to cinema.,dominant,She went to the cinema.,article,True,3106.6,0.4
+learner_article_001,control,2,3,0,I need advice.,dominant,I need advice.,none,True,920.1,0.2
+learner_article_001,control,2,3,1,He is best student.,dominant,He is the best student.,article,True,3028.7,0.3
+learner_article_001,control,2,3,2,He make mistakes often.,secondary,He makes mistakes often.,agreement,True,3758.6,0.5
+learner_article_001,control,2,3,3,I have headache.,dominant,I have a headache.,article,True,16949.3,0.8
+learner_article_001,control,2,3,4,He plays piano.,dominant,He plays the piano.,article,True,6052.6,0.3
+learner_article_001,control,3,7,0,She is eating apple.,dominant,She is eating an apple.,article,True,6063.6,0.6
+learner_article_001,control,3,7,1,I need to call police.,dominant,I need to call the police.,article,True,4890.6,0.5
+learner_article_001,control,3,7,2,He opened door.,dominant,He opened the door.,article,True,4888.8,0.7
+learner_article_001,control,3,7,3,She is studying at university.,dominant,She is studying at university.,none,True,1008.1,0.3
+learner_article_001,control,3,7,4,She have a big family.,secondary,She has a big family.,agreement,True,14025.1,0.8
+learner_article_001,control,4,14,0,I bought car yesterday.,dominant,I bought a car yesterday.,article,True,3925.9,0.3
+learner_article_001,control,4,14,1,She is teacher.,dominant,She is a teacher.,article,True,44795.3,0.9
+learner_article_001,control,4,14,3,He wants to be doctor.,dominant,He wants to be a doctor.,article,True,13280.6,0.8
+learner_article_001,control,4,14,4,She went to cinema.,dominant,She went to the cinema.,article,True,3307.7,0.3
+learner_article_001,control,5,30,0,I need advice.,dominant,I need advice.,none,True,556.9,0.2
+learner_article_001,control,5,30,1,He is best student.,dominant,He is the best student.,article,True,18049.4,0.4
+learner_article_001,control,5,30,2,She gave me interesting book.,dominant,She gave me an interesting book.,article,True,3600.0,0.2
+learner_article_001,control,5,30,3,I have headache.,dominant,I have a headache.,article,True,4450.1,0.2
+learner_article_001,control,5,30,4,He plays piano.,dominant,He plays the piano.,article,True,2967.0,0.4
+learner_mixed_001,treated,1,1,0,She go to school every day.,dominant,She goes to school every day.,agreement,True,2686.9,0.9
+learner_mixed_001,treated,1,1,1,He have a new car.,dominant,He has a new car.,agreement,True,3568.3,0.6
+learner_mixed_001,treated,1,1,2,They was very happy yesterday.,dominant,They were very happy yesterday.,agreement,True,2478.8,0.4
+learner_mixed_001,treated,1,1,3,The children plays outside.,dominant,The children play outside.,agreement,True,15216.4,1.5
+learner_mixed_001,treated,1,1,4,My friend doesn't like coffee.,none,My friend doesn't like coffee.,none,True,520.4,0.2
+learner_mixed_001,treated,2,3,0,The teacher explain the lesson.,dominant,The teacher explained the lesson.,tense,True,2879.0,1.0
+learner_mixed_001,treated,2,3,1,She don't know the answer.,dominant,She doesn't know the answer.,agreement,True,7919.3,0.5
+learner_mixed_001,treated,2,3,2,He make mistakes often.,dominant,He makes mistakes often.,agreement,True,2910.9,0.6
+learner_mixed_001,treated,2,3,3,The team are winning the game.,dominant,The team are winning the game.,none,True,559.0,0.2
+learner_mixed_001,treated,2,3,4,She always arrive late.,dominant,She always arrives late.,agreement,True,12349.8,0.3
+learner_mixed_001,treated,3,7,0,He is good at math.,none,He is good at math.,none,True,972.4,0.3
+learner_mixed_001,treated,3,7,1,The dog run very fast.,dominant,The dog runs very fast.,agreement,True,4463.0,0.8
+learner_mixed_001,treated,3,7,2,My sister work at the hospital.,dominant,My sister works at the hospital.,agreement,True,3885.5,0.3
+learner_mixed_001,treated,3,7,3,She is a teacher.,none,She is a teacher.,none,True,871.7,0.2
+learner_mixed_001,treated,3,7,4,She apologized for me.,secondary,She apologized to me.,preposition,True,4108.2,0.3
+learner_mixed_001,treated,4,14,0,I depend of my parents.,secondary,I depend on my parents.,preposition,True,3120.2,0.4
+learner_mixed_001,treated,4,14,1,I have a headache.,none,I have a headache.,none,True,982.1,0.3
+learner_mixed_001,treated,4,14,2,She is eating an apple.,none,She is eating an apple.,none,True,720.2,0.3
+learner_mixed_001,treated,4,14,3,The children plays outside.,dominant,The children play outside.,agreement,True,39995.5,0.6
+learner_mixed_001,treated,4,14,4,My friend don't like coffee.,dominant,My friend doesn't like coffee.,agreement,True,8182.8,0.6
+learner_mixed_001,treated,5,30,0,The teacher explain the lesson.,dominant,The teacher explains the lesson.,agreement,True,3107.8,0.7
+learner_mixed_001,treated,5,30,1,I listen the radio.,secondary,I listen to the radio.,preposition,True,3533.3,0.3
+learner_mixed_001,treated,5,30,2,She is waiting the bus.,secondary,She is waiting for the bus.,preposition,True,4294.4,0.4
+learner_mixed_001,treated,5,30,3,He is proud from his son.,secondary,He is proud of his son.,preposition,True,3786.2,0.4
+learner_mixed_001,treated,5,30,4,My friend doesn't like coffee.,none,My friend doesn't like coffee.,none,True,551.8,0.2
+learner_progressive_001,control,1,1,0,She go to school every day.,dominant,She goes to school every day.,agreement,True,15041.0,1.8
+learner_progressive_001,control,1,1,1,He have a new car.,dominant,He has a new car.,agreement,True,17350.5,0.7
+learner_progressive_001,control,1,1,2,They was very happy yesterday.,dominant,They were very happy yesterday.,agreement,True,14549.6,4.1
+learner_progressive_001,control,1,1,3,The children plays outside.,dominant,The children play outside.,agreement,True,7354.1,0.5
+learner_progressive_001,control,1,1,4,My friend don't like coffee.,dominant,My friend doesn't like coffee.,agreement,True,5770.9,0.6
+learner_progressive_001,control,2,3,0,The teacher explain the lesson.,dominant,The teacher explains the lesson.,agreement,True,4426.0,0.6
+learner_progressive_001,control,2,3,1,She don't know the answer.,dominant,She doesn't know the answer.,agreement,True,3279.5,0.3
+learner_progressive_001,control,2,3,2,He makes mistakes often.,none,He makes mistakes often.,none,True,571.9,0.3
+learner_progressive_001,control,2,3,3,The team are winning the game.,dominant,The team are winning the game.,none,True,606.6,0.2
+learner_progressive_001,control,2,3,4,She always arrive late.,dominant,She always arrives late.,agreement,True,2456.5,0.4
+learner_progressive_001,control,3,7,0,He don't understand the rules.,dominant,He doesn't understand the rules.,agreement,True,48928.6,0.8
+learner_progressive_001,control,3,7,1,The dog run very fast.,dominant,The dog runs very fast.,agreement,True,3656.9,0.5
+learner_progressive_001,control,3,7,2,My sister work at the hospital.,dominant,My sister works at the hospital.,agreement,True,3036.9,0.7
+learner_progressive_001,control,3,7,3,The boys was tired after school.,dominant,The boys were tired after school.,agreement,True,3189.4,5.8
+learner_progressive_001,control,3,7,4,She have a big family.,dominant,She has a big family.,agreement,True,42224.5,0.9
+learner_progressive_001,control,4,14,0,She go to school every day.,dominant,She goes to school every day.,agreement,True,9244.9,0.9
+learner_progressive_001,control,4,14,1,He have a new car.,dominant,He has a new car.,agreement,True,3653.0,0.3
+learner_progressive_001,control,4,14,2,They was very happy yesterday.,dominant,They were very happy yesterday.,agreement,True,3144.6,0.8
+learner_progressive_001,control,4,14,3,The children plays outside.,dominant,The children play outside.,agreement,True,20303.3,0.6
+learner_progressive_001,control,4,14,4,My friend don't like coffee.,dominant,My friend doesn't like coffee.,agreement,True,3411.6,0.3
+learner_progressive_001,control,5,30,0,The teacher explain the lesson.,dominant,The teacher explains the lesson.,agreement,True,4437.6,0.5
+learner_progressive_001,control,5,30,1,She don't know the answer.,dominant,She doesn't know the answer.,agreement,True,3976.2,1.0
+learner_progressive_001,control,5,30,2,He make mistakes often.,dominant,He makes mistakes often.,agreement,True,3783.3,0.3
+learner_progressive_001,control,5,30,3,The team are winning the game.,dominant,The team are winning the game.,none,True,804.7,0.2
+learner_progressive_001,control,5,30,4,She always arrive late.,dominant,She always arrives late.,agreement,True,10998.2,0.8
+learner_agreement_002,treated,1,1,0,She go to school every day.,dominant,She goes to school every day.,agreement,True,26200.8,0.6
+learner_agreement_002,treated,1,1,1,He have a new car.,dominant,He has a new car.,agreement,True,4555.2,0.3
+learner_agreement_002,treated,1,1,2,They was very happy yesterday.,dominant,They were very happy yesterday.,agreement,True,2652.3,0.8
+learner_agreement_002,treated,1,1,3,The children play outside.,none,The children play outside.,none,True,10477.8,0.6
+learner_agreement_002,treated,1,1,4,My friend don't like coffee.,dominant,My friend doesn't like coffee.,agreement,True,11594.9,0.6
+learner_agreement_002,treated,2,3,0,The teacher explain the lesson.,dominant,The teacher explains the lesson.,agreement,True,3239.9,0.4
+learner_agreement_002,treated,2,3,1,She don't know the answer.,dominant,She doesn't know the answer.,agreement,True,3736.8,0.4
+learner_agreement_002,treated,2,3,2,She is waiting the bus.,secondary,She is waiting for the bus.,preposition,True,5463.9,1.0
+learner_agreement_002,treated,2,3,3,The team are winning the game.,dominant,The team are winning the game.,none,True,659.5,0.3
+learner_agreement_002,treated,2,3,4,She always arrive late.,dominant,She always arrives late.,agreement,True,8575.5,1.1
+learner_agreement_002,treated,3,7,0,He don't understand the rules.,dominant,He doesn't understand the rules.,agreement,True,5939.6,0.4
+learner_agreement_002,treated,3,7,1,The dog run very fast.,dominant,The dog runs very fast.,agreement,True,8849.7,0.3
+learner_agreement_002,treated,3,7,2,My sister work at the hospital.,dominant,My sister works at the hospital.,agreement,True,6138.5,0.7
+learner_agreement_002,treated,3,7,3,I am bored of this movie.,secondary,I am bored of this movie.,none,True,986.1,0.5
+learner_agreement_002,treated,3,7,4,She apologized for me.,secondary,She apologized to me.,preposition,True,7480.3,0.6
+learner_agreement_002,treated,4,14,0,I depend of my parents.,secondary,I depend on my parents.,preposition,True,54483.8,0.8
+learner_agreement_002,treated,4,14,1,He have a new car.,dominant,He has a new car.,agreement,True,4297.0,0.4
+learner_agreement_002,treated,4,14,2,She is eating an apple.,none,She is eating an apple.,none,True,857.8,0.4
+learner_agreement_002,treated,4,14,3,He plays the piano.,none,He plays the piano.,none,True,1034.5,0.2
+learner_agreement_002,treated,4,14,4,My friend don't like coffee.,dominant,My friend doesn't like coffee.,agreement,True,3598.5,0.4
+learner_agreement_002,treated,5,30,0,He is afraid from spiders.,secondary,He is afraid of spiders.,preposition,True,32346.6,0.8
+learner_agreement_002,treated,5,30,1,I listen the radio.,secondary,I listen to the radio.,preposition,True,57498.6,3.9
+learner_agreement_002,treated,5,30,2,She is waiting the bus.,secondary,She is waiting for the bus.,preposition,True,4007.1,0.6
+learner_agreement_002,treated,5,30,3,The children play outside.,none,The children play outside.,none,True,4558.4,0.3
+learner_agreement_002,treated,5,30,4,She always arrive late.,dominant,She always arrives late.,agreement,True,10398.5,1.0
+learner_preposition_002,control,1,1,0,I depend of my parents.,dominant,I depend on my parents.,preposition,True,2673.4,0.3
+learner_preposition_002,control,1,1,1,She is teacher.,secondary,She is a teacher.,article,True,15748.4,0.9
+learner_preposition_002,control,1,1,2,He is good in math.,dominant,He is good at math.,preposition,True,4360.5,0.3
+learner_preposition_002,control,1,1,3,I arrived to the airport.,dominant,I arrived at the airport.,preposition,True,6360.5,0.5
+learner_preposition_002,control,1,1,4,She is married with a doctor.,dominant,She is married to a doctor.,preposition,True,3078.9,0.4
+learner_preposition_002,control,2,3,0,He is afraid from spiders.,dominant,He is afraid of spiders.,preposition,True,8028.9,2.0
+learner_preposition_002,control,2,3,1,I listen the radio.,dominant,I listen to the radio.,preposition,True,4139.6,0.4
+learner_preposition_002,control,2,3,2,She is waiting the bus.,dominant,She is waiting for the bus.,preposition,True,10182.5,0.3
+learner_preposition_002,control,2,3,3,I have headache.,secondary,I have a headache.,article,True,4559.2,0.4
+learner_preposition_002,control,2,3,4,I am angry to her.,dominant,I am angry with her.,preposition,True,39150.4,1.0
+learner_preposition_002,control,3,7,0,She is looking the window.,dominant,She is looking out the window.,preposition,True,23471.5,1.3
+learner_preposition_002,control,3,7,1,She arrived at Monday.,dominant,She arrived on Monday.,preposition,True,10316.5,0.5
+learner_preposition_002,control,3,7,2,He is responsible of the team.,dominant,He is responsible for the team.,preposition,True,31329.3,0.6
+learner_preposition_002,control,3,7,3,I am bored of this movie.,dominant,I am bored of this movie.,none,True,4548.5,0.4
+learner_preposition_002,control,3,7,4,She apologized for me.,dominant,She apologized to me.,preposition,True,16397.5,0.5
+learner_preposition_002,control,4,14,0,I depend of my parents.,dominant,I depend on my parents.,preposition,True,8872.5,1.5
+learner_preposition_002,control,4,14,1,She is interested by music.,dominant,She is interested in music.,preposition,True,3111.9,0.3
+learner_preposition_002,control,4,14,2,I saw big dog in the park.,secondary,I saw a big dog in the park.,article,True,3532.0,0.4
+learner_preposition_002,control,4,14,3,I arrived to the airport.,dominant,I arrived at the airport.,preposition,True,3147.5,1.6
+learner_preposition_002,control,4,14,4,She is married with a doctor.,dominant,She is married to a doctor.,preposition,True,2946.1,0.4
+learner_preposition_002,control,5,30,0,He is afraid from spiders.,dominant,He is afraid of spiders.,preposition,True,2817.4,0.6
+learner_preposition_002,control,5,30,1,I listen the radio.,dominant,I listen to the radio.,preposition,True,3967.3,0.3
+learner_preposition_002,control,5,30,2,She is waiting the bus.,dominant,She is waiting for the bus.,preposition,True,2743.7,0.5
+learner_preposition_002,control,5,30,3,He is proud from his son.,dominant,He is proud of his son.,preposition,True,22939.4,0.9
+learner_preposition_002,control,5,30,4,He plays piano.,secondary,He plays the piano.,article,True,20686.0,0.5
+learner_article_002,treated,1,1,0,I bought car yesterday.,dominant,I bought a car yesterday.,article,True,35914.2,0.5
+learner_article_002,treated,1,1,1,He have a new car.,secondary,He has a new car.,agreement,True,4001.2,0.3
+learner_article_002,treated,1,1,2,I saw big dog in the park.,dominant,I saw a big dog in the park.,article,True,7457.4,1.2
+learner_article_002,treated,1,1,3,He wants to be doctor.,dominant,He wants to be a doctor.,article,True,3578.2,0.2
+learner_article_002,treated,1,1,4,She went to cinema.,dominant,She went to the cinema.,article,True,2861.0,0.3
+learner_article_002,treated,2,3,0,The teacher explains the lesson.,none,The teacher explains the lesson.,none,True,1198.3,0.3
+learner_article_002,treated,2,3,1,He is best student.,dominant,He is the best student.,article,True,3873.9,0.5
+learner_article_002,treated,2,3,2,He makes mistakes often.,none,He makes mistakes often.,none,True,2630.1,0.2
+learner_article_002,treated,2,3,3,I have headache.,dominant,I have a headache.,article,True,3593.5,0.8
+learner_article_002,treated,2,3,4,He plays piano.,dominant,He plays the piano.,article,True,4536.8,0.2
+learner_article_002,treated,3,7,0,She is eating apple.,dominant,She is eating an apple.,article,True,7132.6,2.1
+learner_article_002,treated,3,7,1,I need to call police.,dominant,I need to call the police.,article,True,3256.7,0.2
+learner_article_002,treated,3,7,2,My sister work at the hospital.,secondary,My sister works at the hospital.,agreement,True,55236.3,0.9
+learner_article_002,treated,3,7,3,She is studying at university.,dominant,She is studying at university.,none,True,43481.2,1.3
+learner_article_002,treated,3,7,4,I met nice person today.,dominant,I met a nice person today.,article,True,4223.7,0.5
+learner_article_002,treated,4,14,0,She go to school every day.,secondary,She goes to school every day.,agreement,True,4603.9,0.3
+learner_article_002,treated,4,14,1,He have a new car.,secondary,He has a new car.,agreement,True,13584.1,0.6
+learner_article_002,treated,4,14,2,I saw big dog in the park.,dominant,I saw a big dog in the park.,article,True,8587.4,0.3
+learner_article_002,treated,4,14,3,He wants to be doctor.,dominant,He wants to be a doctor.,article,True,8961.1,0.5
+learner_article_002,treated,4,14,4,She went to cinema.,dominant,She went to the cinema.,article,True,2953.2,0.4
+learner_article_002,treated,5,30,0,I need advice.,dominant,I need advice.,none,True,981.1,0.2
+learner_article_002,treated,5,30,1,He has a new car.,none,He has a new car.,none,True,876.0,0.2
+learner_article_002,treated,5,30,2,She gave me interesting book.,dominant,She gave me an interesting book.,article,True,7161.4,0.4
+learner_article_002,treated,5,30,3,The team are winning the game.,secondary,The team are winning the game.,none,True,577.0,0.2
+learner_article_002,treated,5,30,4,My friend doesn't like coffee.,none,My friend doesn't like coffee.,none,True,1019.0,0.5
+learner_mixed_002,control,1,1,0,She go to school every day.,dominant,She goes to school every day.,agreement,True,3502.0,0.3
+learner_mixed_002,control,1,1,1,He have a new car.,dominant,He has a new car.,agreement,True,2812.8,0.4
+learner_mixed_002,control,1,1,2,They was very happy yesterday.,dominant,They were very happy yesterday.,agreement,True,2919.0,0.4
+learner_mixed_002,control,1,1,3,The children plays outside.,dominant,The children play outside.,agreement,True,33799.2,1.5
+learner_mixed_002,control,1,1,4,My friend don't like coffee.,dominant,My friend doesn't like coffee.,agreement,True,5010.8,6.6
+learner_mixed_002,control,2,3,0,The teacher explain the lesson.,dominant,The teacher explains the lesson.,agreement,True,3655.9,0.6
+learner_mixed_002,control,2,3,1,She don't know the answer.,dominant,She doesn't know the answer.,agreement,True,4190.3,0.5
+learner_mixed_002,control,2,3,2,He make mistakes often.,dominant,He makes mistakes often.,agreement,True,2648.4,0.7
+learner_mixed_002,control,2,3,3,He is proud from his son.,secondary,He is proud of his son.,preposition,True,2799.1,0.3
+learner_mixed_002,control,2,3,4,I am angry to her.,secondary,I am angry with her.,preposition,True,4862.5,0.3
+learner_mixed_002,control,3,7,0,He don't understand the rules.,dominant,He doesn't understand the rules.,agreement,True,4053.8,2.4
+learner_mixed_002,control,3,7,1,She arrived at Monday.,secondary,She arrived on Monday.,preposition,True,12164.6,0.6
+learner_mixed_002,control,3,7,2,I bought a car yesterday.,none,I bought a car yesterday.,none,True,1942.9,0.2
+learner_mixed_002,control,3,7,3,The boys was tired after school.,dominant,The boys were tired after school.,agreement,True,12447.8,0.7
+learner_mixed_002,control,3,7,4,She have a big family.,dominant,She has a big family.,agreement,True,4165.6,0.3
+learner_mixed_002,control,4,14,0,She go to school every day.,dominant,She goes to school every day.,agreement,True,3923.0,0.3
+learner_mixed_002,control,4,14,1,She is interested by music.,secondary,She is interested in music.,preposition,True,4831.3,0.5
+learner_mixed_002,control,4,14,3,The children plays outside.,dominant,The children play outside.,agreement,True,38125.8,1.0
+learner_mixed_002,control,4,14,4,My friend don't like coffee.,dominant,My friend doesn't like coffee.,agreement,True,13423.8,0.6
+learner_mixed_002,control,5,30,0,She goes to school every day.,none,She goes to school every day.,none,True,1112.2,0.2
+learner_mixed_002,control,5,30,1,She don't know the answer.,dominant,She doesn't know the answer.,agreement,True,12844.6,0.8
+learner_mixed_002,control,5,30,2,He make mistakes often.,dominant,He makes mistakes often.,agreement,True,9103.4,0.3
+learner_mixed_002,control,5,30,3,The team are winning the game.,dominant,The team are winning the game.,none,True,2885.6,0.3
+learner_mixed_002,control,5,30,4,I am angry to her.,secondary,I am angry with her.,preposition,True,5937.7,2.4
+learner_progressive_002,treated,1,1,0,She go to school every day.,dominant,She goes to school every day.,agreement,True,4269.7,0.5
+learner_progressive_002,treated,1,1,1,He have a new car.,dominant,He has a new car.,agreement,True,3546.2,0.3
+learner_progressive_002,treated,1,1,2,They was very happy yesterday.,dominant,They were very happy yesterday.,agreement,True,3505.3,0.9
+learner_progressive_002,treated,1,1,3,The children plays outside.,dominant,The children play outside.,agreement,True,51888.0,2.2
+learner_progressive_002,treated,1,1,4,My friend don't like coffee.,dominant,My friend doesn't like coffee.,agreement,True,4178.6,0.4
+learner_progressive_002,treated,2,3,0,The teacher explain the lesson.,dominant,The teacher explains the lesson.,agreement,True,3241.0,0.7
+learner_progressive_002,treated,2,3,1,She doesn't know the answer.,none,She doesn't know the answer.,none,True,1137.9,0.2
+learner_progressive_002,treated,2,3,2,He makes mistakes often.,none,He makes mistakes often.,none,True,1278.2,0.3
+learner_progressive_002,treated,2,3,3,The team are winning the game.,dominant,The team are winning the game.,none,True,14196.6,0.6
+learner_progressive_002,treated,2,3,4,She always arrive late.,dominant,She always arrives late.,agreement,True,16729.1,0.6
+learner_progressive_002,treated,3,7,0,He don't understand the rules.,dominant,He doesn't understand the rules.,agreement,True,55927.3,0.6
+learner_progressive_002,treated,3,7,1,The dog run very fast.,dominant,The dog runs very fast.,agreement,True,3933.1,0.5
+learner_progressive_002,treated,3,7,2,I bought a car yesterday.,none,I bought a car yesterday.,none,True,1547.3,0.4
+learner_progressive_002,treated,3,7,3,The boys was tired after school.,dominant,The boys were tired after school.,agreement,True,26541.9,1.2
+learner_progressive_002,treated,3,7,4,She have a big family.,dominant,She has a big family.,agreement,True,10841.5,0.3
+learner_progressive_002,treated,4,14,0,She went to the cinema.,none,She went to the cinema.,none,True,2097.9,0.2
+learner_progressive_002,treated,4,14,1,I have a headache.,none,I have a headache.,none,True,803.0,0.2
+learner_progressive_002,treated,4,14,2,I saw big dog in the park.,secondary,I saw a big dog in the park.,article,True,4600.5,0.4
+learner_progressive_002,treated,4,14,3,The children plays outside.,dominant,The children play outside.,agreement,True,3210.7,0.5
+learner_progressive_002,treated,4,14,4,He opened the door.,none,He opened the door.,none,True,668.0,0.2
+learner_progressive_002,treated,5,30,0,I need advice.,secondary,I need advice.,none,True,2999.1,0.2
+learner_progressive_002,treated,5,30,1,He is best student.,secondary,He is the best student.,article,True,9708.8,1.0
+learner_progressive_002,treated,5,30,2,They were very happy yesterday.,none,They were very happy yesterday.,none,True,1400.1,0.2
+learner_progressive_002,treated,5,30,3,The team are winning the game.,dominant,The team are winning the game.,none,True,7200.3,0.6
+learner_progressive_002,treated,5,30,4,My friend doesn't like coffee.,none,My friend doesn't like coffee.,none,True,632.9,0.2
+learner_agreement_003,control,1,1,0,She go to school every day.,dominant,She goes to school every day.,agreement,True,3655.1,0.6
+learner_agreement_003,control,1,1,1,He have a new car.,dominant,He has a new car.,agreement,True,7219.2,1.3
+learner_agreement_003,control,1,1,2,They was very happy yesterday.,dominant,They were very happy yesterday.,agreement,True,3199.3,0.8
+learner_agreement_003,control,1,1,3,The children plays outside.,dominant,The children play outside.,agreement,True,21749.3,0.6
+learner_agreement_003,control,1,1,4,My friend don't like coffee.,dominant,My friend doesn't like coffee.,agreement,True,10634.9,0.9
+learner_agreement_003,control,2,3,0,The teacher explain the lesson.,dominant,The teacher explained the lesson.,tense,True,4365.8,0.5
+learner_agreement_003,control,2,3,1,She doesn't know the answer.,none,She doesn't know the answer.,none,True,902.4,0.2
+learner_agreement_003,control,2,3,2,He make mistakes often.,dominant,He makes mistakes often.,agreement,True,4460.0,0.8
+learner_agreement_003,control,2,3,3,The team are winning the game.,dominant,The team are winning the game.,none,True,1218.7,0.3
+learner_agreement_003,control,2,3,4,She always arrive late.,dominant,She always arrives late.,agreement,True,3387.2,0.3
+learner_agreement_003,control,3,7,0,He don't understand the rules.,dominant,He doesn't understand the rules.,agreement,True,5528.0,0.4
+learner_agreement_003,control,3,7,1,The dog run very fast.,dominant,The dog runs very fast.,agreement,True,33106.3,1.1
+learner_agreement_003,control,3,7,2,I bought a car yesterday.,none,I bought a car yesterday.,none,True,2574.0,0.2
+learner_agreement_003,control,3,7,3,The boys was tired after school.,dominant,The boys were tired after school.,agreement,True,3297.8,2.1
+learner_agreement_003,control,3,7,4,He wants to be a doctor.,none,He wants to be a doctor.,none,True,1398.2,0.2
+learner_agreement_003,control,4,14,0,She go to school every day.,dominant,She goes to school every day.,agreement,True,21028.0,3.2
+learner_agreement_003,control,4,14,1,He have a new car.,dominant,He has a new car.,agreement,True,9535.2,1.0
+learner_agreement_003,control,4,14,2,She is eating an apple.,none,She is eating an apple.,none,True,1041.9,0.3
+learner_agreement_003,control,4,14,3,The children plays outside.,dominant,The children play outside.,agreement,True,3400.8,0.4
+learner_agreement_003,control,4,14,4,My friend don't like coffee.,dominant,My friend doesn't like coffee.,agreement,True,3870.6,0.3
+learner_agreement_003,control,5,30,0,The teacher explain the lesson.,dominant,The teacher explained the lesson.,tense,True,43434.5,0.8
+learner_agreement_003,control,5,30,1,He has a new car.,none,He has a new car.,none,True,1209.7,2.4
+learner_agreement_003,control,5,30,2,He make mistakes often.,dominant,He makes mistakes often.,agreement,True,3627.1,0.3
+learner_agreement_003,control,5,30,3,The team are winning the game.,dominant,The team are winning the game.,none,True,928.1,0.3
+learner_agreement_003,control,5,30,4,She always arrive late.,dominant,She always arrives late.,agreement,True,8546.9,0.9
+learner_preposition_003,treated,1,1,0,I depend of my parents.,dominant,I depend on my parents.,preposition,True,11396.1,0.6
+learner_preposition_003,treated,1,1,1,She is interested by music.,dominant,She is interested in music.,preposition,True,2935.5,0.3
+learner_preposition_003,treated,1,1,2,I saw big dog in the park.,secondary,I saw a big dog in the park.,article,True,6769.9,0.5
+learner_preposition_003,treated,1,1,3,He wants to be doctor.,secondary,He wants to be a doctor.,article,True,4638.3,0.2
+learner_preposition_003,treated,1,1,4,She is married with a doctor.,dominant,She is married to a doctor.,preposition,True,3459.2,0.6
+learner_preposition_003,treated,2,3,0,The teacher explains the lesson.,none,The teacher explains the lesson.,none,True,1045.9,0.3
+learner_preposition_003,treated,2,3,1,I listen the radio.,dominant,I listen to the radio.,preposition,True,41836.8,0.8
+learner_preposition_003,treated,2,3,2,She is waiting the bus.,dominant,She is waiting for the bus.,preposition,True,3967.4,0.2
+learner_preposition_003,treated,2,3,3,I have headache.,secondary,I have a headache.,article,True,18969.5,0.5
+learner_preposition_003,treated,2,3,4,I am angry to her.,dominant,I am angry with her.,preposition,True,4440.8,0.5
+learner_preposition_003,treated,3,7,0,She is looking the window.,dominant,She is looking out the window.,preposition,True,36050.4,1.2
+learner_preposition_003,treated,3,7,1,She arrived at Monday.,dominant,She arrived on Monday.,preposition,True,2912.9,0.2
+learner_preposition_003,treated,3,7,2,He is responsible of the team.,dominant,He is responsible for the team.,preposition,True,11181.3,2.4
+learner_preposition_003,treated,3,7,3,I am bored of this movie.,dominant,I am bored of this movie.,none,True,866.2,0.3
+learner_preposition_003,treated,3,7,4,She apologized for me.,dominant,She apologized to me.,preposition,True,3780.3,1.3
+learner_preposition_003,treated,4,14,0,I bought car yesterday.,secondary,I bought a car yesterday.,article,True,3564.2,1.1
+learner_preposition_003,treated,4,14,1,I have a headache.,none,I have a headache.,none,True,4229.9,0.5
+learner_preposition_003,treated,4,14,2,I saw big dog in the park.,secondary,I saw a big dog in the park.,article,True,47342.3,3.1
+learner_preposition_003,treated,4,14,3,I arrived to the airport.,dominant,I arrived at the airport.,preposition,True,3654.2,0.3
+learner_preposition_003,treated,4,14,4,She is married with a doctor.,dominant,She is married to a doctor.,preposition,True,6897.4,0.4
+learner_preposition_003,treated,5,30,0,She goes to school every day.,none,She goes to school every day.,none,True,583.9,0.2
+learner_preposition_003,treated,5,30,1,He is best student.,secondary,He is the best student.,article,True,3596.5,0.4
+learner_preposition_003,treated,5,30,2,She gave me interesting book.,secondary,She gave me an interesting book.,article,True,4676.3,0.3
+learner_preposition_003,treated,5,30,3,He is proud from his son.,dominant,He is proud of his son.,preposition,True,4702.1,0.5
+learner_preposition_003,treated,5,30,4,My friend doesn't like coffee.,none,My friend doesn't like coffee.,none,True,802.6,0.4
+learner_article_003,control,1,1,0,I bought car yesterday.,dominant,I bought a car yesterday.,article,True,3984.1,0.4
+learner_article_003,control,1,1,1,He has a new car.,none,He has a new car.,none,True,686.5,0.2
+learner_article_003,control,1,1,2,I saw big dog in the park.,dominant,I saw a big dog in the park.,article,True,7620.6,0.3
+learner_article_003,control,1,1,3,He wants to be doctor.,dominant,He wants to be a doctor.,article,True,4067.3,0.5
+learner_article_003,control,1,1,4,My friend don't like coffee.,secondary,My friend doesn't like coffee.,agreement,True,8184.2,1.0
+learner_article_003,control,2,3,0,I need advice.,dominant,I need advice.,none,True,650.7,0.4
+learner_article_003,control,2,3,1,He is best student.,dominant,He is the best student.,article,True,3520.2,0.3
+learner_article_003,control,2,3,2,He make mistakes often.,secondary,He makes mistakes often.,agreement,True,18706.8,0.4
+learner_article_003,control,2,3,3,I have headache.,dominant,I have a headache.,article,True,26758.2,0.9
+learner_article_003,control,2,3,4,She always arrive late.,secondary,She always arrives late.,agreement,True,3476.5,0.6
+learner_article_003,control,3,7,0,She is eating apple.,dominant,She is eating an apple.,article,True,48756.4,0.7
+learner_article_003,control,3,7,1,I need to call police.,dominant,I need to call the police.,article,True,20936.3,0.6
+learner_article_003,control,3,7,2,He opened door.,dominant,He opened the door.,article,True,31403.4,0.5
+learner_article_003,control,3,7,3,She is studying at university.,dominant,She is studying at university.,none,True,1141.8,0.2
+learner_article_003,control,3,7,4,She have a big family.,secondary,She has a big family.,agreement,True,46030.0,0.9
+learner_article_003,control,4,14,0,I bought car yesterday.,dominant,I bought a car yesterday.,article,True,45504.6,0.9
+learner_article_003,control,4,14,1,I have a headache.,none,I have a headache.,none,True,997.2,0.4
+learner_article_003,control,4,14,2,I saw big dog in the park.,dominant,I saw a big dog in the park.,article,True,19021.7,7.5
+learner_article_003,control,4,14,3,He wants to be doctor.,dominant,He wants to be a doctor.,article,True,17803.8,0.7
+learner_article_003,control,4,14,4,She went to cinema.,dominant,She went to the cinema.,article,True,4033.0,0.5
+learner_article_003,control,5,30,0,I need advice.,dominant,I need advice.,none,True,1042.3,0.2
+learner_article_003,control,5,30,1,She don't know the answer.,secondary,She doesn't know the answer.,agreement,True,3370.0,1.1
+learner_article_003,control,5,30,2,He make mistakes often.,secondary,He makes mistakes often.,agreement,True,4252.0,0.5
+learner_article_003,control,5,30,3,I have headache.,dominant,I have a headache.,article,True,10459.7,0.3
+learner_article_003,control,5,30,4,He plays piano.,dominant,He plays the piano.,article,True,5098.0,10.9
+learner_mixed_003,treated,1,1,0,She go to school every day.,dominant,She goes to school every day.,agreement,True,30301.0,0.8
+learner_mixed_003,treated,1,1,1,He have a new car.,dominant,He has a new car.,agreement,True,4209.5,0.5
+learner_mixed_003,treated,1,1,2,They was very happy yesterday.,dominant,They were very happy yesterday.,agreement,True,51628.0,1.0
+learner_mixed_003,treated,1,1,3,The children plays outside.,dominant,The children play outside.,agreement,True,3131.0,0.4
+learner_mixed_003,treated,1,1,4,My friend don't like coffee.,dominant,My friend doesn't like coffee.,agreement,True,23822.2,0.6
+learner_mixed_003,treated,2,3,0,He is afraid from spiders.,secondary,He is afraid of spiders.,preposition,True,34061.1,0.8
+learner_mixed_003,treated,2,3,1,She don't know the answer.,dominant,She doesn't know the answer.,agreement,True,10073.5,0.5
+learner_mixed_003,treated,2,3,2,She is waiting the bus.,secondary,She is waiting for the bus.,preposition,True,2701.6,0.4
+learner_mixed_003,treated,2,3,3,The team are winning the game.,dominant,The team are winning the game.,none,True,501.6,0.3
+learner_mixed_003,treated,2,3,4,I am angry to her.,secondary,I am angry with her.,preposition,True,2816.5,0.4
+learner_mixed_003,treated,3,7,0,He don't understand the rules.,dominant,He doesn't understand the rules.,agreement,True,3265.8,1.0
+learner_mixed_003,treated,3,7,1,She arrived at Monday.,secondary,She arrived on Monday.,preposition,True,3319.7,0.3
+learner_mixed_003,treated,3,7,2,My sister work at the hospital.,dominant,My sister works at the hospital.,agreement,True,3072.1,0.5
+learner_mixed_003,treated,3,7,3,The boys was tired after school.,dominant,The boys were tired after school.,agreement,True,3408.0,0.9
+learner_mixed_003,treated,3,7,4,He wants to be a doctor.,none,He wants to be a doctor.,none,True,692.9,0.2
+learner_mixed_003,treated,4,14,0,I depend of my parents.,secondary,I depend on my parents.,preposition,True,3251.1,0.5
+learner_mixed_003,treated,4,14,1,She is interested by music.,secondary,She is interested in music.,preposition,True,5668.7,0.7
+learner_mixed_003,treated,4,14,2,They was very happy yesterday.,dominant,They were very happy yesterday.,agreement,True,5228.0,0.6
+learner_mixed_003,treated,4,14,3,I arrived to the airport.,secondary,I arrived at the airport.,preposition,True,2883.0,0.4
+learner_mixed_003,treated,4,14,4,She is married with a doctor.,secondary,She is married to a doctor.,preposition,True,4458.1,0.4
+learner_mixed_003,treated,5,30,0,He is afraid from spiders.,secondary,He is afraid of spiders.,preposition,True,6732.3,0.4
+learner_mixed_003,treated,5,30,1,She don't know the answer.,dominant,She doesn't know the answer.,agreement,True,6459.8,0.6
+learner_mixed_003,treated,5,30,2,She is waiting the bus.,secondary,She is waiting for the bus.,preposition,True,12090.2,0.9
+learner_mixed_003,treated,5,30,3,The team are winning the game.,dominant,The team are winning the game.,none,True,1827.6,0.4
+learner_mixed_003,treated,5,30,4,My friend doesn't like coffee.,none,My friend doesn't like coffee.,none,True,1455.3,0.2
+learner_progressive_003,control,1,1,0,She goes to school every day.,none,She goes to school every day.,none,True,618.5,0.4
+learner_progressive_003,control,1,1,1,He have a new car.,dominant,He has a new car.,agreement,True,3564.9,0.6
+learner_progressive_003,control,1,1,2,They was very happy yesterday.,dominant,They were very happy yesterday.,agreement,True,4284.3,0.7
+learner_progressive_003,control,1,1,3,The children plays outside.,dominant,The children play outside.,agreement,True,3333.0,1.1
+learner_progressive_003,control,1,1,4,My friend doesn't like coffee.,none,My friend doesn't like coffee.,none,True,597.2,0.3
+learner_progressive_003,control,2,3,0,The teacher explain the lesson.,dominant,The teacher explains the lesson.,agreement,True,2429.2,0.4
+learner_progressive_003,control,2,3,1,She don't know the answer.,dominant,She doesn't know the answer.,agreement,True,34164.7,1.2
+learner_progressive_003,control,2,3,2,He make mistakes often.,dominant,He makes mistakes often.,agreement,True,38658.1,0.7
+learner_progressive_003,control,2,3,3,The team are winning the game.,dominant,The team are winning the game.,none,True,788.3,0.3
+learner_progressive_003,control,2,3,4,She always arrive late.,dominant,She always arrives late.,agreement,True,3145.1,0.3
+learner_progressive_003,control,3,7,0,He don't understand the rules.,dominant,He doesn't understand the rules.,agreement,True,29034.0,0.9
+learner_progressive_003,control,3,7,1,The dog run very fast.,dominant,The dog runs very fast.,agreement,True,3360.0,1.4
+learner_progressive_003,control,3,7,2,My sister work at the hospital.,dominant,My sister works at the hospital.,agreement,True,3258.2,0.9
+learner_progressive_003,control,3,7,3,The boys was tired after school.,dominant,The boys were tired after school.,agreement,True,3874.8,0.4
+learner_progressive_003,control,3,7,4,She have a big family.,dominant,She has a big family.,agreement,True,4162.6,0.6
+learner_progressive_003,control,4,14,0,She go to school every day.,dominant,She goes to school every day.,agreement,True,4609.0,0.4
+learner_progressive_003,control,4,14,1,He have a new car.,dominant,He has a new car.,agreement,True,5591.2,0.4
+learner_progressive_003,control,4,14,2,They was very happy yesterday.,dominant,They were very happy yesterday.,agreement,True,4305.1,0.6
+learner_progressive_003,control,4,14,3,The children plays outside.,dominant,The children play outside.,agreement,True,4197.3,0.5
+learner_progressive_003,control,4,14,4,My friend don't like coffee.,dominant,My friend doesn't like coffee.,agreement,True,11010.4,3.1
+learner_progressive_003,control,5,30,0,I need advice.,secondary,I need advice.,none,True,1177.3,0.2
+learner_progressive_003,control,5,30,1,She don't know the answer.,dominant,She doesn't know the answer.,agreement,True,3013.6,0.3
+learner_progressive_003,control,5,30,2,They were very happy yesterday.,none,They were very happy yesterday.,none,True,1048.1,0.2
+learner_progressive_003,control,5,30,3,The team are winning the game.,dominant,The team are winning the game.,none,True,686.8,0.2
+learner_progressive_003,control,5,30,4,She always arrive late.,dominant,She always arrives late.,agreement,True,3068.3,0.4
+learner_agreement_004,treated,1,1,0,She go to school every day.,dominant,She goes to school every day.,agreement,True,3618.8,0.4
+learner_agreement_004,treated,1,1,1,He have a new car.,dominant,He has a new car.,agreement,True,8725.0,0.8
+learner_agreement_004,treated,1,1,2,They was very happy yesterday.,dominant,They were very happy yesterday.,agreement,True,3312.9,1.1
+learner_agreement_004,treated,1,1,3,The children plays outside.,dominant,The children play outside.,agreement,True,39893.1,1.0
+learner_agreement_004,treated,1,1,4,My friend don't like coffee.,dominant,My friend doesn't like coffee.,agreement,True,2995.8,0.6
+learner_agreement_004,treated,2,3,0,The teacher explain the lesson.,dominant,The teacher explained the lesson.,tense,True,34994.0,0.7
+learner_agreement_004,treated,2,3,1,She don't know the answer.,dominant,She doesn't know the answer.,agreement,True,33798.6,0.4
+learner_agreement_004,treated,2,3,2,He make mistakes often.,dominant,He makes mistakes often.,agreement,True,4787.3,0.3
+learner_agreement_004,treated,2,3,3,The team are winning the game.,dominant,The team are winning the game.,none,True,665.9,0.3
+learner_agreement_004,treated,2,3,4,She always arrive late.,dominant,She always arrives late.,agreement,True,14491.6,0.7
+learner_agreement_004,treated,3,7,0,She is looking the window.,secondary,She is looking out the window.,preposition,True,39013.2,0.9
+learner_agreement_004,treated,3,7,1,The dog run very fast.,dominant,The dog runs very fast.,agreement,True,28991.9,0.6
+learner_agreement_004,treated,3,7,2,He is responsible of the team.,secondary,He is responsible for the team.,preposition,True,33135.4,0.7
+learner_agreement_004,treated,3,7,3,The boys was tired after school.,dominant,The boys were tired after school.,agreement,True,50478.6,2.6
+learner_agreement_004,treated,3,7,4,She have a big family.,dominant,She has a big family.,agreement,True,7742.9,0.5
+learner_agreement_004,treated,4,14,0,She go to school every day.,dominant,She goes to school every day.,agreement,True,3867.3,0.4
+learner_agreement_004,treated,4,14,1,I have a headache.,none,I have a headache.,none,True,949.9,0.3
+learner_agreement_004,treated,4,14,2,They was very happy yesterday.,dominant,They were very happy yesterday.,agreement,True,46923.8,1.0
+learner_agreement_004,treated,4,14,3,The children plays outside.,dominant,The children play outside.,agreement,True,10509.2,0.4
+learner_agreement_004,treated,4,14,4,She is married with a doctor.,secondary,She is married to a doctor.,preposition,True,14822.8,0.6
+learner_agreement_004,treated,5,30,0,He is afraid from spiders.,secondary,He is afraid of spiders.,preposition,True,19983.2,0.3
+learner_agreement_004,treated,5,30,1,He has a new car.,none,He has a new car.,none,True,725.4,0.2
+learner_agreement_004,treated,5,30,2,She is waiting the bus.,secondary,She is waiting for the bus.,preposition,True,59267.9,0.6
+learner_agreement_004,treated,5,30,3,The children play outside.,none,The children play outside.,none,True,4008.2,0.2
+learner_agreement_004,treated,5,30,4,My friend doesn't like coffee.,none,My friend doesn't like coffee.,none,True,583.9,0.3
+learner_preposition_004,control,1,1,0,I depend of my parents.,dominant,I depend on my parents.,preposition,True,4265.9,0.6
+learner_preposition_004,control,1,1,1,She is interested by music.,dominant,She is interested in music.,preposition,True,7901.5,0.6
+learner_preposition_004,control,1,1,2,He is good in math.,dominant,He is good at math.,preposition,True,35188.8,0.8
+learner_preposition_004,control,1,1,3,I arrived to the airport.,dominant,I arrived at the airport.,preposition,True,6131.9,0.3
+learner_preposition_004,control,1,1,4,She is married with a doctor.,dominant,She is married to a doctor.,preposition,True,6288.9,0.5
+learner_preposition_004,control,2,3,0,He is afraid from spiders.,dominant,He is afraid of spiders.,preposition,True,25264.3,0.8
+learner_preposition_004,control,2,3,1,She doesn't know the answer.,none,She doesn't know the answer.,none,True,4097.6,0.3
+learner_preposition_004,control,2,3,2,She is waiting the bus.,dominant,She is waiting for the bus.,preposition,True,14303.9,0.6
+learner_preposition_004,control,2,3,3,He is proud from his son.,dominant,He is proud of his son.,preposition,True,34581.5,3.5
+learner_preposition_004,control,2,3,4,I am angry to her.,dominant,I am angry with her.,preposition,True,53626.6,1.2
+learner_preposition_004,control,3,7,0,She is looking the window.,dominant,She is looking out the window.,preposition,True,26624.9,1.1
+learner_preposition_004,control,3,7,1,I need to call police.,secondary,I need to call the police.,article,True,3226.4,0.3
+learner_preposition_004,control,3,7,2,He is responsible of the team.,dominant,He is responsible for the team.,preposition,True,40519.0,1.7
+learner_preposition_004,control,3,7,3,She is a teacher.,none,She is a teacher.,none,True,9580.7,0.2
+learner_preposition_004,control,3,7,4,She apologized for me.,dominant,She apologized to me.,preposition,True,5777.1,0.3
+learner_preposition_004,control,4,14,0,I bought car yesterday.,secondary,I bought a car yesterday.,article,True,5605.8,0.5
+learner_preposition_004,control,4,14,1,She is interested by music.,dominant,She is interested in music.,preposition,True,6632.7,0.3
+learner_preposition_004,control,4,14,2,She is eating an apple.,none,She is eating an apple.,none,True,1350.4,0.4
+learner_preposition_004,control,4,14,3,I arrived to the airport.,dominant,I arrived at the airport.,preposition,True,17200.5,1.1
+learner_preposition_004,control,4,14,4,She is married with a doctor.,dominant,She is married to a doctor.,preposition,True,2886.7,0.6
+learner_preposition_004,control,5,30,0,He is afraid from spiders.,dominant,He is afraid of spiders.,preposition,True,6922.0,0.3
+learner_preposition_004,control,5,30,1,I listen the radio.,dominant,I listen to the radio.,preposition,True,26074.6,0.6
+learner_preposition_004,control,5,30,2,She is waiting the bus.,dominant,She is waiting for the bus.,preposition,True,3715.4,0.5
+learner_preposition_004,control,5,30,3,He is proud from his son.,dominant,He is proud of his son.,preposition,True,8388.3,0.7
+learner_preposition_004,control,5,30,4,He plays piano.,secondary,He plays the piano.,article,True,3495.8,0.4
+learner_article_004,treated,1,1,0,I bought car yesterday.,dominant,I bought a car yesterday.,article,True,3495.0,5.0
+learner_article_004,treated,1,1,1,She is teacher.,dominant,She is a teacher.,article,True,2961.9,0.4
+learner_article_004,treated,1,1,2,I saw big dog in the park.,dominant,I saw a big dog in the park.,article,True,3371.6,0.3
+learner_article_004,treated,1,1,3,He wants to be doctor.,dominant,He wants to be a doctor.,article,True,3057.4,0.3
+learner_article_004,treated,1,1,4,She went to cinema.,dominant,She went to the cinema.,article,True,50639.4,1.1
+learner_article_004,treated,2,3,0,The teacher explain the lesson.,secondary,The teacher explained the lesson.,tense,True,20194.7,1.7
+learner_article_004,treated,2,3,1,She don't know the answer.,secondary,She doesn't know the answer.,agreement,True,3419.8,0.3
+learner_article_004,treated,2,3,2,She gave me interesting book.,dominant,She gave me an interesting book.,article,True,4167.0,0.5
+learner_article_004,treated,2,3,3,I depend on my parents.,none,I depend on my parents.,none,True,1047.7,0.3
+learner_article_004,treated,2,3,4,He plays piano.,dominant,He plays the piano.,article,True,3697.8,1.0
+learner_article_004,treated,3,7,0,He is good at math.,none,He is good at math.,none,True,542.4,0.3
+learner_article_004,treated,3,7,1,I need to call police.,dominant,I need to call the police.,article,True,3854.9,0.2
+learner_article_004,treated,3,7,2,He opened door.,dominant,He opened the door.,article,True,3846.7,0.5
+learner_article_004,treated,3,7,3,She is studying at university.,dominant,She is studying at university.,none,True,1071.4,0.2
+learner_article_004,treated,3,7,4,He wants to be a doctor.,none,He wants to be a doctor.,none,True,1151.0,0.2
+learner_article_004,treated,4,14,0,I bought car yesterday.,dominant,I bought a car yesterday.,article,True,28712.2,1.0
+learner_article_004,treated,4,14,1,He have a new car.,secondary,He has a new car.,agreement,True,4074.0,0.4
+learner_article_004,treated,4,14,2,They was very happy yesterday.,secondary,They were very happy yesterday.,agreement,True,3411.1,0.5
+learner_article_004,treated,4,14,3,He wants to be doctor.,dominant,He wants to be a doctor.,article,True,3468.4,0.3
+learner_article_004,treated,4,14,4,My friend don't like coffee.,secondary,My friend doesn't like coffee.,agreement,True,3518.3,0.5
+learner_article_004,treated,5,30,0,I need advice.,dominant,I need advice.,none,True,1125.0,0.5
+learner_article_004,treated,5,30,1,He has a new car.,none,He has a new car.,none,True,2132.9,0.2
+learner_article_004,treated,5,30,2,He make mistakes often.,secondary,He makes mistakes often.,agreement,True,15273.1,0.5
+learner_article_004,treated,5,30,3,The team are winning the game.,secondary,The team are winning the game.,none,True,942.3,0.5
+learner_article_004,treated,5,30,4,My friend doesn't like coffee.,none,My friend doesn't like coffee.,none,True,27455.4,0.8
+learner_mixed_004,control,1,1,1,He have a new car.,dominant,He has a new car.,agreement,True,12066.0,2.1
+learner_mixed_004,control,1,1,2,They was very happy yesterday.,dominant,They were very happy yesterday.,agreement,True,44577.9,1.4
+learner_mixed_004,control,1,1,3,The children plays outside.,dominant,The children play outside.,agreement,True,3539.5,0.3
+learner_mixed_004,control,1,1,4,My friend don't like coffee.,dominant,My friend doesn't like coffee.,agreement,True,5198.1,0.6
+learner_mixed_004,control,2,3,0,The teacher explain the lesson.,dominant,The teacher explained the lesson.,tense,True,9970.1,0.9
+learner_mixed_004,control,2,3,1,She don't know the answer.,dominant,She doesn't know the answer.,agreement,True,3462.8,0.3
+learner_mixed_004,control,2,3,2,She is waiting the bus.,secondary,She is waiting for the bus.,preposition,True,2822.2,0.3
+learner_mixed_004,control,2,3,3,The team are winning the game.,dominant,The team are winning the game.,none,True,930.0,0.2
+learner_mixed_004,control,2,3,4,She always arrive late.,dominant,She always arrives late.,agreement,True,4051.8,0.6
+learner_mixed_004,control,3,7,0,She is looking the window.,secondary,She is looking out the window.,preposition,True,6448.9,0.3
+learner_mixed_004,control,3,7,1,The dog run very fast.,dominant,The dog runs very fast.,agreement,True,8704.5,0.6
+learner_mixed_004,control,3,7,2,My sister work at the hospital.,dominant,My sister works at the hospital.,agreement,True,3450.6,0.3
+learner_mixed_004,control,3,7,3,The boys was tired after school.,dominant,The boys were tired after school.,agreement,True,2604.3,0.5
+learner_mixed_004,control,3,7,4,She have a big family.,dominant,She has a big family.,agreement,True,3020.8,0.5
+learner_mixed_004,control,4,14,0,She go to school every day.,dominant,She goes to school every day.,agreement,True,3465.0,0.3
+learner_mixed_004,control,4,14,1,He have a new car.,dominant,He has a new car.,agreement,True,3143.8,0.3
+learner_mixed_004,control,4,14,2,They was very happy yesterday.,dominant,They were very happy yesterday.,agreement,True,11680.7,0.6
+learner_mixed_004,control,4,14,3,He plays the piano.,none,He plays the piano.,none,True,643.8,0.2
+learner_mixed_004,control,4,14,4,My friend don't like coffee.,dominant,My friend doesn't like coffee.,agreement,True,16225.9,9.6
+learner_mixed_004,control,5,30,0,The teacher explain the lesson.,dominant,The teacher explains the lesson.,agreement,True,44052.2,1.4
+learner_mixed_004,control,5,30,1,She don't know the answer.,dominant,She doesn't know the answer.,agreement,True,6555.6,0.4
+learner_mixed_004,control,5,30,2,He make mistakes often.,dominant,He makes mistakes often.,agreement,True,2912.5,0.3
+learner_mixed_004,control,5,30,3,The team are winning the game.,dominant,The team are winning the game.,none,True,1010.7,0.3
+learner_mixed_004,control,5,30,4,She always arrive late.,dominant,She always arrives late.,agreement,True,10524.3,0.7
+learner_progressive_004,treated,1,1,0,She go to school every day.,dominant,She goes to school every day.,agreement,True,13034.9,1.0
+learner_progressive_004,treated,1,1,1,He have a new car.,dominant,He has a new car.,agreement,True,7226.0,0.4
+learner_progressive_004,treated,1,1,2,They was very happy yesterday.,dominant,They were very happy yesterday.,agreement,True,31655.7,1.8
+learner_progressive_004,treated,1,1,3,The children plays outside.,dominant,The children play outside.,agreement,True,14724.5,0.6
+learner_progressive_004,treated,1,1,4,My friend don't like coffee.,dominant,My friend doesn't like coffee.,agreement,True,3293.6,0.8
+learner_progressive_004,treated,2,3,0,The teacher explain the lesson.,dominant,The teacher explains the lesson.,agreement,True,3005.6,0.7
+learner_progressive_004,treated,2,3,1,She don't know the answer.,dominant,She doesn't know the answer.,agreement,True,5205.3,0.4
+learner_progressive_004,treated,2,3,2,He make mistakes often.,dominant,He makes mistakes often.,agreement,True,3965.5,0.3
+learner_progressive_004,treated,2,3,3,The team are winning the game.,dominant,The team are winning the game.,none,True,6413.1,0.6
+learner_progressive_004,treated,2,3,4,She always arrive late.,dominant,She always arrives late.,agreement,True,5112.7,0.3
+learner_progressive_004,treated,3,7,0,He don't understand the rules.,dominant,He doesn't understand the rules.,agreement,True,44229.1,1.1
+learner_progressive_004,treated,3,7,1,The dog run very fast.,dominant,The dog runs very fast.,agreement,True,55290.0,0.7
+learner_progressive_004,treated,3,7,2,He opened door.,secondary,He opened the door.,article,True,3266.5,0.3
+learner_progressive_004,treated,3,7,3,The boys was tired after school.,dominant,The boys were tired after school.,agreement,True,3060.7,0.4
+learner_progressive_004,treated,3,7,4,She have a big family.,dominant,She has a big family.,agreement,True,3515.4,0.2
+learner_progressive_004,treated,4,14,0,She go to school every day.,dominant,She goes to school every day.,agreement,True,3525.2,0.3
+learner_progressive_004,treated,4,14,1,He have a new car.,dominant,He has a new car.,agreement,True,27024.5,0.8
+learner_progressive_004,treated,4,14,2,They was very happy yesterday.,dominant,They were very happy yesterday.,agreement,True,8694.6,0.7
+learner_progressive_004,treated,4,14,3,The children plays outside.,dominant,The children play outside.,agreement,True,3018.6,0.4
+learner_progressive_004,treated,4,14,4,She went to cinema.,secondary,She went to the cinema.,article,True,2945.4,0.3
+learner_progressive_004,treated,5,30,0,I need advice.,secondary,I need advice.,none,True,10498.8,0.6
+learner_progressive_004,treated,5,30,1,He is best student.,secondary,He is the best student.,article,True,3315.3,0.4
+learner_progressive_004,treated,5,30,2,They were very happy yesterday.,none,They were very happy yesterday.,none,True,28310.9,0.6
+learner_progressive_004,treated,5,30,3,The children play outside.,none,The children play outside.,none,True,7404.8,0.4
+learner_progressive_004,treated,5,30,4,He plays piano.,secondary,He plays the piano.,article,True,7953.1,0.3
+learner_agreement_005,control,1,1,0,She go to school every day.,dominant,She goes to school every day.,agreement,True,5417.2,0.3
+learner_agreement_005,control,1,1,1,He have a new car.,dominant,He has a new car.,agreement,True,3447.1,1.0
+learner_agreement_005,control,1,1,2,They was very happy yesterday.,dominant,They were very happy yesterday.,agreement,True,3426.7,0.4
+learner_agreement_005,control,1,1,3,The children plays outside.,dominant,The children play outside.,agreement,True,3742.9,0.6
+learner_agreement_005,control,1,1,4,My friend doesn't like coffee.,none,My friend doesn't like coffee.,none,True,1083.2,0.6
+learner_agreement_005,control,2,3,0,The teacher explain the lesson.,dominant,The teacher explains the lesson.,agreement,True,3758.3,0.6
+learner_agreement_005,control,2,3,1,I listen the radio.,secondary,I listen to the radio.,preposition,True,4048.0,0.7
+learner_agreement_005,control,2,3,2,He make mistakes often.,dominant,He makes mistakes often.,agreement,True,2540.8,0.3
+learner_agreement_005,control,2,3,3,He is proud from his son.,secondary,He is proud of his son.,preposition,True,2723.9,0.6
+learner_agreement_005,control,2,3,4,She always arrive late.,dominant,She always arrives late.,agreement,True,3346.3,0.9
+learner_agreement_005,control,3,7,0,He don't understand the rules.,dominant,He doesn't understand the rules.,agreement,True,4989.6,0.7
+learner_agreement_005,control,3,7,1,The dog run very fast.,dominant,The dog runs very fast.,agreement,True,10589.1,0.9
+learner_agreement_005,control,3,7,2,My sister work at the hospital.,dominant,My sister works at the hospital.,agreement,True,18865.4,1.2
+learner_agreement_005,control,3,7,3,The boys was tired after school.,dominant,The boys were tired after school.,agreement,True,4025.2,0.8
+learner_agreement_005,control,3,7,4,She have a big family.,dominant,She has a big family.,agreement,True,3670.4,0.6
+learner_agreement_005,control,4,14,0,She go to school every day.,dominant,She goes to school every day.,agreement,True,3828.5,0.4
+learner_agreement_005,control,4,14,1,He have a new car.,dominant,He has a new car.,agreement,True,3650.1,0.7
+learner_agreement_005,control,4,14,2,They was very happy yesterday.,dominant,They were very happy yesterday.,agreement,True,27772.9,0.8
+learner_agreement_005,control,4,14,3,The children plays outside.,dominant,The children play outside.,agreement,True,8832.5,1.1
+learner_agreement_005,control,4,14,4,My friend don't like coffee.,dominant,My friend doesn't like coffee.,agreement,True,13917.9,2.2
+learner_agreement_005,control,5,30,0,She goes to school every day.,none,She goes to school every day.,none,True,1118.6,0.2
+learner_agreement_005,control,5,30,1,I listen the radio.,secondary,I listen to the radio.,preposition,True,11833.2,0.7
+learner_agreement_005,control,5,30,2,He make mistakes often.,dominant,He makes mistakes often.,agreement,True,3041.5,0.3
+learner_agreement_005,control,5,30,3,The team are winning the game.,dominant,The team are winning the game.,none,True,2251.6,0.3
+learner_agreement_005,control,5,30,4,She always arrive late.,dominant,She always arrives late.,agreement,True,4870.8,0.5
+learner_preposition_005,treated,1,1,0,I bought car yesterday.,secondary,I bought a car yesterday.,article,True,5016.8,0.4
+learner_preposition_005,treated,1,1,1,She is interested by music.,dominant,She is interested in music.,preposition,True,5337.1,0.3
+learner_preposition_005,treated,1,1,2,He is good in math.,dominant,He is good at math.,preposition,True,3279.9,0.5
+learner_preposition_005,treated,1,1,3,I arrived to the airport.,dominant,I arrived at the airport.,preposition,True,3279.6,0.2
+learner_preposition_005,treated,1,1,4,She is married with a doctor.,dominant,She is married to a doctor.,preposition,True,27663.6,0.7
+learner_preposition_005,treated,2,3,0,He is afraid from spiders.,dominant,He is afraid of spiders.,preposition,True,3075.0,0.4
+learner_preposition_005,treated,2,3,1,I listen the radio.,dominant,I listen to the radio.,preposition,True,3145.1,0.3
+learner_preposition_005,treated,2,3,2,She is waiting the bus.,dominant,She is waiting for the bus.,preposition,True,44395.5,0.5
+learner_preposition_005,treated,2,3,3,I have headache.,secondary,I have a headache.,article,True,2932.6,0.3
+learner_preposition_005,treated,2,3,4,I am angry to her.,dominant,I am angry with her.,preposition,True,4053.8,0.3
+learner_preposition_005,treated,3,7,0,She is looking the window.,dominant,She is looking out the window.,preposition,True,3820.8,0.4
+learner_preposition_005,treated,3,7,1,She arrived at Monday.,dominant,She arrived on Monday.,preposition,True,10524.3,0.3
+learner_preposition_005,treated,3,7,2,He is responsible of the team.,dominant,He is responsible for the team.,preposition,True,15557.6,0.5
+learner_preposition_005,treated,3,7,3,She is studying at university.,secondary,She is studying at university.,none,True,33262.6,0.5
+learner_preposition_005,treated,3,7,4,She apologized for me.,dominant,She apologized to me.,preposition,True,17247.7,1.7
+learner_preposition_005,treated,4,14,0,I bought car yesterday.,secondary,I bought a car yesterday.,article,True,3815.9,0.7
+learner_preposition_005,treated,4,14,1,I have a headache.,none,I have a headache.,none,True,14731.9,0.6
+learner_preposition_005,treated,4,14,2,I saw big dog in the park.,secondary,I saw a big dog in the park.,article,True,14293.7,0.3
+learner_preposition_005,treated,4,14,3,He plays the piano.,none,He plays the piano.,none,True,688.8,0.2
+learner_preposition_005,treated,4,14,4,She went to cinema.,secondary,She went to the cinema.,article,True,3142.0,0.4
+learner_preposition_005,treated,5,30,0,I need advice.,secondary,I need advice.,none,True,1125.8,0.2
+learner_preposition_005,treated,5,30,1,I listen the radio.,dominant,I listen to the radio.,preposition,True,3541.5,0.3
+learner_preposition_005,treated,5,30,2,She gave me interesting book.,secondary,She gave me an interesting book.,article,True,7755.3,0.3
+learner_preposition_005,treated,5,30,3,The children play outside.,none,The children play outside.,none,True,715.7,0.2
+learner_preposition_005,treated,5,30,4,My friend doesn't like coffee.,none,My friend doesn't like coffee.,none,True,708.9,0.2
+learner_article_005,control,1,1,0,I bought car yesterday.,dominant,I bought a car yesterday.,article,True,2995.0,0.5
+learner_article_005,control,1,1,1,He has a new car.,none,He has a new car.,none,True,489.2,0.3
+learner_article_005,control,1,1,2,I saw big dog in the park.,dominant,I saw a big dog in the park.,article,True,12921.7,0.6
+learner_article_005,control,1,1,3,He wants to be doctor.,dominant,He wants to be a doctor.,article,True,4274.0,0.3
+learner_article_005,control,1,1,4,My friend don't like coffee.,secondary,My friend doesn't like coffee.,agreement,True,4102.5,0.6
+learner_article_005,control,2,3,0,I need advice.,dominant,I need advice.,none,True,522.7,0.2
+learner_article_005,control,2,3,1,He is best student.,dominant,He is the best student.,article,True,4203.3,0.6
+learner_article_005,control,2,3,2,She gave me interesting book.,dominant,She gave me an interesting book.,article,True,3142.2,0.4
+learner_article_005,control,2,3,3,I have headache.,dominant,I have a headache.,article,True,4043.3,0.3
+learner_article_005,control,2,3,4,She is interested in music.,none,She is interested in music.,none,True,736.3,0.4
+learner_article_005,control,3,7,0,She is eating apple.,dominant,She is eating an apple.,article,True,3604.9,0.3
+learner_article_005,control,3,7,1,I need to call police.,dominant,I need to call the police.,article,True,4519.9,0.6
+learner_article_005,control,3,7,2,I bought a car yesterday.,none,I bought a car yesterday.,none,True,886.1,0.2
+learner_article_005,control,3,7,3,She is studying at university.,dominant,She is studying at university.,none,True,545.5,0.2
+learner_article_005,control,3,7,4,I met nice person today.,dominant,I met a nice person today.,article,True,4317.5,0.2
+learner_article_005,control,4,14,0,She went to the cinema.,none,She went to the cinema.,none,True,509.1,0.2
+learner_article_005,control,4,14,1,She is teacher.,dominant,She is a teacher.,article,True,26545.4,0.9
+learner_article_005,control,4,14,2,She is eating an apple.,none,She is eating an apple.,none,True,672.3,0.3
+learner_article_005,control,4,14,3,The children plays outside.,secondary,The children play outside.,agreement,True,4874.3,0.6
+learner_article_005,control,4,14,4,She went to cinema.,dominant,She went to the cinema.,article,True,3892.7,1.7
+learner_article_005,control,5,30,0,I need advice.,dominant,I need advice.,none,True,740.4,0.2
+learner_article_005,control,5,30,1,He is best student.,dominant,He is the best student.,article,True,6494.7,0.3
+learner_article_005,control,5,30,2,She gave me interesting book.,dominant,She gave me an interesting book.,article,True,3543.8,0.3
+learner_article_005,control,5,30,3,The team are winning the game.,secondary,The team are winning the game.,none,True,866.4,0.2
+learner_article_005,control,5,30,4,He plays piano.,dominant,He plays the piano.,article,True,6813.5,0.4
+learner_mixed_005,treated,1,1,0,She go to school every day.,dominant,She goes to school every day.,agreement,True,3665.9,0.6
+learner_mixed_005,treated,1,1,1,He have a new car.,dominant,He has a new car.,agreement,True,3306.5,0.5
+learner_mixed_005,treated,1,1,2,They was very happy yesterday.,dominant,They were very happy yesterday.,agreement,True,3508.6,0.8
+learner_mixed_005,treated,1,1,3,The children plays outside.,dominant,The children play outside.,agreement,True,40383.7,1.0
+learner_mixed_005,treated,1,1,4,My friend don't like coffee.,dominant,My friend doesn't like coffee.,agreement,True,23164.9,0.8
+learner_mixed_005,treated,2,3,0,The teacher explain the lesson.,dominant,The teacher explains the lesson.,agreement,True,4035.0,0.7
+learner_mixed_005,treated,2,3,1,She doesn't know the answer.,none,She doesn't know the answer.,none,True,485.1,0.4
+learner_mixed_005,treated,2,3,2,He make mistakes often.,dominant,He makes mistakes often.,agreement,True,2920.7,0.9
+learner_mixed_005,treated,2,3,3,The team are winning the game.,dominant,The team are winning the game.,none,True,514.2,0.4
+learner_mixed_005,treated,2,3,4,She is interested in music.,none,She is interested in music.,none,True,18580.0,3.0
+learner_mixed_005,treated,3,7,0,She is looking the window.,secondary,She is looking out the window.,preposition,True,16468.1,1.0
+learner_mixed_005,treated,3,7,1,I arrived at the airport.,none,I arrived at the airport.,none,True,35838.6,0.6
+learner_mixed_005,treated,3,7,2,My sister work at the hospital.,dominant,My sister works at the hospital.,agreement,True,16973.4,0.3
+learner_mixed_005,treated,3,7,3,The boys was tired after school.,dominant,The boys were tired after school.,agreement,True,6979.6,1.3
+learner_mixed_005,treated,3,7,4,He wants to be a doctor.,none,He wants to be a doctor.,none,True,638.4,0.2
+learner_mixed_005,treated,4,14,0,I depend of my parents.,secondary,I depend on my parents.,preposition,True,22918.3,0.3
+learner_mixed_005,treated,4,14,1,I have a headache.,none,I have a headache.,none,True,10572.4,0.6
+learner_mixed_005,treated,4,14,2,She is eating an apple.,none,She is eating an apple.,none,True,987.6,0.3
+learner_mixed_005,treated,4,14,3,I arrived to the airport.,secondary,I arrived at the airport.,preposition,True,3431.1,0.3
+learner_mixed_005,treated,4,14,4,He opened the door.,none,He opened the door.,none,True,1073.4,0.2
+learner_mixed_005,treated,5,30,0,She goes to school every day.,none,She goes to school every day.,none,True,9948.2,0.2
+learner_mixed_005,treated,5,30,1,I listen the radio.,secondary,I listen to the radio.,preposition,True,20651.7,0.8
+learner_mixed_005,treated,5,30,2,She is waiting the bus.,secondary,She is waiting for the bus.,preposition,True,22599.7,2.2
+learner_mixed_005,treated,5,30,3,The children play outside.,none,The children play outside.,none,True,994.9,0.4
+learner_mixed_005,treated,5,30,4,I am angry to her.,secondary,I am angry with her.,preposition,True,3239.1,0.4
+learner_progressive_005,control,1,1,0,She go to school every day.,dominant,She goes to school every day.,agreement,True,3688.6,0.2
+learner_progressive_005,control,1,1,1,He have a new car.,dominant,He has a new car.,agreement,True,2721.1,0.4
+learner_progressive_005,control,1,1,2,They was very happy yesterday.,dominant,They were very happy yesterday.,agreement,True,3252.5,0.5
+learner_progressive_005,control,1,1,3,The children plays outside.,dominant,The children play outside.,agreement,True,4737.0,0.5
+learner_progressive_005,control,1,1,4,My friend don't like coffee.,dominant,My friend doesn't like coffee.,agreement,True,3389.9,0.4
+learner_progressive_005,control,2,3,0,The teacher explain the lesson.,dominant,The teacher explained the lesson.,tense,True,7072.9,0.9
+learner_progressive_005,control,2,3,1,She don't know the answer.,dominant,She doesn't know the answer.,agreement,True,28364.6,0.9
+learner_progressive_005,control,2,3,2,He make mistakes often.,dominant,He makes mistakes often.,agreement,True,9629.1,1.3
+learner_progressive_005,control,2,3,3,The team are winning the game.,dominant,The team are winning the game.,none,True,710.7,0.4
+learner_progressive_005,control,2,3,4,She is interested in music.,none,She is interested in music.,none,True,572.8,0.4
+learner_progressive_005,control,3,7,0,He don't understand the rules.,dominant,He doesn't understand the rules.,agreement,True,3165.6,0.3
+learner_progressive_005,control,3,7,1,The dog run very fast.,dominant,The dog runs very fast.,agreement,True,9711.1,1.0
+learner_progressive_005,control,3,7,2,My sister work at the hospital.,dominant,My sister works at the hospital.,agreement,True,3377.9,0.4
+learner_progressive_005,control,3,7,3,She is a teacher.,none,She is a teacher.,none,True,548.0,0.2
+learner_progressive_005,control,3,7,4,She have a big family.,dominant,She has a big family.,agreement,True,2713.4,0.3
+learner_progressive_005,control,4,14,0,I bought car yesterday.,secondary,I bought a car yesterday.,article,True,3275.2,0.4
+learner_progressive_005,control,4,14,1,He have a new car.,dominant,He has a new car.,agreement,True,45096.9,1.0
+learner_progressive_005,control,4,14,2,She is eating an apple.,none,She is eating an apple.,none,True,513.2,0.2
+learner_progressive_005,control,4,14,3,The children plays outside.,dominant,The children play outside.,agreement,True,2812.8,0.3
+learner_progressive_005,control,4,14,4,My friend don't like coffee.,dominant,My friend doesn't like coffee.,agreement,True,5870.3,0.5
+learner_progressive_005,control,5,30,0,I need advice.,secondary,I need advice.,none,True,800.9,0.2
+learner_progressive_005,control,5,30,1,She don't know the answer.,dominant,She doesn't know the answer.,agreement,True,2764.0,0.6
+learner_progressive_005,control,5,30,2,He make mistakes often.,dominant,He makes mistakes often.,agreement,True,29192.1,0.6
+learner_progressive_005,control,5,30,3,The team are winning the game.,dominant,The team are winning the game.,none,True,650.2,0.2
+learner_progressive_005,control,5,30,4,She always arrive late.,dominant,She always arrives late.,agreement,True,3001.4,0.6
+learner_agreement_006,treated,1,1,0,She go to school every day.,dominant,She goes to school every day.,agreement,True,9780.3,0.3
+learner_agreement_006,treated,1,1,1,He have a new car.,dominant,He has a new car.,agreement,True,26667.1,0.8
+learner_agreement_006,treated,1,1,2,They was very happy yesterday.,dominant,They were very happy yesterday.,agreement,True,7060.6,0.6
+learner_agreement_006,treated,1,1,3,The children plays outside.,dominant,The children play outside.,agreement,True,24377.6,0.5
+learner_agreement_006,treated,1,1,4,My friend doesn't like coffee.,none,My friend doesn't like coffee.,none,True,562.2,0.3
+learner_agreement_006,treated,2,3,0,The teacher explain the lesson.,dominant,The teacher explained the lesson.,tense,True,6577.2,1.2
+learner_agreement_006,treated,2,3,1,She don't know the answer.,dominant,She doesn't know the answer.,agreement,True,18593.5,2.9
+learner_agreement_006,treated,2,3,2,He make mistakes often.,dominant,He makes mistakes often.,agreement,True,3309.7,0.4
+learner_agreement_006,treated,2,3,3,The team are winning the game.,dominant,The team are winning the game.,none,True,757.9,0.3
+learner_agreement_006,treated,2,3,4,She is interested in music.,none,She is interested in music.,none,True,746.9,0.2
+learner_agreement_006,treated,3,7,0,He don't understand the rules.,dominant,He doesn't understand the rules.,agreement,True,2939.9,4.5
+learner_agreement_006,treated,3,7,1,The dog run very fast.,dominant,The dog runs very fast.,agreement,True,4510.6,0.7
+learner_agreement_006,treated,3,7,2,My sister work at the hospital.,dominant,My sister works at the hospital.,agreement,True,30776.4,1.1
+learner_agreement_006,treated,3,7,3,I am bored of this movie.,secondary,I am bored of this movie.,none,True,1198.1,0.4
+learner_agreement_006,treated,4,14,1,I have a headache.,none,I have a headache.,none,True,33697.9,0.6
+learner_agreement_006,treated,4,14,2,They was very happy yesterday.,dominant,They were very happy yesterday.,agreement,True,3507.7,0.9
+learner_agreement_006,treated,4,14,3,The children plays outside.,dominant,The children play outside.,agreement,True,9942.2,0.5
+learner_agreement_006,treated,4,14,4,He opened the door.,none,He opened the door.,none,True,1079.1,0.2
+learner_agreement_006,treated,5,30,0,The teacher explain the lesson.,dominant,The teacher explains the lesson.,agreement,True,3265.4,0.4
+learner_agreement_006,treated,5,30,1,He has a new car.,none,He has a new car.,none,True,1024.3,0.2
+learner_agreement_006,treated,5,30,2,They were very happy yesterday.,none,They were very happy yesterday.,none,True,501.9,0.2
+learner_agreement_006,treated,5,30,3,The team are winning the game.,dominant,The team are winning the game.,none,True,844.7,0.2
+learner_agreement_006,treated,5,30,4,She always arrive late.,dominant,She always arrives late.,agreement,True,40997.7,0.6
+learner_preposition_006,control,1,1,0,She goes to school every day.,none,She goes to school every day.,none,True,7344.8,0.5
+learner_preposition_006,control,1,1,1,She is interested by music.,dominant,She is interested in music.,preposition,True,5285.7,0.5
+learner_preposition_006,control,1,1,2,He is good in math.,dominant,He is good at math.,preposition,True,10633.7,0.3
+learner_preposition_006,control,1,1,3,The children play outside.,none,The children play outside.,none,True,630.7,0.2
+learner_preposition_006,control,1,1,4,She is married with a doctor.,dominant,She is married to a doctor.,preposition,True,3078.5,0.4
+learner_preposition_006,control,2,3,0,He is afraid from spiders.,dominant,He is afraid of spiders.,preposition,True,3641.4,0.3
+learner_preposition_006,control,2,3,1,I listen the radio.,dominant,I listen to the radio.,preposition,True,3995.6,0.3
+learner_preposition_006,control,2,3,2,She is waiting the bus.,dominant,She is waiting for the bus.,preposition,True,35444.2,0.5
+learner_preposition_006,control,2,3,3,He is proud from his son.,dominant,He is proud of his son.,preposition,True,4036.2,1.5
+learner_preposition_006,control,2,3,4,I am angry to her.,dominant,I am angry with her.,preposition,True,48680.6,0.8
+learner_preposition_006,control,3,7,0,She is looking the window.,dominant,She is looking out the window.,preposition,True,49737.5,0.7
+learner_preposition_006,control,3,7,1,She arrived at Monday.,dominant,She arrived on Monday.,preposition,True,3396.4,0.3
+learner_preposition_006,control,3,7,2,He is responsible of the team.,dominant,He is responsible for the team.,preposition,True,3087.1,0.6
+learner_preposition_006,control,3,7,3,I am bored of this movie.,dominant,I am bored of this movie.,none,True,525.2,0.2
+learner_preposition_006,control,3,7,4,She apologized for me.,dominant,She apologized to me.,preposition,True,10554.0,0.4
+learner_preposition_006,control,4,14,0,I depend of my parents.,dominant,I depend on my parents.,preposition,True,9165.6,0.3
+learner_preposition_006,control,4,14,1,I have a headache.,none,I have a headache.,none,True,682.4,0.2
+learner_preposition_006,control,4,14,2,He is good in math.,dominant,He is good at math.,preposition,True,2977.9,0.6
+learner_preposition_006,control,4,14,3,I arrived to the airport.,dominant,I arrived at the airport.,preposition,True,3799.9,0.3
+learner_preposition_006,control,4,14,4,He opened the door.,none,He opened the door.,none,True,1073.1,0.4
+learner_preposition_006,control,5,30,0,He is afraid from spiders.,dominant,He is afraid of spiders.,preposition,True,3880.6,0.3
+learner_preposition_006,control,5,30,1,I listen the radio.,dominant,I listen to the radio.,preposition,True,58932.1,1.4
+learner_preposition_006,control,5,30,2,She is waiting the bus.,dominant,She is waiting for the bus.,preposition,True,4351.4,0.2
+learner_preposition_006,control,5,30,3,I have headache.,secondary,I have a headache.,article,True,3125.2,0.4
+learner_preposition_006,control,5,30,4,He plays piano.,secondary,He plays the piano.,article,True,2222.3,0.4
+learner_article_006,treated,1,1,0,I bought car yesterday.,dominant,I bought a car yesterday.,article,True,3092.5,0.3
+learner_article_006,treated,1,1,1,She is teacher.,dominant,She is a teacher.,article,True,2884.6,0.2
+learner_article_006,treated,1,1,2,They were very happy yesterday.,none,They were very happy yesterday.,none,True,521.2,0.3
+learner_article_006,treated,1,1,3,He wants to be doctor.,dominant,He wants to be a doctor.,article,True,8803.9,0.5
+learner_article_006,treated,1,1,4,My friend doesn't like coffee.,none,My friend doesn't like coffee.,none,True,642.8,0.3
+learner_article_006,treated,2,3,0,The teacher explain the lesson.,secondary,The teacher explains the lesson.,agreement,True,4837.5,0.4
+learner_article_006,treated,2,3,1,He is best student.,dominant,He is the best student.,article,True,3407.8,0.5
+learner_article_006,treated,2,3,2,She gave me interesting book.,dominant,She gave me an interesting book.,article,True,3522.1,0.2
+learner_article_006,treated,2,3,3,I have headache.,dominant,I have a headache.,article,True,3289.2,0.3
+learner_article_006,treated,2,3,4,He plays piano.,dominant,He plays the piano.,article,True,3181.1,0.6
+learner_article_006,treated,3,7,0,He don't understand the rules.,secondary,He doesn't understand the rules.,agreement,True,3636.9,0.3
+learner_article_006,treated,3,7,1,I need to call police.,dominant,I need to call the police.,article,True,10485.0,0.5
+learner_article_006,treated,3,7,2,He opened door.,dominant,He opened the door.,article,True,25695.8,0.6
+learner_article_006,treated,3,7,3,She is a teacher.,none,She is a teacher.,none,True,564.0,0.6
+learner_article_006,treated,3,7,4,I met nice person today.,dominant,I met a nice person today.,article,True,3752.8,0.2
+learner_article_006,treated,4,14,0,She went to the cinema.,none,She went to the cinema.,none,True,589.1,0.2
+learner_article_006,treated,4,14,1,He have a new car.,secondary,He has a new car.,agreement,True,3502.5,0.3
+learner_article_006,treated,4,14,2,She is eating an apple.,none,She is eating an apple.,none,True,826.9,0.4
+learner_article_006,treated,4,14,3,He plays the piano.,none,He plays the piano.,none,True,519.3,0.3
+learner_article_006,treated,4,14,4,She went to cinema.,dominant,She went to the cinema.,article,True,2614.6,0.3
+learner_article_006,treated,5,30,0,She goes to school every day.,none,She goes to school every day.,none,True,743.0,0.6
+learner_article_006,treated,5,30,1,He has a new car.,none,He has a new car.,none,True,683.7,0.3
+learner_article_006,treated,5,30,2,He make mistakes often.,secondary,He makes mistakes often.,agreement,True,7175.4,0.7
+learner_article_006,treated,5,30,3,The team are winning the game.,secondary,The team are winning the game.,none,True,551.1,0.3
+learner_article_006,treated,5,30,4,He plays piano.,dominant,He plays the piano.,article,True,3516.8,0.3
+learner_mixed_006,control,1,1,0,I depend of my parents.,secondary,I depend on my parents.,preposition,True,7861.7,0.6
+learner_mixed_006,control,1,1,1,He have a new car.,dominant,He has a new car.,agreement,True,7183.1,1.1
+learner_mixed_006,control,1,1,2,They was very happy yesterday.,dominant,They were very happy yesterday.,agreement,True,5597.7,0.4
+learner_mixed_006,control,1,1,3,The children plays outside.,dominant,The children play outside.,agreement,True,3443.5,0.3
+learner_mixed_006,control,1,1,4,My friend don't like coffee.,dominant,My friend doesn't like coffee.,agreement,True,3067.5,0.6
+learner_mixed_006,control,2,3,0,The teacher explain the lesson.,dominant,The teacher explains the lesson.,agreement,True,3368.0,0.4
+learner_mixed_006,control,2,3,1,I listen the radio.,secondary,I listen to the radio.,preposition,True,3242.3,0.5
+learner_mixed_006,control,2,3,2,He makes mistakes often.,none,He makes mistakes often.,none,True,759.4,0.2
+learner_mixed_006,control,2,3,3,The team are winning the game.,dominant,The team are winning the game.,none,True,3012.0,0.4
+learner_mixed_006,control,2,3,4,She always arrive late.,dominant,She always arrives late.,agreement,True,3689.5,0.3
+learner_mixed_006,control,3,7,0,He don't understand the rules.,dominant,He doesn't understand the rules.,agreement,True,4234.7,0.4
+learner_mixed_006,control,3,7,1,I arrived at the airport.,none,I arrived at the airport.,none,True,893.7,0.2
+learner_mixed_006,control,3,7,2,My sister work at the hospital.,dominant,My sister works at the hospital.,agreement,True,5963.9,0.6
+learner_mixed_006,control,3,7,3,I am bored of this movie.,secondary,I am bored of this movie.,none,True,568.4,0.2
+learner_mixed_006,control,3,7,4,He wants to be a doctor.,none,He wants to be a doctor.,none,True,524.0,0.2
+learner_mixed_006,control,4,14,0,I depend of my parents.,secondary,I depend on my parents.,preposition,True,42418.3,0.8
+learner_mixed_006,control,4,14,1,He have a new car.,dominant,He has a new car.,agreement,True,8599.3,1.3
+learner_mixed_006,control,4,14,2,They was very happy yesterday.,dominant,They were very happy yesterday.,agreement,True,3057.3,0.7
+learner_mixed_006,control,4,14,3,The children plays outside.,dominant,The children play outside.,agreement,True,5083.7,0.3
+learner_mixed_006,control,4,14,4,My friend don't like coffee.,dominant,My friend doesn't like coffee.,agreement,True,2908.1,0.4
+learner_mixed_006,control,5,30,0,The teacher explain the lesson.,dominant,The teacher explained the lesson.,tense,True,8725.7,0.8
+learner_mixed_006,control,5,30,1,She don't know the answer.,dominant,She doesn't know the answer.,agreement,True,4162.5,0.4
+learner_mixed_006,control,5,30,2,He make mistakes often.,dominant,He makes mistakes often.,agreement,True,4188.6,1.0
+learner_mixed_006,control,5,30,3,The team are winning the game.,dominant,The team are winning the game.,none,True,626.5,0.3
+learner_mixed_006,control,5,30,4,She always arrive late.,dominant,She always arrives late.,agreement,True,3110.1,0.3
+learner_progressive_006,treated,1,1,0,She go to school every day.,dominant,She goes to school every day.,agreement,True,27095.3,1.1
+learner_progressive_006,treated,1,1,1,She is teacher.,secondary,She is a teacher.,article,True,31780.4,0.6
+learner_progressive_006,treated,1,1,2,They was very happy yesterday.,dominant,They were very happy yesterday.,agreement,True,2921.9,0.7
+learner_progressive_006,treated,1,1,3,The children plays outside.,dominant,The children play outside.,agreement,True,2989.3,2.2
+learner_progressive_006,treated,1,1,4,My friend don't like coffee.,dominant,My friend doesn't like coffee.,agreement,True,4454.1,0.3
+learner_progressive_006,treated,2,3,0,The teacher explain the lesson.,dominant,The teacher explains the lesson.,agreement,True,9834.1,1.6
+learner_progressive_006,treated,2,3,1,She doesn't know the answer.,none,She doesn't know the answer.,none,True,680.8,0.4
+learner_progressive_006,treated,2,3,2,She gave me interesting book.,secondary,She gave me an interesting book.,article,True,3670.6,0.4
+learner_progressive_006,treated,2,3,3,The team are winning the game.,dominant,The team are winning the game.,none,True,629.1,1.4
+learner_progressive_006,treated,3,7,0,She is eating apple.,secondary,She is eating an apple.,article,True,59119.4,0.7
+learner_progressive_006,treated,3,7,1,I arrived at the airport.,none,I arrived at the airport.,none,True,7059.3,0.2
+learner_progressive_006,treated,3,7,2,He opened door.,secondary,He opened the door.,article,True,13895.9,0.6
+learner_progressive_006,treated,3,7,3,She is a teacher.,none,She is a teacher.,none,True,818.5,0.4
+learner_progressive_006,treated,3,7,4,I met nice person today.,secondary,I met a nice person today.,article,True,4180.0,0.3
+learner_progressive_006,treated,4,14,0,I bought car yesterday.,secondary,I bought a car yesterday.,article,True,4685.1,0.7
+learner_progressive_006,treated,4,14,1,I have a headache.,none,I have a headache.,none,True,1036.4,0.2
+learner_progressive_006,treated,4,14,2,She is eating an apple.,none,She is eating an apple.,none,True,1763.7,0.2
+learner_progressive_006,treated,4,14,3,The children plays outside.,dominant,The children play outside.,agreement,True,11795.0,1.1
+learner_progressive_006,treated,4,14,4,She went to cinema.,secondary,She went to the cinema.,article,True,2633.5,0.6
+learner_progressive_006,treated,5,30,0,She goes to school every day.,none,She goes to school every day.,none,True,871.7,0.4
+learner_progressive_006,treated,5,30,1,She don't know the answer.,dominant,She doesn't know the answer.,agreement,True,6290.0,0.3
+learner_progressive_006,treated,5,30,2,They were very happy yesterday.,none,They were very happy yesterday.,none,True,678.5,0.3
+learner_progressive_006,treated,5,30,3,The children play outside.,none,The children play outside.,none,True,535.9,0.2
+learner_progressive_006,treated,5,30,4,My friend doesn't like coffee.,none,My friend doesn't like coffee.,none,True,758.9,0.2
+learner_agreement_007,control,1,1,0,She go to school every day.,dominant,She goes to school every day.,agreement,True,7117.2,0.9
+learner_agreement_007,control,1,1,1,He have a new car.,dominant,He has a new car.,agreement,True,3559.7,0.3
+learner_agreement_007,control,1,1,2,They was very happy yesterday.,dominant,They were very happy yesterday.,agreement,True,3602.1,0.5
+learner_agreement_007,control,1,1,3,The children plays outside.,dominant,The children play outside.,agreement,True,3200.0,0.3
+learner_agreement_007,control,1,1,4,My friend don't like coffee.,dominant,My friend doesn't like coffee.,agreement,True,3250.6,1.0
+learner_agreement_007,control,2,3,0,The teacher explain the lesson.,dominant,The teacher explains the lesson.,agreement,True,19726.3,0.7
+learner_agreement_007,control,2,3,1,She don't know the answer.,dominant,She doesn't know the answer.,agreement,True,6666.7,0.3
+learner_agreement_007,control,2,3,2,He make mistakes often.,dominant,He makes mistakes often.,agreement,True,3386.0,0.3
+learner_agreement_007,control,2,3,3,The team are winning the game.,dominant,The team are winning the game.,none,True,951.6,0.3
+learner_agreement_007,control,2,3,4,She is interested in music.,none,She is interested in music.,none,True,560.6,0.2
+learner_agreement_007,control,3,7,0,He don't understand the rules.,dominant,He doesn't understand the rules.,agreement,True,3653.2,0.5
+learner_agreement_007,control,3,7,1,I arrived at the airport.,none,I arrived at the airport.,none,True,899.8,0.2
+learner_agreement_007,control,3,7,2,My sister work at the hospital.,dominant,My sister works at the hospital.,agreement,True,10056.5,0.5
+learner_agreement_007,control,3,7,3,She is a teacher.,none,She is a teacher.,none,True,761.4,0.4
+learner_agreement_007,control,3,7,4,She have a big family.,dominant,She has a big family.,agreement,True,43006.7,0.7
+learner_agreement_007,control,4,14,0,She go to school every day.,dominant,She goes to school every day.,agreement,True,44011.7,0.8
+learner_agreement_007,control,4,14,1,He have a new car.,dominant,He has a new car.,agreement,True,13630.0,0.7
+learner_agreement_007,control,4,14,2,They was very happy yesterday.,dominant,They were very happy yesterday.,agreement,True,21513.1,1.1
+learner_agreement_007,control,4,14,3,The children plays outside.,dominant,The children play outside.,agreement,True,40997.6,0.9
+learner_agreement_007,control,4,14,4,She is married with a doctor.,secondary,She is married to a doctor.,preposition,True,7489.6,0.3
+learner_agreement_007,control,5,30,0,The teacher explain the lesson.,dominant,The teacher explains the lesson.,agreement,True,5873.5,0.3
+learner_agreement_007,control,5,30,1,She don't know the answer.,dominant,She doesn't know the answer.,agreement,True,3274.0,0.9
+learner_agreement_007,control,5,30,2,He make mistakes often.,dominant,He makes mistakes often.,agreement,True,9094.2,0.6
+learner_agreement_007,control,5,30,3,The team are winning the game.,dominant,The team are winning the game.,none,True,898.7,1.9
+learner_agreement_007,control,5,30,4,She always arrive late.,dominant,She always arrives late.,agreement,True,3538.0,0.8
+learner_preposition_007,treated,1,1,0,I depend of my parents.,dominant,I depend on my parents.,preposition,True,3162.0,0.5
+learner_preposition_007,treated,1,1,1,She is interested by music.,dominant,She is interested in music.,preposition,True,2876.4,0.3
+learner_preposition_007,treated,1,1,2,They were very happy yesterday.,none,They were very happy yesterday.,none,True,523.8,0.4
+learner_preposition_007,treated,1,1,3,I arrived to the airport.,dominant,I arrived at the airport.,preposition,True,3146.9,0.6
+learner_preposition_007,treated,1,1,4,She is married with a doctor.,dominant,She is married to a doctor.,preposition,True,3894.1,0.4
+learner_preposition_007,treated,2,3,0,He is afraid from spiders.,dominant,He is afraid of spiders.,preposition,True,5444.5,0.6
+learner_preposition_007,treated,2,3,1,I listen the radio.,dominant,I listen to the radio.,preposition,True,3020.2,0.2
+learner_preposition_007,treated,2,3,2,She is waiting the bus.,dominant,She is waiting for the bus.,preposition,True,3793.3,0.2
+learner_preposition_007,treated,2,3,3,He is proud from his son.,dominant,He is proud of his son.,preposition,True,3672.9,1.0
+learner_preposition_007,treated,2,3,4,She is interested in music.,none,She is interested in music.,none,True,580.6,0.2
+learner_preposition_007,treated,3,7,0,She is looking the window.,dominant,She is looking out the window.,preposition,True,29878.1,0.9
+learner_preposition_007,treated,3,7,1,I need to call police.,secondary,I need to call the police.,article,True,3636.8,0.5
+learner_preposition_007,treated,3,7,2,I bought a car yesterday.,none,I bought a car yesterday.,none,True,907.3,0.6
+learner_preposition_007,treated,3,7,3,She is studying at university.,secondary,She is studying at university.,none,True,1055.9,0.2
+learner_preposition_007,treated,3,7,4,She apologized for me.,dominant,She apologized for me.,none,True,1044.5,0.2
+learner_preposition_007,treated,4,14,0,She went to the cinema.,none,She went to the cinema.,none,True,1044.3,0.3
+learner_preposition_007,treated,4,14,1,She is interested by music.,dominant,She is interested in music.,preposition,True,5250.5,0.4
+learner_preposition_007,treated,4,14,2,She is eating an apple.,none,She is eating an apple.,none,True,1041.2,0.3
+learner_preposition_007,treated,4,14,3,He plays the piano.,none,He plays the piano.,none,True,4955.5,0.3
+learner_preposition_007,treated,4,14,4,He opened the door.,none,He opened the door.,none,True,813.7,0.2
+learner_preposition_007,treated,5,30,0,I need advice.,secondary,I need advice.,none,True,1807.2,0.2
+learner_preposition_007,treated,5,30,1,He is best student.,secondary,He is the best student.,article,True,3134.6,0.4
+learner_preposition_007,treated,5,30,2,She gave me interesting book.,secondary,She gave me an interesting book.,article,True,3446.1,0.6
+learner_preposition_007,treated,5,30,3,I have headache.,secondary,I have a headache.,article,True,14169.7,0.4
+learner_preposition_007,treated,5,30,4,My friend doesn't like coffee.,none,My friend doesn't like coffee.,none,True,569.5,0.2
+learner_article_007,control,1,1,0,She go to school every day.,secondary,She goes to school every day.,agreement,True,4401.9,0.5
+learner_article_007,control,1,1,1,She is teacher.,dominant,She is a teacher.,article,True,10351.8,0.7
+learner_article_007,control,1,1,2,I saw big dog in the park.,dominant,I saw a big dog in the park.,article,True,17264.9,0.9
+learner_article_007,control,1,1,3,He wants to be doctor.,dominant,He wants to be a doctor.,article,True,28532.1,0.5
+learner_article_007,control,1,1,4,She went to cinema.,dominant,She went to the cinema.,article,True,2909.0,1.3
+learner_article_007,control,2,3,0,I need advice.,dominant,I need advice.,none,True,728.8,0.3
+learner_article_007,control,2,3,1,He is best student.,dominant,He is the best student.,article,True,3907.6,0.3
+learner_article_007,control,2,3,2,She gave me interesting book.,dominant,She gave me an interesting book.,article,True,11659.7,0.6
+learner_article_007,control,2,3,3,I have headache.,dominant,I have a headache.,article,True,54924.5,0.7
+learner_article_007,control,2,3,4,He plays piano.,dominant,He plays the piano.,article,True,20384.8,0.7
+learner_article_007,control,3,7,0,She is eating apple.,dominant,She is eating an apple.,article,True,3003.2,0.5
+learner_article_007,control,3,7,1,I need to call police.,dominant,I need to call the police.,article,True,3263.5,0.4
+learner_article_007,control,3,7,2,My sister work at the hospital.,secondary,My sister works at the hospital.,agreement,True,13367.8,0.8
+learner_article_007,control,3,7,3,She is studying at university.,dominant,She is studying at university.,none,True,1369.4,0.3
+learner_article_007,control,3,7,4,I met nice person today.,dominant,I met a nice person today.,article,True,3219.2,0.3
+learner_article_007,control,4,14,0,I bought car yesterday.,dominant,I bought a car yesterday.,article,True,4428.2,0.3
+learner_article_007,control,4,14,1,She is teacher.,dominant,She is a teacher.,article,True,3667.6,0.3
+learner_article_007,control,4,14,2,I saw big dog in the park.,dominant,I saw a big dog in the park.,article,True,12227.6,0.9
+learner_article_007,control,4,14,3,He wants to be doctor.,dominant,He wants to be a doctor.,article,True,23325.5,0.8
+learner_article_007,control,4,14,4,She went to cinema.,dominant,She went to the cinema.,article,True,12030.4,0.6
+learner_article_007,control,5,30,0,She goes to school every day.,none,She goes to school every day.,none,True,597.4,0.4
+learner_article_007,control,5,30,1,He is best student.,dominant,He is the best student.,article,True,8915.3,0.3
+learner_article_007,control,5,30,2,They were very happy yesterday.,none,They were very happy yesterday.,none,True,471.0,0.6
+learner_article_007,control,5,30,3,I have headache.,dominant,I have a headache.,article,True,55974.0,0.6
+learner_article_007,control,5,30,4,He plays piano.,dominant,He plays the piano.,article,True,3877.6,0.2
+learner_mixed_007,treated,1,1,0,She go to school every day.,dominant,She goes to school every day.,agreement,True,3550.9,0.9
+learner_mixed_007,treated,1,1,1,He have a new car.,dominant,He has a new car.,agreement,True,4718.6,0.6
+learner_mixed_007,treated,1,1,2,They was very happy yesterday.,dominant,They were very happy yesterday.,agreement,True,8591.3,4.3
+learner_mixed_007,treated,1,1,3,The children play outside.,none,The children play outside.,none,True,537.0,0.4
+learner_mixed_007,treated,1,1,4,She is married with a doctor.,secondary,She is married to a doctor.,preposition,True,3455.2,0.3
+learner_mixed_007,treated,2,3,0,The teacher explain the lesson.,dominant,The teacher explained the lesson.,tense,True,5120.8,0.7
+learner_mixed_007,treated,2,3,1,I listen the radio.,secondary,I listen to the radio.,preposition,True,33562.1,1.0
+learner_mixed_007,treated,2,3,2,She is waiting the bus.,secondary,She is waiting for the bus.,preposition,True,13279.1,2.6
+learner_mixed_007,treated,2,3,3,He is proud from his son.,secondary,He is proud of his son.,preposition,True,9929.0,1.3
+learner_mixed_007,treated,2,3,4,She is interested in music.,none,She is interested in music.,none,True,1795.1,3.4
+learner_mixed_007,treated,3,7,0,She is looking the window.,secondary,She is looking out the window.,preposition,True,57447.9,0.9
+learner_mixed_007,treated,3,7,1,The dog run very fast.,dominant,The dog runs very fast.,agreement,True,36030.5,0.6
+learner_mixed_007,treated,3,7,2,My sister work at the hospital.,dominant,My sister works at the hospital.,agreement,True,14406.1,0.6
+learner_mixed_007,treated,3,7,3,She is a teacher.,none,She is a teacher.,none,True,1046.9,0.2
+learner_mixed_007,treated,3,7,4,He wants to be a doctor.,none,He wants to be a doctor.,none,True,1227.0,0.5
+learner_mixed_007,treated,4,14,0,She went to the cinema.,none,She went to the cinema.,none,True,842.8,0.2
+learner_mixed_007,treated,4,14,1,He have a new car.,dominant,He has a new car.,agreement,True,4785.4,0.5
+learner_mixed_007,treated,4,14,2,He is good in math.,secondary,He is good at math.,preposition,True,38142.9,0.7
+learner_mixed_007,treated,4,14,3,I arrived to the airport.,secondary,I arrived at the airport.,preposition,True,6671.0,0.7
+learner_mixed_007,treated,4,14,4,My friend don't like coffee.,dominant,My friend doesn't like coffee.,agreement,True,4598.3,2.9
+learner_mixed_007,treated,5,30,0,She goes to school every day.,none,She goes to school every day.,none,True,765.0,0.3
+learner_mixed_007,treated,5,30,1,I listen the radio.,secondary,I listen to the radio.,preposition,True,4715.6,0.2
+learner_mixed_007,treated,5,30,2,She is waiting the bus.,secondary,She is waiting for the bus.,preposition,True,50341.4,0.6
+learner_mixed_007,treated,5,30,3,The children play outside.,none,The children play outside.,none,True,718.2,0.2
+learner_mixed_007,treated,5,30,4,I am angry to her.,secondary,I am angry with her.,preposition,True,3995.8,0.3
+learner_progressive_007,control,1,1,0,She goes to school every day.,none,She goes to school every day.,none,True,604.7,0.5
+learner_progressive_007,control,1,1,1,He have a new car.,dominant,He has a new car.,agreement,True,5580.3,0.7
+learner_progressive_007,control,1,1,2,I saw big dog in the park.,secondary,I saw a big dog in the park.,article,True,26344.8,0.8
+learner_progressive_007,control,1,1,3,The children plays outside.,dominant,The children play outside.,agreement,True,7612.7,0.7
+learner_progressive_007,control,1,1,4,She went to cinema.,secondary,She went to the cinema.,article,True,4228.3,0.6
+learner_progressive_007,control,2,3,0,The teacher explain the lesson.,dominant,The teacher explains the lesson.,agreement,True,4899.4,0.3
+learner_progressive_007,control,2,3,1,She don't know the answer.,dominant,She doesn't know the answer.,agreement,True,3386.3,0.7
+learner_progressive_007,control,2,3,2,He make mistakes often.,dominant,He makes mistakes often.,agreement,True,4094.0,0.5
+learner_progressive_007,control,2,3,3,The team are winning the game.,dominant,The team are winning the game.,none,True,1093.4,1.1
+learner_progressive_007,control,2,3,4,She always arrive late.,dominant,She always arrives late.,agreement,True,3880.7,0.5
+learner_progressive_007,control,3,7,0,He don't understand the rules.,dominant,He doesn't understand the rules.,agreement,True,4332.3,0.4
+learner_progressive_007,control,3,7,1,The dog run very fast.,dominant,The dog runs very fast.,agreement,True,4892.5,0.3
+learner_progressive_007,control,3,7,2,I bought a car yesterday.,none,I bought a car yesterday.,none,True,1199.0,0.2
+learner_progressive_007,control,3,7,3,The boys was tired after school.,dominant,The boys were tired after school.,agreement,True,24145.5,0.7
+learner_progressive_007,control,3,7,4,She have a big family.,dominant,She has a big family.,agreement,True,4365.9,0.5
+learner_progressive_007,control,4,14,0,She go to school every day.,dominant,She goes to school every day.,agreement,True,3141.2,0.3
+learner_progressive_007,control,4,14,1,He have a new car.,dominant,He has a new car.,agreement,True,5451.1,0.6
+learner_progressive_007,control,4,14,2,They was very happy yesterday.,dominant,They were very happy yesterday.,agreement,True,4215.5,1.0
+learner_progressive_007,control,4,14,3,He plays the piano.,none,He plays the piano.,none,True,1078.0,0.2
+learner_progressive_007,control,4,14,4,My friend don't like coffee.,dominant,My friend doesn't like coffee.,agreement,True,3117.0,0.3
+learner_progressive_007,control,5,30,0,The teacher explain the lesson.,dominant,The teacher explains the lesson.,agreement,True,5881.4,0.4
+learner_progressive_007,control,5,30,1,She don't know the answer.,dominant,She doesn't know the answer.,agreement,True,6120.5,0.3
+learner_progressive_007,control,5,30,2,He make mistakes often.,dominant,He makes mistakes often.,agreement,True,4020.7,0.3
+learner_progressive_007,control,5,30,3,The team are winning the game.,dominant,The team are winning the game.,none,True,1177.8,0.3
+learner_progressive_007,control,5,30,4,He plays piano.,secondary,He plays the piano.,article,True,5120.2,0.3
+learner_agreement_008,treated,1,1,0,She go to school every day.,dominant,She goes to school every day.,agreement,True,4709.5,0.3
+learner_agreement_008,treated,1,1,1,He have a new car.,dominant,He has a new car.,agreement,True,3738.7,0.5
+learner_agreement_008,treated,1,1,2,They was very happy yesterday.,dominant,They were very happy yesterday.,agreement,True,3365.1,0.5
+learner_agreement_008,treated,1,1,3,The children plays outside.,dominant,The children play outside.,agreement,True,3019.2,0.8
+learner_agreement_008,treated,1,1,4,My friend doesn't like coffee.,none,My friend doesn't like coffee.,none,True,1606.4,0.4
+learner_agreement_008,treated,2,3,0,He is afraid from spiders.,secondary,He is afraid of spiders.,preposition,True,9248.7,0.9
+learner_agreement_008,treated,2,3,1,She don't know the answer.,dominant,She doesn't know the answer.,agreement,True,8367.2,0.5
+learner_agreement_008,treated,2,3,2,He make mistakes often.,dominant,He makes mistakes often.,agreement,True,3928.8,1.0
+learner_agreement_008,treated,2,3,3,The team are winning the game.,dominant,The team are winning the game.,none,True,765.7,0.3
+learner_agreement_008,treated,2,3,4,She always arrive late.,dominant,She always arrives late.,agreement,True,3039.0,0.3
+learner_agreement_008,treated,3,7,0,He don't understand the rules.,dominant,He doesn't understand the rules.,agreement,True,4996.4,0.3
+learner_agreement_008,treated,3,7,1,She arrived at Monday.,secondary,She arrived on Monday.,preposition,True,4016.6,0.5
+learner_agreement_008,treated,3,7,2,My sister work at the hospital.,dominant,My sister works at the hospital.,agreement,True,22912.0,0.5
+learner_agreement_008,treated,3,7,3,The boys was tired after school.,dominant,The boys were tired after school.,agreement,True,3662.6,0.6
+learner_agreement_008,treated,3,7,4,She apologized for me.,secondary,She apologized to me.,preposition,True,9798.8,0.3
+learner_agreement_008,treated,4,14,0,She went to the cinema.,none,She went to the cinema.,none,True,1060.6,0.3
+learner_agreement_008,treated,4,14,1,She is interested by music.,secondary,She is interested in music.,preposition,True,12236.4,0.8
+learner_agreement_008,treated,4,14,2,They was very happy yesterday.,dominant,They were very happy yesterday.,agreement,True,4255.2,0.6
+learner_agreement_008,treated,4,14,3,The children plays outside.,dominant,The children play outside.,agreement,True,25484.7,3.6
+learner_agreement_008,treated,4,14,4,She is married with a doctor.,secondary,She is married to a doctor.,preposition,True,17579.2,5.9
+learner_agreement_008,treated,5,30,0,He is afraid from spiders.,secondary,He is afraid of spiders.,preposition,True,5007.1,0.3
+learner_agreement_008,treated,5,30,1,He has a new car.,none,He has a new car.,none,True,962.2,0.3
+learner_agreement_008,treated,5,30,2,They were very happy yesterday.,none,They were very happy yesterday.,none,True,721.9,0.2
+learner_agreement_008,treated,5,30,3,He is proud from his son.,secondary,He is proud of his son.,preposition,True,5537.0,1.3
+learner_agreement_008,treated,5,30,4,My friend doesn't like coffee.,none,My friend doesn't like coffee.,none,True,693.4,0.4
+learner_preposition_008,control,1,1,0,I depend of my parents.,dominant,I depend on my parents.,preposition,True,12766.7,0.8
+learner_preposition_008,control,1,1,1,She is interested by music.,dominant,She is interested in music.,preposition,True,23030.9,1.7
+learner_preposition_008,control,1,1,2,He is good in math.,dominant,He is good at math.,preposition,True,47962.2,0.4
+learner_preposition_008,control,1,1,3,I arrived to the airport.,dominant,I arrived at the airport.,preposition,True,22645.2,0.6
+learner_preposition_008,control,1,1,4,She is married with a doctor.,dominant,She is married to a doctor.,preposition,True,3743.9,0.5
+learner_preposition_008,control,2,3,0,The teacher explains the lesson.,none,The teacher explains the lesson.,none,True,858.2,0.3
+learner_preposition_008,control,2,3,1,I listen the radio.,dominant,I listen to the radio.,preposition,True,8746.4,0.3
+learner_preposition_008,control,2,3,2,She is waiting the bus.,dominant,She is waiting for the bus.,preposition,True,3910.1,0.4
+learner_preposition_008,control,2,3,3,He is proud from his son.,dominant,He is proud of his son.,preposition,True,10091.6,0.5
+learner_preposition_008,control,2,3,4,I am angry to her.,dominant,I am angry with her.,preposition,True,15685.1,1.1
+learner_preposition_008,control,3,7,0,She is looking the window.,dominant,She is looking out the window.,preposition,True,3202.2,0.4
+learner_preposition_008,control,3,7,1,She arrived at Monday.,dominant,She arrived on Monday.,preposition,True,3066.3,0.4
+learner_preposition_008,control,3,7,2,He is responsible of the team.,dominant,He is responsible for the team.,preposition,True,3458.5,0.3
+learner_preposition_008,control,3,7,3,I am bored of this movie.,dominant,I am bored of this movie.,none,True,436.8,0.3
+learner_preposition_008,control,3,7,4,She apologized for me.,dominant,She apologized to me.,preposition,True,2939.4,0.5
+learner_preposition_008,control,4,14,0,I depend of my parents.,dominant,I depend on my parents.,preposition,True,36683.0,0.5
+learner_preposition_008,control,4,14,1,She is interested by music.,dominant,She is interested in music.,preposition,True,3396.5,0.3
+learner_preposition_008,control,4,14,2,He is good in math.,dominant,He is good in math.,none,True,682.1,0.3
+learner_preposition_008,control,4,14,3,I arrived to the airport.,dominant,I arrived at the airport.,preposition,True,3677.2,0.5
+learner_preposition_008,control,4,14,4,She is married with a doctor.,dominant,She is married to a doctor.,preposition,True,5249.0,0.4
+learner_preposition_008,control,5,30,0,He is afraid from spiders.,dominant,He is afraid of spiders.,preposition,True,3149.5,0.4
+learner_preposition_008,control,5,30,1,I listen the radio.,dominant,I listen to the radio.,preposition,True,3194.8,0.4
+learner_preposition_008,control,5,30,2,She is waiting the bus.,dominant,She is waiting for the bus.,preposition,True,8138.8,3.2
+learner_preposition_008,control,5,30,3,He is proud from his son.,dominant,He is proud of his son.,preposition,True,37711.7,0.7
+learner_preposition_008,control,5,30,4,I am angry to her.,dominant,I am angry with her.,preposition,True,3987.8,0.3
+learner_article_008,treated,1,1,0,I bought car yesterday.,dominant,I bought a car yesterday.,article,True,3110.8,0.4
+learner_article_008,treated,1,1,1,She is teacher.,dominant,She is a teacher.,article,True,4500.7,0.2
+learner_article_008,treated,1,1,2,They was very happy yesterday.,secondary,They were very happy yesterday.,agreement,True,18527.6,0.6
+learner_article_008,treated,1,1,3,He wants to be doctor.,dominant,He wants to be a doctor.,article,True,17290.1,0.8
+learner_article_008,treated,1,1,4,She went to cinema.,dominant,She went to the cinema.,article,True,3100.1,0.6
+learner_article_008,treated,2,3,0,The teacher explains the lesson.,none,The teacher explains the lesson.,none,True,921.1,0.5
+learner_article_008,treated,2,3,1,He is best student.,dominant,He is the best student.,article,True,6315.6,0.4
+learner_article_008,treated,2,3,2,She gave me interesting book.,dominant,She gave me an interesting book.,article,True,4762.2,0.2
+learner_article_008,treated,2,3,3,The team are winning the game.,secondary,The team are winning the game.,none,True,1031.0,0.2
+learner_article_008,treated,2,3,4,She is interested in music.,none,She is interested in music.,none,True,1002.6,0.3
+learner_article_008,treated,3,7,0,She is eating apple.,dominant,She is eating an apple.,article,True,3239.8,0.4
+learner_article_008,treated,3,7,1,The dog run very fast.,secondary,The dog runs very fast.,agreement,True,4690.5,0.3
+learner_article_008,treated,3,7,2,I bought a car yesterday.,none,I bought a car yesterday.,none,True,778.7,4.6
+learner_article_008,treated,3,7,3,She is a teacher.,none,She is a teacher.,none,True,1021.7,0.7
+learner_article_008,treated,3,7,4,He wants to be a doctor.,none,He wants to be a doctor.,none,True,749.0,0.2
+learner_article_008,treated,4,14,0,I bought car yesterday.,dominant,I bought a car yesterday.,article,True,4478.2,0.6
+learner_article_008,treated,4,14,1,She is teacher.,dominant,She is a teacher.,article,True,5259.6,0.6
+learner_article_008,treated,4,14,2,She is eating an apple.,none,She is eating an apple.,none,True,649.0,0.5
+learner_article_008,treated,4,14,3,He plays the piano.,none,He plays the piano.,none,True,4452.6,0.2
+learner_article_008,treated,4,14,4,She went to cinema.,dominant,She went to the cinema.,article,True,6133.0,0.5
+learner_article_008,treated,5,30,0,I need advice.,dominant,I need advice.,none,True,910.1,0.4
+learner_article_008,treated,5,30,1,He has a new car.,none,He has a new car.,none,True,941.1,0.2
+learner_article_008,treated,5,30,2,They were very happy yesterday.,none,They were very happy yesterday.,none,True,2952.2,0.2
+learner_article_008,treated,5,30,3,The children play outside.,none,The children play outside.,none,True,4513.7,0.3
+learner_article_008,treated,5,30,4,My friend doesn't like coffee.,none,My friend doesn't like coffee.,none,True,2213.5,0.2
+learner_mixed_008,control,1,1,0,She go to school every day.,dominant,She goes to school every day.,agreement,True,8516.5,0.6
+learner_mixed_008,control,1,1,1,He have a new car.,dominant,He has a new car.,agreement,True,3852.8,0.3
+learner_mixed_008,control,1,1,2,They was very happy yesterday.,dominant,They were very happy yesterday.,agreement,True,4066.6,0.4
+learner_mixed_008,control,1,1,3,The children plays outside.,dominant,The children play outside.,agreement,True,4205.3,1.1
+learner_mixed_008,control,1,1,4,My friend don't like coffee.,dominant,My friend doesn't like coffee.,agreement,True,29497.9,0.9
+learner_mixed_008,control,2,3,0,The teacher explain the lesson.,dominant,The teacher explains the lesson.,agreement,True,5708.1,0.3
+learner_mixed_008,control,2,3,1,She don't know the answer.,dominant,She doesn't know the answer.,agreement,True,2867.1,0.3
+learner_mixed_008,control,2,3,2,He make mistakes often.,dominant,He makes mistakes often.,agreement,True,2824.9,0.6
+learner_mixed_008,control,2,3,3,The team are winning the game.,dominant,The team are winning the game.,none,True,668.9,0.8
+learner_mixed_008,control,2,3,4,She is interested in music.,none,She is interested in music.,none,True,699.9,0.2
+learner_mixed_008,control,3,7,0,He don't understand the rules.,dominant,He doesn't understand the rules.,agreement,True,4357.1,0.4
+learner_mixed_008,control,3,7,1,The dog run very fast.,dominant,The dog runs very fast.,agreement,True,2631.6,0.2
+learner_mixed_008,control,3,7,2,He is responsible of the team.,secondary,He is responsible for the team.,preposition,True,3498.0,0.4
+learner_mixed_008,control,3,7,3,The boys was tired after school.,dominant,The boys were tired after school.,agreement,True,4048.1,0.4
+learner_mixed_008,control,3,7,4,She apologized for me.,secondary,She apologized to me.,preposition,True,2769.1,0.2
+learner_mixed_008,control,4,14,0,She go to school every day.,dominant,She goes to school every day.,agreement,True,3483.6,0.5
+learner_mixed_008,control,4,14,1,I have a headache.,none,I have a headache.,none,True,1260.1,0.5
+learner_mixed_008,control,4,14,2,They was very happy yesterday.,dominant,They were very happy yesterday.,agreement,True,3003.8,0.5
+learner_mixed_008,control,4,14,3,He plays the piano.,none,He plays the piano.,none,True,835.7,0.2
+learner_mixed_008,control,4,14,4,My friend don't like coffee.,dominant,My friend doesn't like coffee.,agreement,True,3511.4,0.3
+learner_mixed_008,control,5,30,0,The teacher explain the lesson.,dominant,The teacher explains the lesson.,agreement,True,3968.9,0.9
+learner_mixed_008,control,5,30,1,She don't know the answer.,dominant,She doesn't know the answer.,agreement,True,4022.3,0.6
+learner_mixed_008,control,5,30,2,They were very happy yesterday.,none,They were very happy yesterday.,none,True,905.9,0.3
+learner_mixed_008,control,5,30,3,The children play outside.,none,The children play outside.,none,True,1074.2,0.2
+learner_mixed_008,control,5,30,4,She always arrive late.,dominant,She always arrives late.,agreement,True,34790.3,0.8
+learner_progressive_008,treated,1,1,0,She go to school every day.,dominant,She goes to school every day.,agreement,True,13581.1,0.8
+learner_progressive_008,treated,1,1,1,She is teacher.,secondary,She is a teacher.,article,True,3346.2,0.4
+learner_progressive_008,treated,1,1,2,They was very happy yesterday.,dominant,They were very happy yesterday.,agreement,True,3088.8,0.6
+learner_progressive_008,treated,1,1,3,The children plays outside.,dominant,The children play outside.,agreement,True,50794.4,1.9
+learner_progressive_008,treated,1,1,4,She went to cinema.,secondary,She went to the cinema.,article,True,3403.4,0.3
+learner_progressive_008,treated,2,3,0,The teacher explains the lesson.,none,The teacher explains the lesson.,none,True,8011.2,0.7
+learner_progressive_008,treated,2,3,1,She don't know the answer.,dominant,She doesn't know the answer.,agreement,True,8998.8,0.6
+learner_progressive_008,treated,2,3,2,He make mistakes often.,dominant,He makes mistakes often.,agreement,True,7464.0,0.6
+learner_progressive_008,treated,2,3,3,The team are winning the game.,dominant,The team are winning the game.,none,True,710.2,0.5
+learner_progressive_008,treated,2,3,4,She is interested in music.,none,She is interested in music.,none,True,537.3,0.2
+learner_progressive_008,treated,3,7,0,She is eating apple.,secondary,She is eating an apple.,article,True,3110.4,0.7
+learner_progressive_008,treated,3,7,1,The dog run very fast.,dominant,The dog runs very fast.,agreement,True,4026.2,1.8
+learner_progressive_008,treated,3,7,2,He opened door.,secondary,He opened the door.,article,True,5074.0,0.3
+learner_progressive_008,treated,3,7,3,The boys was tired after school.,dominant,The boys were tired after school.,agreement,True,2698.4,0.5
+learner_progressive_008,treated,3,7,4,She have a big family.,dominant,She has a big family.,agreement,True,3237.7,0.5
+learner_progressive_008,treated,4,14,0,She go to school every day.,dominant,She goes to school every day.,agreement,True,11062.3,0.4
+learner_progressive_008,treated,4,14,1,He have a new car.,dominant,He has a new car.,agreement,True,3100.0,0.6
+learner_progressive_008,treated,4,14,2,They was very happy yesterday.,dominant,They were very happy yesterday.,agreement,True,2817.8,1.0
+learner_progressive_008,treated,4,14,3,The children plays outside.,dominant,The children play outside.,agreement,True,3126.6,0.9
+learner_progressive_008,treated,4,14,4,He opened the door.,none,He opened the door.,none,True,861.3,0.2
+learner_progressive_008,treated,5,30,0,I need advice.,secondary,I need advice.,none,True,694.6,0.3
+learner_progressive_008,treated,5,30,1,She don't know the answer.,dominant,She doesn't know the answer.,agreement,True,2983.5,0.7
+learner_progressive_008,treated,5,30,2,She gave me interesting book.,secondary,She gave me an interesting book.,article,True,2999.8,0.6
+learner_progressive_008,treated,5,30,3,I have headache.,secondary,I have a headache.,article,True,3012.2,0.8
+learner_progressive_008,treated,5,30,4,He plays piano.,secondary,He plays the piano.,article,True,2617.8,0.4
+learner_agreement_009,control,1,1,0,She go to school every day.,dominant,She goes to school every day.,agreement,True,54116.2,0.7
+learner_agreement_009,control,1,1,1,He have a new car.,dominant,He has a new car.,agreement,True,5336.0,0.6
+learner_agreement_009,control,1,1,2,They was very happy yesterday.,dominant,They were very happy yesterday.,agreement,True,7499.0,0.8
+learner_agreement_009,control,1,1,3,The children play outside.,none,The children play outside.,none,True,911.8,0.2
+learner_agreement_009,control,1,1,4,My friend don't like coffee.,dominant,My friend doesn't like coffee.,agreement,True,6175.7,0.8
+learner_agreement_009,control,2,3,0,The teacher explain the lesson.,dominant,The teacher explains the lesson.,agreement,True,47547.5,10.9
+learner_agreement_009,control,2,3,1,She don't know the answer.,dominant,She doesn't know the answer.,agreement,True,4046.5,0.4
+learner_agreement_009,control,2,3,2,He make mistakes often.,dominant,He makes mistakes often.,agreement,True,8473.9,1.1
+learner_agreement_009,control,2,3,3,The team are winning the game.,dominant,The team are winning the game.,none,True,734.0,0.6
+learner_agreement_009,control,2,3,4,I am angry to her.,secondary,I am angry with her.,preposition,True,4990.4,0.4
+learner_agreement_009,control,3,7,0,He don't understand the rules.,dominant,He doesn't understand the rules.,agreement,True,14930.8,1.0
+learner_agreement_009,control,3,7,1,The dog run very fast.,dominant,The dog runs very fast.,agreement,True,3145.7,0.3
+learner_agreement_009,control,3,7,2,He is responsible of the team.,secondary,He is responsible for the team.,preposition,True,3401.6,0.5
+learner_agreement_009,control,3,7,3,The boys was tired after school.,dominant,The boys were tired after school.,agreement,True,5509.3,0.6
+learner_agreement_009,control,3,7,4,He wants to be a doctor.,none,He wants to be a doctor.,none,True,784.6,0.2
+learner_agreement_009,control,4,14,0,I depend of my parents.,secondary,I depend on my parents.,preposition,True,30023.5,0.7
+learner_agreement_009,control,4,14,1,He have a new car.,dominant,He has a new car.,agreement,True,4170.4,0.3
+learner_agreement_009,control,4,14,2,They was very happy yesterday.,dominant,They were very happy yesterday.,agreement,True,3534.6,1.3
+learner_agreement_009,control,4,14,3,I arrived to the airport.,secondary,I arrived at the airport.,preposition,True,2958.6,0.4
+learner_agreement_009,control,4,14,4,He opened the door.,none,He opened the door.,none,True,535.9,0.2
+learner_agreement_009,control,5,30,0,The teacher explain the lesson.,dominant,The teacher explains the lesson.,agreement,True,4193.3,0.5
+learner_agreement_009,control,5,30,1,She don't know the answer.,dominant,She doesn't know the answer.,agreement,True,14625.1,0.9
+learner_agreement_009,control,5,30,2,He make mistakes often.,dominant,He makes mistakes often.,agreement,True,6514.6,2.2
+learner_agreement_009,control,5,30,3,The team are winning the game.,dominant,The team are winning the game.,none,True,1204.5,0.1
+learner_agreement_009,control,5,30,4,She always arrive late.,dominant,She always arrives late.,agreement,True,5769.0,0.4
+learner_preposition_009,treated,1,1,0,I depend of my parents.,dominant,I depend on my parents.,preposition,True,3462.1,0.2
+learner_preposition_009,treated,1,1,1,He has a new car.,none,He has a new car.,none,True,6122.5,0.5
+learner_preposition_009,treated,1,1,2,He is good in math.,dominant,He is good in math.,none,True,892.4,0.2
+learner_preposition_009,treated,1,1,3,I arrived to the airport.,dominant,I arrived at the airport.,preposition,True,13838.8,0.6
+learner_preposition_009,treated,1,1,4,She is married with a doctor.,dominant,She is married to a doctor.,preposition,True,7759.1,0.5
+learner_preposition_009,treated,2,3,0,The teacher explains the lesson.,none,The teacher explains the lesson.,none,True,951.3,0.2
+learner_preposition_009,treated,2,3,1,He is best student.,secondary,He is the best student.,article,True,5429.9,0.3
+learner_preposition_009,treated,2,3,2,She is waiting the bus.,dominant,She is waiting for the bus.,preposition,True,14484.8,0.3
+learner_preposition_009,treated,2,3,3,He is proud from his son.,dominant,He is proud of his son.,preposition,True,24477.0,0.6
+learner_preposition_009,treated,2,3,4,I am angry to her.,dominant,I am angry with her.,preposition,True,5174.9,0.6
+learner_preposition_009,treated,3,7,0,She is looking the window.,dominant,She is looking out the window.,preposition,True,5161.1,1.1
+learner_preposition_009,treated,3,7,1,I need to call police.,secondary,I need to call the police.,article,True,11761.4,0.7
+learner_preposition_009,treated,3,7,2,He is responsible of the team.,dominant,He is responsible for the team.,preposition,True,7627.2,0.9
+learner_preposition_009,treated,3,7,3,I am bored of this movie.,dominant,I am bored of this movie.,none,True,1779.6,0.4
+learner_preposition_009,treated,3,7,4,He wants to be a doctor.,none,He wants to be a doctor.,none,True,1056.4,0.2
+learner_preposition_009,treated,4,14,0,I depend of my parents.,dominant,I depend on my parents.,preposition,True,4343.5,0.4
+learner_preposition_009,treated,4,14,1,I have a headache.,none,I have a headache.,none,True,674.7,0.3
+learner_preposition_009,treated,4,14,2,I saw big dog in the park.,secondary,I saw a big dog in the park.,article,True,3877.2,0.4
+learner_preposition_009,treated,4,14,3,I arrived to the airport.,dominant,I arrived at the airport.,preposition,True,4016.0,0.3
+learner_preposition_009,treated,4,14,4,She went to cinema.,secondary,She went to the cinema.,article,True,35337.4,0.7
+learner_preposition_009,treated,5,30,0,I need advice.,secondary,I need advice.,none,True,2077.4,0.2
+learner_preposition_009,treated,5,30,1,He has a new car.,none,He has a new car.,none,True,1103.3,0.2
+learner_preposition_009,treated,5,30,2,They were very happy yesterday.,none,They were very happy yesterday.,none,True,537.4,0.4
+learner_preposition_009,treated,5,30,3,I have headache.,secondary,I have a headache.,article,True,3274.9,0.2
+learner_preposition_009,treated,5,30,4,He plays piano.,secondary,He plays the piano.,article,True,2605.3,0.9
+learner_article_009,control,1,1,0,I bought car yesterday.,dominant,I bought a car yesterday.,article,True,2421.1,0.2
+learner_article_009,control,1,1,1,She is teacher.,dominant,She is a teacher.,article,True,2944.0,0.3
+learner_article_009,control,1,1,2,I saw big dog in the park.,dominant,I saw a big dog in the park.,article,True,25135.3,0.7
+learner_article_009,control,1,1,4,She went to cinema.,dominant,She went to the cinema.,article,True,4526.8,0.6
+learner_article_009,control,2,3,0,I need advice.,dominant,I need advice.,none,True,1051.0,0.3
+learner_article_009,control,2,3,1,She doesn't know the answer.,none,She doesn't know the answer.,none,True,1059.0,0.2
+learner_article_009,control,2,3,2,She gave me interesting book.,dominant,She gave me an interesting book.,article,True,4768.5,0.4
+learner_article_009,control,2,3,3,The team are winning the game.,secondary,The team are winning the game.,none,True,811.1,0.2
+learner_article_009,control,2,3,4,He plays piano.,dominant,He plays the piano.,article,True,2622.5,0.3
+learner_article_009,control,3,7,0,She is eating apple.,dominant,She is eating an apple.,article,True,2963.9,1.1
+learner_article_009,control,3,7,1,I need to call police.,dominant,I need to call the police.,article,True,5994.6,0.3
+learner_article_009,control,3,7,2,He opened door.,dominant,He opened the door.,article,True,5717.9,1.5
+learner_article_009,control,3,7,3,She is studying at university.,dominant,She is studying at university.,none,True,1215.7,0.3
+learner_article_009,control,3,7,4,I met nice person today.,dominant,I met a nice person today.,article,True,3506.6,0.3
+learner_article_009,control,4,14,0,I bought car yesterday.,dominant,I bought a car yesterday.,article,True,22733.8,0.6
+learner_article_009,control,4,14,1,She is teacher.,dominant,She is a teacher.,article,True,3563.1,1.0
+learner_article_009,control,4,14,2,I saw big dog in the park.,dominant,I saw a big dog in the park.,article,True,4114.0,0.3
+learner_article_009,control,4,14,3,He wants to be doctor.,dominant,He wants to be a doctor.,article,True,3661.1,0.3
+learner_article_009,control,4,14,4,She went to cinema.,dominant,She went to the cinema.,article,True,3322.1,0.4
+learner_article_009,control,5,30,0,I need advice.,dominant,I need advice.,none,True,480.0,0.3
+learner_article_009,control,5,30,1,He is best student.,dominant,He is the best student.,article,True,2850.8,0.4
+learner_article_009,control,5,30,2,She gave me interesting book.,dominant,She gave me an interesting book.,article,True,4883.5,0.4
+learner_article_009,control,5,30,3,I have headache.,dominant,I have a headache.,article,True,4735.0,0.5
+learner_article_009,control,5,30,4,He plays piano.,dominant,He plays the piano.,article,True,3867.4,0.6
+learner_mixed_009,treated,1,1,0,She go to school every day.,dominant,She goes to school every day.,agreement,True,6482.7,0.4
+learner_mixed_009,treated,1,1,1,He have a new car.,dominant,He has a new car.,agreement,True,3977.9,0.3
+learner_mixed_009,treated,1,1,2,He is good in math.,secondary,He is good at math.,preposition,True,3061.7,0.4
+learner_mixed_009,treated,1,1,3,The children plays outside.,dominant,The children play outside.,agreement,True,2575.0,0.4
+learner_mixed_009,treated,1,1,4,My friend don't like coffee.,dominant,My friend doesn't like coffee.,agreement,True,3741.0,0.5
+learner_mixed_009,treated,2,3,0,The teacher explains the lesson.,none,The teacher explains the lesson.,none,True,1349.4,0.4
+learner_mixed_009,treated,2,3,1,She don't know the answer.,dominant,She doesn't know the answer.,agreement,True,4069.0,0.4
+learner_mixed_009,treated,2,3,2,She is waiting the bus.,secondary,She is waiting for the bus.,preposition,True,3549.9,1.4
+learner_mixed_009,treated,2,3,3,He is proud from his son.,secondary,He is proud of his son.,preposition,True,3808.4,0.4
+learner_mixed_009,treated,2,3,4,I am angry to her.,secondary,I am angry with her.,preposition,True,4173.3,0.6
+learner_mixed_009,treated,3,7,0,She is looking the window.,secondary,She is looking out the window.,preposition,True,3677.3,0.8
+learner_mixed_009,treated,3,7,1,She arrived at Monday.,secondary,She arrived on Monday.,preposition,True,4023.6,0.2
+learner_mixed_009,treated,3,7,2,My sister work at the hospital.,dominant,My sister works at the hospital.,agreement,True,4105.7,0.6
+learner_mixed_009,treated,3,7,3,She is a teacher.,none,She is a teacher.,none,True,18513.1,0.7
+learner_mixed_009,treated,3,7,4,She have a big family.,dominant,She has a big family.,agreement,True,5357.8,0.5
+learner_mixed_009,treated,4,14,0,I depend of my parents.,secondary,I depend on my parents.,preposition,True,4695.5,2.4
+learner_mixed_009,treated,4,14,1,She is interested by music.,secondary,She is interested in music.,preposition,True,13626.1,1.1
+learner_mixed_009,treated,4,14,2,She is eating an apple.,none,She is eating an apple.,none,True,1050.1,0.3
+learner_mixed_009,treated,4,14,3,The children plays outside.,dominant,The children play outside.,agreement,True,12070.1,0.9
+learner_mixed_009,treated,4,14,4,He opened the door.,none,He opened the door.,none,True,1279.5,0.2
+learner_mixed_009,treated,5,30,0,She goes to school every day.,none,She goes to school every day.,none,True,846.9,0.4
+learner_mixed_009,treated,5,30,1,She don't know the answer.,dominant,She doesn't know the answer.,agreement,True,9487.4,0.7
+learner_mixed_009,treated,5,30,2,She is waiting the bus.,secondary,She is waiting for the bus.,preposition,True,3573.6,0.3
+learner_mixed_009,treated,5,30,3,The children play outside.,none,The children play outside.,none,True,886.2,2.4
+learner_mixed_009,treated,5,30,4,She always arrive late.,dominant,She always arrives late.,agreement,True,4358.8,1.0
+learner_progressive_009,control,1,1,0,She go to school every day.,dominant,She goes to school every day.,agreement,True,3561.8,0.9
+learner_progressive_009,control,1,1,1,He have a new car.,dominant,He has a new car.,agreement,True,3790.7,0.4
+learner_progressive_009,control,1,1,2,They was very happy yesterday.,dominant,They were very happy yesterday.,agreement,True,7174.2,0.7
+learner_progressive_009,control,1,1,3,The children plays outside.,dominant,The children play outside.,agreement,True,7738.0,0.7
+learner_progressive_009,control,1,1,4,My friend don't like coffee.,dominant,My friend doesn't like coffee.,agreement,True,3932.8,0.4
+learner_progressive_009,control,2,3,0,The teacher explain the lesson.,dominant,The teacher explains the lesson.,agreement,True,3568.9,0.3
+learner_progressive_009,control,2,3,1,She don't know the answer.,dominant,She doesn't know the answer.,agreement,True,3483.3,0.3
+learner_progressive_009,control,2,3,2,She gave me interesting book.,secondary,She gave me an interesting book.,article,True,3480.5,0.3
+learner_progressive_009,control,2,3,3,The team are winning the game.,dominant,The team are winning the game.,none,True,1005.6,0.2
+learner_progressive_009,control,2,3,4,She always arrive late.,dominant,She always arrives late.,agreement,True,3663.6,0.9
+learner_progressive_009,control,3,7,0,He is good at math.,none,He is good at math.,none,True,691.6,0.2
+learner_progressive_009,control,3,7,1,The dog run very fast.,dominant,The dog runs very fast.,agreement,True,25039.5,0.6
+learner_progressive_009,control,3,7,2,My sister work at the hospital.,dominant,My sister works at the hospital.,agreement,True,21472.6,0.8
+learner_progressive_009,control,3,7,3,The boys was tired after school.,dominant,The boys were tired after school.,agreement,True,3987.4,0.5
+learner_progressive_009,control,3,7,4,She have a big family.,dominant,She has a big family.,agreement,True,3339.4,0.2
+learner_progressive_009,control,4,14,0,She go to school every day.,dominant,She goes to school every day.,agreement,True,2982.0,0.5
+learner_progressive_009,control,4,14,1,He have a new car.,dominant,He has a new car.,agreement,True,10290.5,0.7
+learner_progressive_009,control,4,14,2,They was very happy yesterday.,dominant,They were very happy yesterday.,agreement,True,12775.5,1.4
+learner_progressive_009,control,4,14,3,The children plays outside.,dominant,The children play outside.,agreement,True,2794.2,0.4
+learner_progressive_009,control,4,14,4,My friend don't like coffee.,dominant,My friend doesn't like coffee.,agreement,True,3051.2,0.4
+learner_progressive_009,control,5,30,0,The teacher explain the lesson.,dominant,The teacher explained the lesson.,tense,True,2666.0,0.3
+learner_progressive_009,control,5,30,1,She don't know the answer.,dominant,She doesn't know the answer.,agreement,True,5967.4,1.3
+learner_progressive_009,control,5,30,2,He make mistakes often.,dominant,He makes mistakes often.,agreement,True,2821.4,0.4
+learner_progressive_009,control,5,30,3,The team are winning the game.,dominant,The team are winning the game.,none,True,1048.2,0.3
+learner_progressive_009,control,5,30,4,She always arrive late.,dominant,She always arrives late.,agreement,True,3705.0,0.5

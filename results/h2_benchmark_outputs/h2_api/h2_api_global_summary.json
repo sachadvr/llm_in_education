@@ -1,0 +1,27 @@
+{
+  "global": {
+    "total_learners": 2,
+    "top_priority_match_rate": 1.0,
+    "priority_shift_rate": 0.5,
+    "adaptive_loop_success_rate": 1.0,
+    "failed_correction_rate": 0.025,
+    "simulated_error_reduction_rate": 1.0,
+    "average_api_latency_ms": 12733.2
+  },
+  "by_family": {
+    "agreement": {
+      "n": 1,
+      "top_priority_match_rate": 1.0,
+      "priority_shift_rate": 1.0,
+      "adaptive_loop_success_rate": 1.0,
+      "avg_weight_decay_pct": 0.0
+    },
+    "article": {
+      "n": 1,
+      "top_priority_match_rate": 1.0,
+      "priority_shift_rate": 0.0,
+      "adaptive_loop_success_rate": 1.0,
+      "avg_weight_decay_pct": 0.0
+    }
+  }
+}
