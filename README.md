@@ -4,7 +4,7 @@
 
 > Conception et évaluation d'un système d'apprentissage de langues assisté par un modèle de langage, architecture, pipeline de traitement et optimisation des interactions apprenant-machine
 >
-> Duvivier Sacha — Master 2 Cyber — FGES — 2025-2026
+> Duvivier Sacha — Master 2 Cyber — FGES — 2025-2026 · Présentation poster 4 juin 2026 #CYB24
 
 ---
 
