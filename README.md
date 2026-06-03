@@ -8,6 +8,25 @@
 
 ---
 
+## En pratique, ça fait quoi ?
+
+Tu écris une phrase en anglais. L'application la corrige, t'explique pourquoi c'est faux, et t'entraîne sur tes erreurs récurrentes.
+
+**Exemple :**
+
+> Tu écris : *"She go to the school yesterday."*
+
+Le système :
+1. **Corrige** la phrase via un LLM (`→ "She went to school yesterday."`)
+2. **Identifie** les erreurs au niveau du token (mauvais temps verbal, article superflu)
+3. **Classe** chaque erreur par type (ici : accord sujet-verbe, déterminant) et niveau CECRL
+4. **Génère un feedback pédagogique** via des templates prédéfinis — jamais du texte brut du modèle
+5. **Mémorise** tes erreurs et adapte les exercices suivants pour cibler ce que tu rates le plus
+
+Le LLM ne fait qu'une seule chose : proposer une phrase corrigée. Tout le reste — extraire les erreurs, les classifier, produire le feedback, choisir les exercices — est du code déterministe. Cela permet de contrôler exactement ce que l'apprenant reçoit, et de mesurer précisément la qualité du système.
+
+---
+
 ## Présentation
 
 Ce projet est le prototype implémenté dans le cadre d'un mémoire de recherche. L'objectif est d'intégrer un LLM dans une architecture contrôlée pour produire un feedback pédagogique structuré, en opposition à une utilisation brute du modèle.
